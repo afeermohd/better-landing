@@ -1,0 +1,22 @@
+.footer-nav {
+  display: flex;
+  background: grey;
+  /* margin: auto; */
+  /* padding: 3rem; */
+  /* padding: auto; */
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-headline {
+  margin: auto;
+  color: white;
+  font-size: 30px;
+}
+
+.footer-list {
+  padding: 1rem 10rem;
+  margin: auto;
+  list-style: none;
+}
