@@ -21,6 +21,8 @@
   border-radius: 2rem;
   margin-left: auto;
   margin-right: auto;
+  background: linear-gradient(to left, #ab68ca, #de67a3);
+  color: #fff;
 }
 
 .sect1-payment {

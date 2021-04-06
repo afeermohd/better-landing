@@ -53,7 +53,7 @@
   background-position: 100% center;
 }
 
-.login-button {
+/* .login-button {
   height: 60px;
   width: 150px;
   border: none;
@@ -61,10 +61,10 @@
   background: linear-gradient(to left, #ab68ca, #de67a3);
   color: #fff;
   font-weight: bolder;
-  /* margin-top: 30px; */
+  margin-top: 30px;
   cursor: pointer;
   outline: none;
-}
+} */
 
 .skewBtn {
   width: 140px;

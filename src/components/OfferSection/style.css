@@ -6,6 +6,7 @@
 .offer-header {
   padding: 1.5rem;
   margin: 1.5rem;
+  color: #333333;
 }
 
 .offer-items {
@@ -14,15 +15,34 @@
 }
 
 .offer-card {
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  min-width: 250px;
+  height: 200px;
   /* background: white; */
   padding: 2rem;
   margin: 1.5rem;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
   border-radius: 16px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
   background: rgb(243, 241, 241);
   /* box-shadow: -1rem 0 3rem #fff; */
   display: grid;
   place-items: center;
+  transition: 0.2s;
+
+  scroll-snap-align: start;
+  clear: both;
+  cursor: pointer;
+  color: #333333;
+}
+
+.offer-card:hover {
+  transform: translateY(-1rem);
+}
+.offer-card:hover h1 {
+  /* transform: translateY(-1rem); */
+  background: linear-gradient(90deg, #00ffd5, #e52ed6);
+  text-shadow: none;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

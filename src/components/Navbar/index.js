@@ -9,7 +9,7 @@ const Navbar = () => {
           src="https://i.ibb.co/HHn3V8j/logo.png"
           className=""
           alt="Better"
-          height="20px"
+          height="40px"
           href="#"
         />
       </div>
