@@ -54,8 +54,8 @@
 }
 
 .login-button {
-  height: 40px;
-  width: 180px;
+  height: 60px;
+  width: 150px;
   border: none;
   border-radius: 20px;
   background: linear-gradient(to left, #ab68ca, #de67a3);
@@ -64,4 +64,31 @@
   /* margin-top: 30px; */
   cursor: pointer;
   outline: none;
+}
+
+.skewBtn {
+  width: 140px;
+  height: 35px;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  transition: 0.5s;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+}
+.skewBtn:hover {
+  border: none;
+  color: white;
+  font-size: 18px;
+  transform: scale(1.1);
+}
+
+.blue {
+  border: 2px solid #ab68ca;
+  color: #ab68ca;
+}
+.blue:hover {
+  background-color: #ab68ca;
+  transition: all 0.3s ease-in-out;
 }

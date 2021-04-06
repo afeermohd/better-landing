@@ -2,3 +2,27 @@
   display: flex;
   flex-direction: column;
 }
+
+.offer-header {
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+
+.offer-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.offer-card {
+  width: 200px;
+  height: 100px;
+  /* background: white; */
+  padding: 2rem;
+  margin: 1.5rem;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  background: rgb(243, 241, 241);
+  /* box-shadow: -1rem 0 3rem #fff; */
+  display: grid;
+  place-items: center;
+}

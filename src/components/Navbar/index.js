@@ -21,12 +21,7 @@ const Navbar = () => {
         ></input>
       </div>
       <div className="navbar-nav">
-        <button
-          href="http://www.thebetterco.online/login"
-          className="login-button"
-        >
-          Login
-        </button>
+        <button class="skewBtn blue">Login</button>
       </div>
     </div>
   );

@@ -1,8 +1,8 @@
 .section1 {
   display: flex;
-  margin: 1rem;
-  width: 100%;
-  justify-content: space-evenly;
+  margin: 3rem;
+  /* width: 100%; */
+  /* justify-content: space-evenly; */
 }
 
 .sect1-intro {
@@ -13,7 +13,7 @@
   place-items: center;
   border: 1rem;
   /* width: 70%; */
-  flex: 4;
+  flex: 3;
   height: 5rem;
   background: grey;
   /* margin: 1rem; */
@@ -31,6 +31,6 @@
   /* margin: 1rem; */
   /* width: 10%; */
   flex: 1;
-  margin-left: auto;
+  margin-left: 5rem;
   margin-right: auto;
 }
