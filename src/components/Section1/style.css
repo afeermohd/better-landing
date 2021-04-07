@@ -1,6 +1,7 @@
 .section1 {
   display: flex;
   margin: 3rem;
+  padding: 3rem 0;
   /* width: 100%; */
   /* justify-content: space-evenly; */
 }
@@ -12,8 +13,9 @@
   display: grid;
   place-items: center;
   border: 1rem;
-  /* width: 70%; */
-  flex: 3;
+  width: 70%;
+  /* width: 1000px; */
+  /* flex: 3; */
   height: 80px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
   background: rgb(243, 241, 241);

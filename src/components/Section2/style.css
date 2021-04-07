@@ -27,13 +27,15 @@
   position: relative;
   flex-direction: column;
   height: 300px;
+  align-items: center;
+  justify-content: center;
   width: 400px;
   min-width: 250px;
   padding: 1.5rem;
 
   border-radius: 16px;
   background: rgb(243, 241, 241);
-  box-shadow: -1rem 0 3rem #fff;
+  box-shadow: -1rem 0 3rem grey;
 
   transition: 0.2s;
 
@@ -42,18 +44,41 @@
   clear: both;
   cursor: pointer;
   color: #333333;
+
+  /* filter: blur(2px);
+  -webkit-filter: blur(2px); */
+  backdrop-filter: blur(5px);
 }
 .item:focus-within ~ .item,
 .item:hover ~ .item {
   transform: translateX(130px);
+  /* filter: blur(2px);
+  -webkit-filter: blur(2px); */
+}
+
+.item img {
+  /* width: 240px; */
+  /* height: 300px; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .item:hover {
   transform: translateY(-1rem);
 }
-.item h3 {
-  padding-bottom: 2rem;
-  padding-top: 5rem;
+.item h2 {
+  /* padding-bottom: 2rem; */
+  /* padding-top: 5rem; */
+  transition: 0.2s;
+  display: flex;
+  /* place-items: center; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
 }
 
 /* .item:hover ~ .item {
@@ -64,8 +89,8 @@
   margin-left: -130px;
 }
 
-.item:hover h3 {
-  background: linear-gradient(90deg, #00ffd5, #e52ed6);
+.item:hover h2 {
+  background: linear-gradient(90deg, #e6aa06, #e52ed6);
   text-shadow: none;
   background-clip: text;
   -webkit-background-clip: text;
