@@ -4,6 +4,7 @@ import "./style.css";
 const OfferSection = () => {
   return (
     <div className="offer-section">
+      <div className="empty-space"></div>
       <h1 className="offer-header">Offers and Contests</h1>
       <div className="offer-items">
         <div className="offer-card">

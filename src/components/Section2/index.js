@@ -79,6 +79,7 @@ const Section2 = () => {
         <h2>Blog</h2>
         {/* </header> */}
       </div>
+      <div className="empty-space"></div>
     </div>
   );
 };
