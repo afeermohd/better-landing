@@ -1,27 +1,27 @@
 import React from "react";
 import "./style.css";
 
-const OfferSection = () => {
+const Aboutus = () => {
   return (
-    <div className="offer-section">
+    <div className="aboutus">
       {/* <div className="empty-space"></div> */}
-      <h1 className="offer-header">Offers and Contests</h1>
-      <div className="offer-items">
-        <div className="offer-card">
-          <s>Rs. 1625/sqft</s>
-          <h1>Rs. 1600/sqft</h1>
-          <h3>for </h3>
-          <h2>Home Construction!</h2>
+      {/* <h1 className="offer-header">Offers and Contests</h1> */}
+      <div className="about-items">
+        <div className="about-card">
+          {/* <s>Rs. 1625/sqft</s> */}
+          {/* <h1>Rs. 1600/sqft</h1> */}
+          {/* <h3>for </h3> */}
+          <h2>About Us</h2>
           {/* <h3>Rs. 1600/sqft for Home Construction</h3> */}
         </div>
-        <div className="offer-card">
-          {/* <h3>Rs. 1.99L for Home Interior</h3> */}
+        {/* <div className="offer-card"> */}
+        {/* <h3>Rs. 1.99L for Home Interior</h3> */}
 
-          <s>Rs. 2.99L</s>
+        {/* <s>Rs. 2.99L</s>
           <h1>Rs. 1.99L</h1>
           <h3>for</h3>
           <h2>Home Interior!</h2>
-        </div>
+        </div> */}
         {/* <div className="d-flex justify-content-center align-items-center container">
           <div className="d-flex card text-center">
             <div className="image">
@@ -43,4 +43,4 @@ const OfferSection = () => {
   );
 };
 
-export default OfferSection;
+export default Aboutus;

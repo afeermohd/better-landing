@@ -1,4 +1,5 @@
 import React from "react";
+import Aboutus from "../components/Aboutus";
 import Footer from "../components/Footer";
 import FooterNav from "../components/FooterNav";
 import Navbar from "../components/Navbar";
@@ -13,6 +14,7 @@ const Home = () => {
       <Navbar />
       <Section1 />
       <Section2 />
+      <Aboutus />
       <OfferSection />
       <FooterNav />
       <Footer />
