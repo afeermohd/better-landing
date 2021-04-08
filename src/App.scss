@@ -4,8 +4,12 @@
 }
 
 body {
-  background: #ecf3f3;
-  background-image: url("assets/background.png");
+  background: #e2e1e1;
+  background-image: url("assets/background.jpg");
+  // backgroundImage: `url(${Construction})`,
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 // .particle {
