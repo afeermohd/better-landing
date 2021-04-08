@@ -1,7 +1,7 @@
 .section1 {
   display: flex;
-  margin: 1rem;
-  padding: 1rem 0;
+  margin-top: 1rem;
+  padding-top: 1rem;
   /* width: 100%; */
   /* justify-content: space-evenly; */
 }

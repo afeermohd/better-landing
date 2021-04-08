@@ -1,7 +1,7 @@
 .section2 {
   display: flex;
   /* flex-direction: row; */
-  padding: 1rem;
+  padding: 3rem;
   margin: 1rem;
   /* color: white */
   overflow-x: hidden;
@@ -38,7 +38,7 @@
 
   border-radius: 16px;
   background: rgb(243, 241, 241);
-  box-shadow: -1rem 0 3rem grey;
+  box-shadow: -1rem 0 2rem rgba(0, 0, 0, 0.3);
 
   transition: 0.2s;
 
@@ -80,8 +80,8 @@
   align-items: center;
   color: white;
   font-size: 30px;
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
+  /* filter: blur(0px); */
+  /* -webkit-filter: blur(0px); */
 }
 
 /* .item:hover ~ .item {

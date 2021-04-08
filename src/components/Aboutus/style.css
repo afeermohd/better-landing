@@ -22,7 +22,7 @@
   width: 1000px;
   min-width: 250px;
   height: 250px;
-  background: rgb(214, 214, 214);
+  background: linear-gradient(to left, #0aaafb, #03e1d2);
   padding: 2rem;
   margin: 1.5rem;
   border-radius: 16px;
