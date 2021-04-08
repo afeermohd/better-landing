@@ -5,8 +5,10 @@
 
 .offer-header {
   padding: 1.5rem;
+  padding-left: 7rem;
   margin: 1.5rem;
   color: #333333;
+  font-size: 45px;
 }
 
 .offer-items {

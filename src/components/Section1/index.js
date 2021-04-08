@@ -9,14 +9,14 @@ const Section1 = () => {
         <img
           src={Banner}
           alt="banner"
-          height="80px"
+          height="100px"
           width="800px"
           style={{ borderRadius: "24px" }}
         />
         {/* <span className="sect1-introtext">Start your dream home journey with just Rs. 25,000/-</span> */}
       </div>
       <div className="sect1-payment">
-        <span>Payment Portal</span>
+        <h3>Payment Portal</h3>
       </div>
     </div>
   );

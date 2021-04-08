@@ -34,11 +34,11 @@
   background: linear-gradient(to left, #ab68ca, #de67a3);
   width: 100px;
   color: #fff;
-  height: 80px;
+  height: 100px;
   border-radius: 2rem;
   /* margin: 1rem; */
   /* width: 10%; */
   flex: 0.5;
-  margin-left: 5rem;
+  margin-left: 2rem;
   margin-right: auto;
 }

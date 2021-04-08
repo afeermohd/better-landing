@@ -1,6 +1,6 @@
 .footer {
-  background-color: grey;
-  height: 3rem;
+  background-color: rgb(241, 236, 236);
+  height: 6rem;
   /* width: 100vw; */
   display: flex;
   align-items: center;

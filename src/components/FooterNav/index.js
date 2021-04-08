@@ -4,7 +4,9 @@ import "./style.css";
 const FooterNav = () => {
   return (
     <div className="footer-nav">
-      <div className="footer-headline">FOR THE LOVE OF BETTER</div>
+      <div className="footer-headline">
+        <h3>FOR THE LOVE OF BETTER</h3>
+      </div>
       <div>
         <ul className="footer-list">
           <li>Construction</li>
