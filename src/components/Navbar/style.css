@@ -88,10 +88,11 @@
 }
 
 .blue {
-  border: 2px solid #ab68ca;
-  color: #ab68ca;
+  border: 2px solid #03e1d2;
+  color: #03e1d2;
 }
+/* linear-gradient(to left, #0aaafb, #03e1d2); */
 .blue:hover {
-  background-color: #ab68ca;
+  background-color: #03e1d2;
   transition: all 0.3s ease-in-out;
 }

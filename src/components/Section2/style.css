@@ -93,7 +93,7 @@
 } */
 
 .item:hover h2 {
-  background: linear-gradient(90deg, #e6aa06, #e52ed6);
+  background: linear-gradient(to left, #0aaafb, #03e1d2);
   text-shadow: none;
   background-clip: text;
   -webkit-background-clip: text;
