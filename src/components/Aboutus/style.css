@@ -27,6 +27,7 @@
   margin: 1.5rem;
   border-radius: 16px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  /* color: #fff; */
   /* background: rgb(243, 241, 241); */
   /* background: linear-gradient(to left, #ab68ca, #de67a3); */
   /* box-shadow: -1rem 0 3rem #fff; */
@@ -38,6 +39,13 @@
   clear: both;
   cursor: pointer;
   color: #333333;
+}
+
+.about-card p {
+  color: white;
+}
+.about-card h1 {
+  color: white;
 }
 
 .offer-card:hover {

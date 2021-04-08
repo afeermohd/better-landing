@@ -4,7 +4,9 @@ import "./style.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <span>Copyright 2021 The Better Co</span>
+      <span>
+        Copyright 2021 &#169; <b>The Better Co</b>
+      </span>
     </div>
   );
 };

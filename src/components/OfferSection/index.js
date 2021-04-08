@@ -1,5 +1,8 @@
 import React from "react";
 import "./style.css";
+import Offer1 from "../../assets/offer1.png";
+import Offer2 from "../../assets/offer2.png";
+import Offer3 from "../../assets/offer3.png";
 
 const OfferSection = () => {
   return (
@@ -8,19 +11,32 @@ const OfferSection = () => {
       <h1 className="offer-header">Offers and Contests</h1>
       <div className="offer-items">
         <div className="offer-card">
-          <s>Rs. 1625/sqft</s>
+          <img
+            src={Offer1}
+            alt="banner"
+            height="115%"
+            width="115%"
+            style={{ borderRadius: "24px" }}
+          />
+          {/* <s>Rs. 1625/sqft</s>
           <h1>Rs. 1600/sqft</h1>
           <h3>for </h3>
-          <h2>Home Construction!</h2>
+          <h2>Home Construction!</h2> */}
           {/* <h3>Rs. 1600/sqft for Home Construction</h3> */}
         </div>
         <div className="offer-card">
           {/* <h3>Rs. 1.99L for Home Interior</h3> */}
-
-          <s>Rs. 2.99L</s>
+          <img
+            src={Offer3}
+            alt="banner"
+            height="115%"
+            width="115%"
+            style={{ borderRadius: "24px" }}
+          />
+          {/* <s>Rs. 2.99L</s>
           <h1>Rs. 1.99L</h1>
           <h3>for</h3>
-          <h2>Home Interior!</h2>
+          <h2>Home Interior!</h2> */}
         </div>
         {/* <div className="d-flex justify-content-center align-items-center container">
           <div className="d-flex card text-center">

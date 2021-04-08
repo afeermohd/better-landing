@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Banner from "../../assets/banner.png";
+import Banner from "../../assets/banner1.jpg";
 
 const Section1 = () => {
   return (

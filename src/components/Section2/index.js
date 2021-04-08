@@ -20,7 +20,10 @@ const Section2 = () => {
         {/* <header class="header"> */}
         {/* <p>Sep 11th 2020</p> */}
         {/* <img src={Construction} alt="construction" height="180px" /> */}
-        <h2>Construction</h2>
+        <div className="title">
+          <h2>Construction</h2>
+        </div>
+
         {/* </header> */}
       </div>
       <div
@@ -34,7 +37,9 @@ const Section2 = () => {
         {/* <header class="header"> */}
         {/* <p>Sep 11th 2020</p> */}
         {/* <img src={Interior} alt="interior" height="180px" /> */}
-        <h2>Interior</h2>
+        <div className="title">
+          <h2>Interior</h2>
+        </div>
         {/* </header> */}
       </div>
       <div
@@ -48,7 +53,9 @@ const Section2 = () => {
         {/* <header class="header"> */}
         {/* <p>Sep 11th 2020</p> */}
         {/* <img src={Projects} alt="projects" height="180px" /> */}
-        <h2>Projects</h2>
+        <div className="title">
+          <h2>Projects</h2>
+        </div>
         {/* </header> */}
       </div>
       <div
@@ -62,7 +69,9 @@ const Section2 = () => {
         {/* <header class="header"> */}
         {/* <p>Sep 11th 2020</p> */}
         {/* <img src={Testimonials} alt="testimonials" height="180px" /> */}
-        <h2>Testimonials</h2>
+        <div className="title">
+          <h2>Testimonials</h2>
+        </div>
         {/* </header> */}
       </div>
       <div
@@ -76,7 +85,9 @@ const Section2 = () => {
         {/* <header class="header"> */}
         {/* <p>Sep 11th 2020</p> */}
         {/* <img src={Blog} alt="blog" height="180px" /> */}
-        <h2>Blog</h2>
+        <div className="title">
+          <h2>Blog</h2>
+        </div>
         {/* </header> */}
       </div>
       <div className="empty-space"></div>
