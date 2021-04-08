@@ -4,10 +4,14 @@
 }
 
 body {
-  background: #e2e1e1;
-  background-image: url("assets/background.jpg");
+  // background: #e2e1e1;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("assets/background.jpg") no-repeat;
   // backgroundImage: `url(${Construction})`,
-  background-repeat: no-repeat;
+  // background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
