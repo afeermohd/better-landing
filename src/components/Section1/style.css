@@ -13,17 +13,17 @@
   display: grid;
   place-items: center;
   border: 1rem;
-  width: 70%;
+  /* width: 70%; */
   /* width: 1000px; */
   /* flex: 3; */
-  height: 80px;
+  /* height: 80px; */
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
   background: rgb(243, 241, 241);
   /* margin: 1rem; */
   border-radius: 2rem;
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient(to left, #ab68ca, #de67a3);
+  /* background: linear-gradient(to left, #ab68ca, #de67a3); */
   color: #fff;
 }
 
