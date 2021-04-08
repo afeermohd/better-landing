@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import Offer1 from "../../assets/offer1.png";
-import Offer2 from "../../assets/offer2.png";
+// import Offer2 from "../../assets/offer2.png";
 import Offer3 from "../../assets/offer3.png";
 
 const OfferSection = () => {
