@@ -8,9 +8,9 @@
   /* cursor: pointer; */
   /* align-items: center; */
   /* justify-content: center; */
-  margin: 0rem 10rem 3rem 10rem;
+  margin: 0rem 7rem 8rem 7rem;
   /* padding: 3rem; */
-  justify-content: space-between;
+  justify-content: center;
 }
 .section2::-webkit-scrollbar {
   width: 10px;
@@ -45,8 +45,8 @@
 
   transition: 0.2s;
 
-  /* margin: 10px; */
-  scroll-snap-align: start;
+  margin: 10px;
+  /* scroll-snap-align: start; */
   clear: both;
   cursor: pointer;
   color: #333333;
@@ -78,10 +78,10 @@
 
   display: grid;
   place-items: center;
-  /* background: linear-gradient(to left, #0aaafb, #03e1d2); */
+  background: linear-gradient(to left, #0aaafb, #03e1d2);
   height: 60px;
   border-radius: 20px;
-  margin-bottom: -1.5rem;
+  margin-bottom: -2.5rem;
 }
 .item h2 {
   position: relative;

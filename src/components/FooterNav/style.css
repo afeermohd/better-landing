@@ -9,24 +9,24 @@
   /* justify-content: center; */
   /* margin-top: 10rem; */
   /* margin-bottom: 3rem; */
-  margin: 8rem 10rem 3rem 10rem;
+  margin: 3rem 7rem 8rem 7rem;
   justify-content: space-between;
   align-items: center;
 }
 
 .footer-headline {
   /* box-shadow: grey; */
-  width: 300px;
+  width: 400px;
   /* margin: auto; */
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   /* margin-left: 13rem; */
   /* text-align: center; */
-  background: linear-gradient(to left, #0aaafb, #03e1d2);
-  text-shadow: none;
+  /* background: linear-gradient(to left, #0aaafb, #03e1d2); */
+  /* text-shadow: none;
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 .footer-list {
