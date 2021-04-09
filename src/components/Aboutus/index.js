@@ -11,7 +11,7 @@ const Aboutus = () => {
           {/* <s>Rs. 1625/sqft</s> */}
           {/* <h1>Rs. 1600/sqft</h1> */}
           {/* <h3>for </h3> */}
-          <h1 className="about-title">About Us</h1>
+          <h2 className="about-title">ABOUT US</h2>
           <p className="about-para">
             The Better Co is a home construction company which helps you build
             your dream home and do your home interiors on one platform. We have

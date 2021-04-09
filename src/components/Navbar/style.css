@@ -1,34 +1,37 @@
 .navbar {
   display: flex;
-  margin: 3rem 0 1rem 0;
-  padding: 1rem;
+  /* margin: 3rem 8rem 0 8rem; */
+  margin: 0 10rem 3rem 10rem;
+  /* padding: 1rem; */
   /* padding-bottom: rem; */
   /* padding: 1rem; */
   /* margin-right: auto; */
+  justify-content: space-between;
 }
 
 .navbar-nav {
-  margin-right: 10rem;
-  margin-left: auto;
+  /* margin-right: 10rem; */
+  /* margin-left: auto; */
 }
 
 .search-input {
-  width: 200%;
-  padding: 12px 24px;
+  width: 700px;
+  height: 50px;
+  padding: 0px 24px;
   background-color: white;
   transition: transform 250ms ease-in-out;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 16px;
+  /* line-height: 20px; */
   color: #575756;
   /* background-color: transparent; */
   /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E"); */
   background-repeat: no-repeat;
-  background-size: 18px 18px;
-  background-position: 95% center;
-  border-radius: 50px;
+  /* background-size: 18px 18px; */
+  /* background-position: 95% center; */
+  border-radius: 20px;
   border: 1px solid #575756;
   transition: all 250ms ease-in-out;
-  backface-visibility: hidden;
+  /* backface-visibility: hidden; */
   /* transform-style: preserve-3d; */
 }
 .search-input::placeholder {
@@ -38,7 +41,7 @@
 }
 
 .search-input:hover {
-  padding: 12px 24px;
+  padding: 0px 24px;
   outline: 0;
   border: 1px solid transparent;
   border-bottom: 1px solid #575756;
@@ -47,7 +50,7 @@
 }
 
 .search-input:focus {
-  padding: 12px 24px;
+  padding: 0px 24px;
   outline: 0;
   border: 1px solid transparent;
   border-bottom: 1px solid #575756;
@@ -70,15 +73,15 @@
 
 .skewBtn {
   width: 140px;
-  height: 35px;
+  height: 50px;
   outline: none;
   cursor: pointer;
   background: none;
   transition: 0.5s;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 10px;
   font-family: "Lato", sans-serif;
-  margin-left: 15rem;
+  /* margin-left: 15rem; */
 }
 .skewBtn:hover {
   border: none;
@@ -93,6 +96,10 @@
 }
 /* linear-gradient(to left, #0aaafb, #03e1d2); */
 .blue:hover {
-  background-color: #03e1d2;
+  background: linear-gradient(to left, #0aaafb, #03e1d2);
+  /* text-shadow: none;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  */
   transition: all 0.3s ease-in-out;
 }

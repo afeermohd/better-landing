@@ -8,14 +8,14 @@ const OfferSection = () => {
   return (
     <div className="offer-section">
       {/* <div className="empty-space"></div> */}
-      <h1 className="offer-header">Offers and Contests</h1>
+      <h1 className="offer-header">Offers & Contests</h1>
       <div className="offer-items">
         <div className="offer-card">
           <img
             src={Offer1}
             alt="banner"
-            height="115%"
-            width="115%"
+            height="300px"
+            width="500px"
             style={{ borderRadius: "24px" }}
           />
           {/* <s>Rs. 1625/sqft</s>
@@ -29,8 +29,8 @@ const OfferSection = () => {
           <img
             src={Offer3}
             alt="banner"
-            height="115%"
-            width="115%"
+            height="300px"
+            width="500px"
             style={{ borderRadius: "24px" }}
           />
           {/* <s>Rs. 2.99L</s>

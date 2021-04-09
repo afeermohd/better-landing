@@ -1,8 +1,9 @@
 .aboutus {
   display: flex;
-  flex-direction: column;
-  margin: 1rem;
-  padding: 1rem;
+  /* flex-direction: column; */
+  margin: 0 10rem 3rem 10rem;
+  /* padding: 1rem; */
+  justify-content: center;
 }
 
 .offer-header {
@@ -14,8 +15,8 @@
 }
 
 .about-items {
-  display: flex;
-  justify-content: space-evenly;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
 }
 
 .about-card {
@@ -24,7 +25,7 @@
   height: 250px;
   background: linear-gradient(to left, #0aaafb, #03e1d2);
   padding: 2rem;
-  margin: 1.5rem;
+  /* margin: 5rem; */
   border-radius: 16px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
   /* color: #fff; */
@@ -43,9 +44,15 @@
 
 .about-card p {
   color: white;
+  line-height: 20px;
+  padding: 0 5rem;
+  font-size: 18px;
+  text-align: justify;
 }
-.about-card h1 {
+.about-card h2 {
   color: white;
+  letter-spacing: 5px;
+  text-align: left;
 }
 
 .offer-card:hover {

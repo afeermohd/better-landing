@@ -5,27 +5,35 @@
   /* padding: 3rem; */
   /* padding: auto; */
   /* width: 100vw; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* margin-top: 10rem; */
+  /* margin-bottom: 3rem; */
+  margin: 8rem 10rem 3rem 10rem;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  margin-top: 15rem;
-  margin-bottom: 3rem;
 }
 
 .footer-headline {
   /* box-shadow: grey; */
   width: 300px;
-  margin: auto;
+  /* margin: auto; */
   color: white;
   font-size: 50px;
-  margin-left: 13rem;
+  /* margin-left: 13rem; */
   /* text-align: center; */
+  background: linear-gradient(to left, #0aaafb, #03e1d2);
+  text-shadow: none;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .footer-list {
-  padding: 1rem 10rem;
+  /* padding: 1rem 10rem; */
   font-weight: 600;
   line-height: 30px;
-  margin: auto;
+  /* margin: auto; */
   list-style: none;
   letter-spacing: 2px;
 }

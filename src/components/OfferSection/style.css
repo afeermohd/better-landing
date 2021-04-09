@@ -1,14 +1,17 @@
 .offer-section {
   display: flex;
   flex-direction: column;
+  margin: 0 10rem 3rem 10rem;
 }
 
 .offer-header {
-  padding: 1.5rem;
-  padding-left: 7rem;
-  margin: 1.5rem;
+  /* padding: 1.5rem; */
+  /* padding-left: 7rem; */
+  /* margin: 1.5rem; */
   color: #333333;
+  margin: 0 0 3rem 0;
   font-size: 45px;
+  /* letter-spacing: 5px; */
 }
 
 .offer-items {
@@ -17,20 +20,21 @@
 }
 
 .offer-card {
-  width: 400px;
-  min-width: 250px;
-  height: 250px;
+  margin: 0 3rem;
+  /* width: 400px; */
+  /* min-width: 250px; */
+  /* height: 250px; */
   /* background: white; */
-  padding: 2rem;
-  margin: 1.5rem;
+  /* padding: 2rem; */
+  /* margin: 1.5rem; */
   border-radius: 16px;
   /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05); */
   /* background: rgb(243, 241, 241); */
   /* background: linear-gradient(to left, #ab68ca, #de67a3); */
   /* background: linear-gradient(to left, #0aaafb, #03e1d2); */
   /* box-shadow: -1rem 0 3rem #fff; */
-  display: grid;
-  place-items: center;
+  /* display: grid; */
+  /* place-items: center; */
   transition: 0.2s;
 
   scroll-snap-align: start;
@@ -51,6 +55,6 @@
   -webkit-text-fill-color: transparent;
 } */
 
-.empty-space {
+/* .empty-space {
   height: 250px;
-}
+} */

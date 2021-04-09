@@ -90,7 +90,7 @@ const Section2 = () => {
         </div>
         {/* </header> */}
       </div>
-      <div className="empty-space"></div>
+      {/* <div className="empty-space"></div> */}
     </div>
   );
 };
