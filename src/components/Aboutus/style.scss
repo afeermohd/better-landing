@@ -14,15 +14,15 @@
   font-size: 45px;
 }
 
-.about-items {
-  /* display: flex; */
-  /* justify-content: space-evenly; */
-}
+/* // .about-items { */
+/* display: flex; */
+/* justify-content: space-evenly; */
+/* } */
 
 .about-card {
   width: 1000px;
   min-width: 250px;
-  height: 250px;
+  height: 500px;
   background: linear-gradient(to left, #0aaafb, #03e1d2);
   padding: 2rem;
   /* margin: 5rem; */
@@ -44,9 +44,10 @@
 
 .about-card p {
   color: white;
-  line-height: 20px;
+  line-height: 30px;
   padding: 0 5rem;
-  font-size: 18px;
+  font-size: 24px;
+  /* font-weight: ; */
   text-align: justify;
 }
 .about-card h2 {
@@ -70,3 +71,5 @@
 .empty-space {
   height: 250px;
 }
+
+/* CARD FLIP */

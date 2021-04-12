@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
-import Banner from "../../assets/banner1.jpg";
+import BannerImg from "../../assets/banner1.jpg";
 
-const Section1 = () => {
+const Banner = () => {
   return (
     <div className="section1">
       <div className="sect1-intro">
         <img
-          src={Banner}
+          src={BannerImg}
           alt="banner"
           height="100px"
           width="800px"
@@ -22,4 +22,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default Banner;

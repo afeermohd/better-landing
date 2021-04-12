@@ -32,10 +32,10 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  height: 150px;
+  min-height: 150px;
   align-items: center;
   justify-content: flex-end;
-  width: 180px;
+  min-width: 180px;
   /* min-width: 250px; */
   padding: 1.5rem;
 
@@ -74,12 +74,12 @@
   transform: translateY(-2rem);
 }
 .title {
-  width: 200px;
+  min-width: 200px;
 
   display: grid;
   place-items: center;
   background: linear-gradient(to left, #0aaafb, #03e1d2);
-  height: 60px;
+  min-height: 60px;
   border-radius: 20px;
   margin-bottom: -2.5rem;
 }

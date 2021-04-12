@@ -4,16 +4,16 @@ import Footer from "../components/Footer";
 import FooterNav from "../components/FooterNav";
 import Navbar from "../components/Navbar";
 import OfferSection from "../components/OfferSection";
-import Section1 from "../components/Section1";
-import Section2 from "../components/Section2";
+import Banner from "../components/Banner";
+import Categories from "../components/Categories";
 import "./style.css";
 
 const Home = () => {
   return (
     <div className="home">
       <Navbar />
-      <Section1 />
-      <Section2 />
+      <Banner />
+      <Categories />
       <Aboutus />
       <OfferSection />
       <FooterNav />

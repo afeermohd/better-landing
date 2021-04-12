@@ -16,17 +16,17 @@
 
 .footer-headline {
   /* box-shadow: grey; */
-  width: 400px;
+  width: 300px;
   /* margin: auto; */
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   /* margin-left: 13rem; */
   /* text-align: center; */
-  /* background: linear-gradient(to left, #0aaafb, #03e1d2); */
-  /* text-shadow: none;
+  background: linear-gradient(to left, #0aaafb, #03e1d2);
+  text-shadow: none;
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
 }
 
 .footer-list {
