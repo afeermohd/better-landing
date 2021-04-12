@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.scss";
 
-import Back from "./Back";
+// import Back from "./Back";
 import Front from "./Front";
 
 const Aboutus = () => {
