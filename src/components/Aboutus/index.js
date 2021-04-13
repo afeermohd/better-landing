@@ -1,23 +1,29 @@
 import React, { useState } from "react";
 import "./style.scss";
+import ReactCardFlip from "react-card-flip";
 
-// import Back from "./Back";
+import Back from "./Back";
 import Front from "./Front";
 
 const Aboutus = () => {
-  const [flip, setFlip] = useState(false);
-  const flipped = () => setFlip(false);
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleClick = () => {
+    setIsFlipped(!isFlipped);
+  };
   return (
-    <div className="aboutus">
-      <div
-        onMouseEnter={flipped}
-        onMouseLeave={flipped}
-        className={"card-container" + (flip ? " flipped" : "")}
-      >
+    <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
+      {/* <div className="aboutus"> */}
+      <div className="card" onMouseEnter={handleClick}>
         <Front />
-        {/* <Back /> */}
+        {/* <button onMouseEnter={handleClick}>Click</button> */}
       </div>
-    </div>
+      <div onMouseLeave={handleClick}>
+        <Back />
+        {/* <button>Click</button> */}
+      </div>
+      {/* </div> */}
+    </ReactCardFlip>
   );
 };
 export default Aboutus;
