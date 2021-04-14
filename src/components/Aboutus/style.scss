@@ -22,7 +22,7 @@
 .about-card {
   width: 1000px;
   min-width: 250px;
-  height: 500px;
+  min-height: 500px;
   background: linear-gradient(to left, #0aaafb, #03e1d2);
   padding: 2rem;
   /* margin: 5rem; */
@@ -32,11 +32,11 @@
   /* background: rgb(243, 241, 241); */
   /* background: linear-gradient(to left, #ab68ca, #de67a3); */
   /* box-shadow: -1rem 0 3rem #fff; */
-  display: grid;
-  place-items: center;
+  // display: grid;
+  // place-items: center;
   transition: 0.2s;
 
-  scroll-snap-align: start;
+  // scroll-snap-align: start;
   clear: both;
   cursor: pointer;
   color: #333333;
@@ -53,12 +53,13 @@
 .about-card h2 {
   color: white;
   letter-spacing: 5px;
-  text-align: left;
+  padding: 2rem 0 2rem 0;
+  text-align: center;
 }
 
-.offer-card:hover {
-  transform: translateY(-1rem);
-}
+// .offer-card:hover {
+//   transform: translateY(-1rem);
+// }
 /* .offer-card:hover h1 {
   transform: translateY(-1rem);
   background: linear-gradient(90deg, #00ffd5, #e52ed6);
@@ -68,8 +69,29 @@
   -webkit-text-fill-color: transparent;
 } */
 
-.empty-space {
-  height: 250px;
+// .empty-space {
+//   height: 250px;
+// }
+
+.about-list-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  // flex-direction: row;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.about-list {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 28px;
+  margin: 0 1rem;
+  // letter-spacing: 5px;
+  line-height: 60px;
+  list-style: none;
 }
 
 /* CARD FLIP */

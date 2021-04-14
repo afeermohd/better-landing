@@ -122,3 +122,14 @@
 /* .empty-space {
   height: 600px;
 } */
+
+.modal-text {
+  transition-duration: 1s;
+
+  color: white;
+  line-height: 30px;
+  padding: 5rem;
+  font-size: 24px;
+  /* font-weight: ; */
+  text-align: justify;
+}
