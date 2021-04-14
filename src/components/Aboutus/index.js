@@ -16,7 +16,7 @@ const Aboutus = () => {
     <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
       {/* <div className="aboutus"> */}
       <div className="aboutus">
-        <div className="about-card" onClick={handleClick}>
+        <div className="about-card" onMouseEnter={handleClick}>
           <h2 className="about-title">ABOUT US</h2>
           <p className="about-para">
             The Better Co is a home construction company which helps you build
@@ -41,7 +41,7 @@ const Aboutus = () => {
       </div>
       <div>
         <div className="back aboutus">
-          <div className="about-card" onClick={handleClick}>
+          <div className="about-card" onMouseLeave={handleClick}>
             <h2 className="about-title">WHY US</h2>
             <div className="about-list-container">
               {/* <div> */}
