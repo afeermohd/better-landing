@@ -3,8 +3,8 @@ import "./style.scss";
 import ReactCardFlip from "react-card-flip";
 import DoneOutlineIcon from "@material-ui/icons/DoneOutline";
 
-import Back from "./Back";
-import Front from "./Front";
+// import Back from "./Back";
+// import Front from "./Front";s
 
 const Aboutus = () => {
   const [isFlipped, setIsFlipped] = useState(false);

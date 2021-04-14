@@ -1,8 +1,7 @@
 import React from "react";
 import "./style.css";
-import { Spring } from "react-spring";
 
-export const Modal = ({ open, children, onClose }) => {
+export const Modal = ({ open, children }) => {
   if (!open) return null;
   return (
     <div>

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./style.css";
 import Construction from "../../assets/construction.jpeg";
-import Interior from "../../assets/interior.jpeg";
-import Projects from "../../assets/projects.jpeg";
-import Blog from "../../assets/blog.jpeg";
-import Testimonials from "../../assets/testimonials.jpeg";
+// import Interior from "../../assets/interior.jpeg";
+// import Projects from "../../assets/projects.jpeg";
+// import Blog from "../../assets/blog.jpeg";
+// import Testimonials from "../../assets/testimonials.jpeg";
 import { Modal } from "./Modal";
 import { Spring } from "react-spring";
 
