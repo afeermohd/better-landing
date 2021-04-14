@@ -6,7 +6,7 @@ import Projects from "../../assets/projects.jpeg";
 import Blog from "../../assets/blog.jpeg";
 import Testimonials from "../../assets/testimonials.jpeg";
 import { Modal } from "./Modal";
-import { Spring } from "react-spring";
+// import { Spring } from "react-spring";
 
 const Categories = () => {
   const [showInfo, setShowInfo] = useState("");
@@ -189,8 +189,3 @@ const Categories = () => {
 };
 
 export default Categories;
-
-{
-  /*
-   */
-}
