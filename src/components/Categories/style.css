@@ -156,7 +156,7 @@
   /* place-items: center; */
   transition: 0.2s;
   color: white;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .modal-container {
   display: flex;
@@ -185,7 +185,7 @@
   /* place-items: center; */
   transition: 0.2s;
   color: white;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .modal-list {

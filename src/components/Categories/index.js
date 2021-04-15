@@ -5,8 +5,9 @@ import Interior from "../../assets/interior.jpeg";
 import Projects from "../../assets/projects.jpeg";
 import Blog from "../../assets/blog.jpeg";
 import Testimonials from "../../assets/testimonials.jpeg";
-import { Modal } from "./Modal";
+// import { Modal } from "./Modal";
 // import { Spring } from "react-spring";
+import DisplayConstruction from "./DisplayConstruction";
 
 const Categories = () => {
   const [showInfo, setShowInfo] = useState("");
@@ -82,46 +83,16 @@ const Categories = () => {
           >
             <div className="title">
               <h2>Blog</h2>
+              <div></div>
             </div>
           </div>
         </div>
       ) : (
-        <div onClick={closeInfo} className="modal-container">
-          {/* <Construction open={showInfo === "construction"} /> */}
-          <Modal open={showInfo === "construction"}>
-            <div className="modal-list">
-              <h3>Packages</h3>
-              <div>Material List</div>
-              <div>Projects</div>
-              <div>Offers</div>
-              <div>Gallery</div>
-              <div>Blog</div>
-              <div>review</div>
-            </div>
-            <div className="modal-inside">
-              <h2>Construction</h2>
-              <div>
-                <div>
-                  <span>Standard Package</span>
-                  <span>|</span>
-                  <span>Premium Package</span>
-                </div>
-                <ul>
-                  <li>Architectural Design and Drawing</li>
-                  <li>Structure</li>
-                  <li>Kitchen</li>
-                  <li>Bathroom</li>
-                  <li>Doors and Windows</li>
-                  <li>Painting & Accent Walls</li>
-                  <li>Electrical</li>
-                  <li>Flooring</li>
-                  <li>Other Inclusions</li>
-                  <li>Additional Charge</li>
-                </ul>
-              </div>
-            </div>
-          </Modal>
-          <Modal open={showInfo === "interior"}>
+        <div className="modal-container">
+          <button onClick={closeInfo}>Close</button>
+
+          <DisplayConstruction showInfo={showInfo === "construction"} />
+          {/* <Modal open={showInfo === "interior"}>
             <h2>Interior</h2>
             <p>
               This is Interior Content The Better Co is a home construction
@@ -196,7 +167,7 @@ const Categories = () => {
               Material, Financial and Technological innovations. Customer
               Satisfaction is our go-to motive.
             </p>
-          </Modal>
+          </Modal> */}
         </div>
       )}
     </div>
