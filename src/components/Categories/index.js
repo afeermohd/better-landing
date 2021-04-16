@@ -5,7 +5,7 @@ import Interior from "../../assets/interior.jpeg";
 import Projects from "../../assets/projects.jpeg";
 import Blog from "../../assets/blog.jpeg";
 import Testimonials from "../../assets/testimonials.jpeg";
-// import { Modal } from "./Modal";
+import { Modal } from "./Modal";
 // import { Spring } from "react-spring";
 import DisplayConstruction from "./DisplayConstruction";
 
@@ -89,85 +89,28 @@ const Categories = () => {
         </div>
       ) : (
         <div className="modal-container">
-          <button onClick={closeInfo}>Close</button>
+          {/* <button onClick={closeInfo}>Close</button> */}
 
-          <DisplayConstruction showInfo={showInfo === "construction"} />
-          {/* <Modal open={showInfo === "interior"}>
+          <DisplayConstruction
+            showInfo={showInfo === "construction"}
+            onClose={closeInfo}
+          />
+          <Modal open={showInfo === "interior"} onClose={closeInfo}>
             <h2>Interior</h2>
-            <p>
-              This is Interior Content The Better Co is a home construction
-              company which helps you build your dream home and do your home
-              interiors on one platform. We have an experienced team consisting
-              of Designers, Architects, Engineers, Experience management,
-              Quality assurance, etc., to provide you with the best home
-              construction possible within your budget. We supply you with the
-              best service and leave no chance for disappointment. Quality and
-              experience is our priority over everything else. Serving all
-              client needs of building their dream home within their budget is
-              our speciality. We envision providing people the power of design,
-              track work progress, quality and regulate their budget to bring
-              forth the home of their dreams into a tangible material via
-              Product, Material, Financial and Technological innovations.
-              Customer Satisfaction is our go-to motive.
-            </p>
+            <p></p>
           </Modal>
-          <Modal open={showInfo === "projects"}>
+          <Modal open={showInfo === "projects"} onClose={closeInfo}>
             <h2>Projects</h2>
-            <p>
-              This is Projects Content. The Better Co is a home construction
-              company which helps you build your dream home and do your home
-              interiors on one platform. We have an experienced team consisting
-              of Designers, Architects, Engineers, Experience management,
-              Quality assurance, etc., to provide you with the best home
-              construction possible within your budget. We supply you with the
-              best service and leave no chance for disappointment. Quality and
-              experience is our priority over everything else. Serving all
-              client needs of building their dream home within their budget is
-              our speciality. We envision providing people the power of design,
-              track work progress, quality and regulate their budget to bring
-              forth the home of their dreams into a tangible material via
-              Product, Material, Financial and Technological innovations.
-              Customer Satisfaction is our go-to motive.
-            </p>
+            <p></p>
           </Modal>
-          <Modal open={showInfo === "testimonials"}>
+          <Modal open={showInfo === "testimonials"} onClose={closeInfo}>
             <h2>Testimonials</h2>
-            <p>
-              This is Testimonials content. The Better Co is a home construction
-              company which helps you build your dream home and do your home
-              interiors on one platform. We have an experienced team consisting
-              of Designers, Architects, Engineers, Experience management,
-              Quality assurance, etc., to provide you with the best home
-              construction possible within your budget. We supply you with the
-              best service and leave no chance for disappointment. Quality and
-              experience is our priority over everything else. Serving all
-              client needs of building their dream home within their budget is
-              our speciality. We envision providing people the power of design,
-              track work progress, quality and regulate their budget to bring
-              forth the home of their dreams into a tangible material via
-              Product, Material, Financial and Technological innovations.
-              Customer Satisfaction is our go-to motive.
-            </p>
+            <p></p>
           </Modal>
-          <Modal open={showInfo === "blog"}>
+          <Modal open={showInfo === "blog"} onClose={closeInfo}>
             <h2>Blog</h2>
-            <p>
-              This is Blog Content The Better Co is a home construction company
-              which helps you build your dream home and do your home interiors
-              on one platform. We have an experienced team consisting of
-              Designers, Architects, Engineers, Experience management, Quality
-              assurance, etc., to provide you with the best home construction
-              possible within your budget. We supply you with the best service
-              and leave no chance for disappointment. Quality and experience is
-              our priority over everything else. Serving all client needs of
-              building their dream home within their budget is our speciality.
-              We envision providing people the power of design, track work
-              progress, quality and regulate their budget to bring forth the
-              home of their dreams into a tangible material via Product,
-              Material, Financial and Technological innovations. Customer
-              Satisfaction is our go-to motive.
-            </p>
-          </Modal> */}
+            <p></p>
+          </Modal>
         </div>
       )}
     </div>

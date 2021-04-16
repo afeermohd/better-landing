@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Modal } from "../Modal";
 import ListAccordian from "./ListAccordian";
 
-const DisplayConstruction = ({ showInfo }) => {
+const DisplayConstruction = ({ showInfo, onClose }) => {
   const [list, setList] = useState("packages");
   const [selectPackage, setSelectPackage] = useState("standard");
 
@@ -247,50 +247,66 @@ const DisplayConstruction = ({ showInfo }) => {
       case "packages":
         return (
           <div>
-            <div>
-              <h1>Packages</h1>
-              <span onClick={() => setSelectPackage("standard")}>
-                Standard Package
-              </span>
-              <span>|</span>
-              <span onClick={() => setSelectPackage("premium")}>
-                Premium Package
-              </span>
-              {DisplayPackages(selectPackage)}
+            <div className="select-packages-container">
+              {/* <h1>Packages</h1> */}
+              <div
+                onClick={() => {
+                  setSelectPackage("standard");
+                  // toggleActive();
+                }}
+                className={`select-packages ${
+                  selectPackage === "standard" ? "active-package" : ""
+                }`}
+              >
+                STANDARD
+              </div>
+              {/* <span>|</span> */}
+              <div
+                onClick={() => {
+                  setSelectPackage("premium");
+                  // toggleActive();
+                }}
+                className={`select-packages ${
+                  selectPackage === "premium" ? "active-package" : ""
+                }`}
+              >
+                PREMIUM
+              </div>
               {/* <DisplayPackages arg={selectPackage} /> */}
             </div>
+            {DisplayPackages(selectPackage)}
           </div>
         );
 
       case "material":
         return (
           <div>
-            <h1>Materials</h1>
+            {/* <h1>Materials</h1> */}
             <div>this is material</div>
           </div>
         );
       case "projects":
         return (
           <div>
-            <h1>Projects</h1>
+            {/* <h1>Projects</h1> */} <div>this </div>
           </div>
         );
       case "gallery":
         return (
           <div>
-            <h1>Gallery</h1>
+            {/* <h1>Gallery</h1> */} <div>this </div>
           </div>
         );
       case "blog":
         return (
           <div>
-            <h1>Blog</h1>
+            {/* <h1>Blog</h1> */} <div>this</div>
           </div>
         );
       case "review":
         return (
           <div>
-            <h1>Review</h1>
+            <div>this</div>
           </div>
         );
       default:
@@ -299,18 +315,62 @@ const DisplayConstruction = ({ showInfo }) => {
   };
 
   return (
-    <Modal open={showInfo}>
-      <div className="modal-list">
-        <h2>Construction</h2>
-        <div onClick={() => setList("packages")}>Packages</div>
-        <div onClick={() => setList("material")}>Material List</div>
-        <div onClick={() => setList("projects")}>Projects</div>
-        <div onClick={() => setList("gallery")}>Gallery</div>
-        <div onClick={() => setList("blog")}>Blog</div>
-        <div onClick={() => setList("review")}>Review</div>
+    <Modal open={showInfo} onClose={onClose}>
+      <h2 className="modal-heading">CONSTRUCTION</h2>
+      <div className="modal-bottom">
+        <div className="modal-list">
+          <div
+            onClick={() => setList("packages")}
+            className={`modal-list-item ${
+              list === "packages" ? "active-list" : ""
+            }`}
+          >
+            Packages
+          </div>
+          <div
+            onClick={() => setList("material")}
+            className={`modal-list-item ${
+              list === "material" ? "active-list" : ""
+            }`}
+          >
+            Material List
+          </div>
+          <div
+            onClick={() => setList("projects")}
+            className={`modal-list-item ${
+              list === "projects" ? "active-list" : ""
+            }`}
+          >
+            Projects
+          </div>
+          <div
+            onClick={() => setList("gallery")}
+            className={`modal-list-item ${
+              list === "gallery" ? "active-list" : ""
+            }`}
+          >
+            Gallery
+          </div>
+          <div
+            onClick={() => setList("blog")}
+            className={`modal-list-item ${
+              list === "blog" ? "active-list" : ""
+            }`}
+          >
+            Blog
+          </div>
+          <div
+            onClick={() => setList("review")}
+            className={`modal-list-item ${
+              list === "review" ? "active-list" : ""
+            }`}
+          >
+            Review
+          </div>
+        </div>
+        <div className="modal-inside">{DisplayListInfo(list)}</div>
       </div>
-      {}
-      <div className="modal-inside">{DisplayListInfo(list)}</div>
+      <div>{}</div>
     </Modal>
   );
 };

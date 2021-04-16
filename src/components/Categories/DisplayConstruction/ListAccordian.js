@@ -22,7 +22,7 @@ const ListAccordian = ({ title, content }) => {
   return (
     <div className="listaccodian-section">
       <button className={`listaccordian ${active}`} onClick={toggleAccordian}>
-        <Chevron className={`${rotate}`} width={10} fill={"#ccc"} />
+        <Chevron className={`${rotate}`} width={10} fill={"white"} />
         <p className="listaccordian-title">{title}</p>
       </button>
       <div

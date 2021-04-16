@@ -1,12 +1,14 @@
 import React from "react";
 import "./style.css";
 
-export const Modal = ({ open, children }) => {
+export const Modal = ({ open, children, onClose }) => {
   if (!open) return null;
   return (
     <div>
       <div className="modal-card">
-        {/* <button onClick={onClose}>Close Modal</button> */}
+        <div className="modal-close" onClick={onClose}>
+          o
+        </div>
         {children}
       </div>
     </div>

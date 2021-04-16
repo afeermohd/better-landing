@@ -135,8 +135,9 @@
 }
 .modal-card {
   display: flex;
+  flex-direction: column;
   /* place-items: center; */
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   align-items: baseline;
   width: 1150px;
   min-width: 250px;
@@ -148,13 +149,14 @@
   /* margin: 5rem; */
   border-radius: 16px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  position: relative;
   /* color: #fff; */
   /* background: rgb(243, 241, 241); */
   /* background: linear-gradient(to left, #ab68ca, #de67a3); */
   /* box-shadow: -1rem 0 3rem #fff; */
   /* display: grid; */
   /* place-items: center; */
-  transition: 0.2s;
+  transition: min-width 0.3s ease;
   color: white;
   /* cursor: pointer; */
 }
@@ -167,7 +169,12 @@
 }
 
 .modal-inside {
-  width: 900px;
+  /* position: absolute; */
+  margin-bottom: -50px;
+  margin-right: -100px;
+  /* top: 500px; */
+  /* left: 200px; */
+  width: 1000px;
   min-width: 250px;
   min-height: 200px;
   /* background: linear-gradient(to left, #0df56e, #0db68c); */
@@ -187,8 +194,80 @@
   color: white;
   /* cursor: pointer; */
 }
+.modal-bottom {
+  display: flex;
+}
+.modal-heading {
+  /* position: relative; */
+  margin: auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: center ; */
+  /* top: 0; */
+  padding: 2rem;
+  letter-spacing: 5px;
+  font-size: 30px;
+  margin-top: -40px;
+}
 
 .modal-list {
   font-size: 18px;
   margin: 2rem;
+  text-align: right;
+}
+
+.modal-list-item {
+  cursor: pointer;
+  /* margin-top: 10px; */
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 10px;
+  transition: background-color 0.6s ease;
+}
+.modal-list-item:hover,
+.active-list {
+  background: rgba(0, 0, 0, 0.055);
+}
+
+.modal-close {
+  font-size: 18px;
+  /* font-weight: bold; */
+  position: absolute;
+
+  top: 10px;
+  left: 5px;
+  cursor: pointer;
+  margin: 5px 10px;
+  padding: 0rem 0.5rem;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.137);
+  color: rgba(0, 0, 0, 0.205);
+  transition: background-color 0.6s ease;
+}
+.modal-close:hover {
+  /* color: yellow; */
+  color: rgba(0, 0, 0, 0.507);
+  background: rgba(0, 0, 0, 0.226);
+}
+
+.select-packages {
+  margin: 0 20px 5px 20px;
+  /* padding: 20px; */
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 4px;
+
+  padding: 1rem;
+  border-radius: 10px;
+  transition: background-color 0.6s ease;
+}
+
+.select-packages:hover,
+.active-package {
+  /* background: rgba(0, 0, 0, 0.233); */
+  background: rgba(25, 71, 4, 0.24);
+}
+
+.select-packages-container {
+  display: flex;
 }
