@@ -10,7 +10,7 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
     switch (arg) {
       case "standard":
         return (
-          <div>
+          <div className="list-box-standard">
             <ListAccordian
               title="Architectural Design & Drawing"
               content="<ul><li>2D Floor Plan</li>
@@ -117,7 +117,7 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
         );
       case "premium":
         return (
-          <div>
+          <div className="list-box-premium">
             <ListAccordian
               title="Architectural Design & Drawing"
               content="<ul><li>2D Floor Plan</li>
@@ -245,9 +245,9 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
   const DisplayMaterials = (arg) => {
     return (
       <table>
-        <tr>
+        {/* <tr>
           <td>Material Make and Brand List</td>
-        </tr>
+        </tr> */}
         <tr>
           <td>Sl.No.</td>
           <td>Description of Item</td>

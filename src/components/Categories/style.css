@@ -172,7 +172,7 @@
 .modal-inside {
   /* position: absolute; */
   /* margin-bottom: -55px; */
-  /* margin-left: -25px; */
+  margin-left: -25px;
   /* margin-right: 10px; */
   /* top: 500px; */
   /* left: 200px; */
@@ -254,7 +254,7 @@
 }
 
 .select-packages {
-  margin: 0 20px 10px 20px;
+  margin: 0 100px 10px 100px;
   /* padding: 20px; */
   cursor: pointer;
   font-size: 20px;
@@ -275,4 +275,13 @@
 
 .select-packages-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
