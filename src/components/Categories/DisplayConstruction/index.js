@@ -6,7 +6,7 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
   const [list, setList] = useState("packages");
   const [selectPackage, setSelectPackage] = useState("standard");
 
-  const DisplayPackages = (arg) => {
+  const DisplaySelectedPackage = (arg) => {
     switch (arg) {
       case "standard":
         return (
@@ -242,6 +242,186 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
     }
   };
 
+  const DisplayMaterials = (arg) => {
+    return (
+      <table>
+        <tr>
+          <td>Sl.No.</td>
+          <td>Description of Item</td>
+          <td>Brand</td>
+          <td>Remarks</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Cement opc/ppc 43 and 53</td>
+          <td>ACC, RAMCO, ZUARI</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Reinforcement Steel</td>
+          <td>INDUS 555 (Fe 550), Meenakshi, Prime Gold, Kamdhenu</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>M Sand</td>
+          <td>Zone - 3 and Zone - 3 Material</td>
+          <td>As per IS 383-1970</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>20mm Coarse aggregates</td>
+          <td>Single graded</td>
+          <td>As per IS 383-1970</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>40mm Coarse aggregates</td>
+          <td>Graded</td>
+          <td>As per IS 383-1970</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Blocks 8", 6", 4"</td>
+          <td>Best available nearby market</td>
+          <td>As per IS 2185</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Bricks Table moulded</td>
+          <td>Best available nearby market</td>
+          <td>As per IS 1077(1992)</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Vitrified Tiles</td>
+          <td>Somany, Kajaria, Cera, Bell</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Ceramic Tiles</td>
+          <td>Somany, Kajaria, Bell</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Anti Skid</td>
+          <td>Somany, Kajaria, Bell</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Plumbing Materials</td>
+          <td>Parryware, Jaquar, Cera, RAK</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Paint</td>
+          <td>Asian Paints</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>Plywood 12mm, 18mm, 24mm</td>
+          <td>Century or Kitply</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>Laminate</td>
+          <td>Greenlam, Green ply, Merino</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>Electrical Items</td>
+          <td>Finolex, Anchor, Legrand, GM Modular</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>Waterproofing Chemical</td>
+          <td>Dr.Fixit, Fosroc</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>Door window shutter and frames</td>
+          <td>Teak wood, Sal wood, Neem wood</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>Door fixtures/Fitting</td>
+          <td>Godrej</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>UPVC</td>
+          <td>ZEN, VEKA, EAGLE BOSS</td>
+          <td></td>
+        </tr>
+      </table>
+    );
+  };
+
+  // const DisplayProjects = () => {
+  //   return (
+  //     <div class="container">
+  //       <div class="horizontal-container">
+  //         {/* @if ($allProjects && $allProjects['status'])
+  //     @foreach ($allProjects['data'] as $project) */}
+  //         <div class="card">
+  //           <div class="card-image">
+  //             <div class="card-buttons">
+  //               <a href="" class="btn btn-success stretched-link">
+  //                 Open
+  //               </a>
+  //               <a
+  //                 href=""
+  //                 class="btn btn-success stretched-link"
+  //                 target="_blank"
+  //               >
+  //                 <i class="fa fa-map-marker" aria-hidden="true"></i>
+  //               </a>
+  //             </div>
+  //           </div>
+  //           <div class="card-text">
+  //             <h2></h2>
+  //             <p class="card-description"></p>
+  //           </div>
+  //           <div class="card-stats">
+  //             <div class="stat">
+  //               <div class="value"></div>
+  //               <div class="type">Plot Size</div>
+  //             </div>
+  //             <div class="stat border">
+  //               <div class="value"></div>
+  //               <div class="type">Package</div>
+  //             </div>
+  //             <div class="stat">
+  //               <div class="value"></div>
+  //               <div class="type">Plot Elevation</div>
+  //             </div>
+  //           </div>
+  //         </div>
+
+  //         {/* <!-- <div class="paddles">
+  // 	<button class="left-paddle paddle hidden">
+  // 		<
+  // 	</button>
+  // 	<button class="right-paddle paddle">
+  // 		>
+  // 	</button>
+  // </div> --> */}
+  //       </div>
+  //     </div>
+  //   );
+  // };
   const DisplayListInfo = (list) => {
     switch (list) {
       case "packages":
@@ -274,7 +454,7 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
               </div>
               {/* <DisplayPackages arg={selectPackage} /> */}
             </div>
-            {DisplayPackages(selectPackage)}
+            {DisplaySelectedPackage(selectPackage)}
           </div>
         );
 
@@ -282,13 +462,13 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
         return (
           <div>
             {/* <h1>Materials</h1> */}
-            <div>this is material</div>
+            <div>{DisplayMaterials()}</div>
           </div>
         );
       case "projects":
         return (
           <div>
-            {/* <h1>Projects</h1> */} <div>this </div>
+            {/* <h1>Projects</h1> */} <div>{/* {DisplayProjects()} */}</div>
           </div>
         );
       case "gallery":

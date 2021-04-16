@@ -143,7 +143,7 @@
   min-width: 250px;
   min-height: 200px;
   /* background: linear-gradient(to left, #0aaafb, #03e1d2); */
-  background: #0e606f9f;
+  background-color: #0e606f9f;
   /* background: rgb(240, 171, 82); */
   padding: 2rem;
   /* margin: 5rem; */
@@ -156,7 +156,8 @@
   /* box-shadow: -1rem 0 3rem #fff; */
   /* display: grid; */
   /* place-items: center; */
-  transition: min-width 0.3s ease;
+  transition: background-color 0.3s ease;
+
   color: white;
   /* cursor: pointer; */
 }
@@ -170,11 +171,12 @@
 
 .modal-inside {
   /* position: absolute; */
-  margin-bottom: -50px;
-  margin-right: -100px;
+  margin-bottom: -55px;
+  margin-left: -25px;
+  /* margin-right: 10px; */
   /* top: 500px; */
   /* left: 200px; */
-  width: 1000px;
+  width: 980px;
   min-width: 250px;
   min-height: 200px;
   /* background: linear-gradient(to left, #0df56e, #0db68c); */
@@ -196,6 +198,7 @@
 }
 .modal-bottom {
   display: flex;
+  margin-left: -50px;
 }
 .modal-heading {
   /* position: relative; */
@@ -221,11 +224,12 @@
   /* margin-top: 10px; */
   padding: 0.2rem 0.5rem 0.2rem 0.5rem;
   border-radius: 10px;
-  transition: background-color 0.6s ease;
+  transition: background-color 0.3s ease;
 }
 .modal-list-item:hover,
 .active-list {
-  background: rgba(0, 0, 0, 0.055);
+  /* background: rgba(0, 0, 0, 0.055); */
+  background: #0aaafb;
 }
 
 .modal-close {
@@ -237,11 +241,11 @@
   left: 5px;
   cursor: pointer;
   margin: 5px 10px;
-  padding: 0rem 0.5rem;
+  padding: 0rem 0.15rem 0 0.5rem;
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.137);
-  color: rgba(0, 0, 0, 0.205);
-  transition: background-color 0.6s ease;
+  /* background: rgba(187, 65, 65, 0.555); */
+  color: rgba(187, 20, 20, 0.205);
+  transition: background-color 0.3s ease;
 }
 .modal-close:hover {
   /* color: yellow; */
@@ -250,7 +254,7 @@
 }
 
 .select-packages {
-  margin: 0 20px 5px 20px;
+  margin: 0 20px 10px 20px;
   /* padding: 20px; */
   cursor: pointer;
   font-size: 20px;
@@ -259,13 +263,14 @@
 
   padding: 1rem;
   border-radius: 10px;
-  transition: background-color 0.6s ease;
+  transition: background-color 0.3s ease;
 }
 
 .select-packages:hover,
 .active-package {
   /* background: rgba(0, 0, 0, 0.233); */
-  background: rgba(25, 71, 4, 0.24);
+  /* background: rgba(25, 71, 4, 0.24); */
+  background: #0aabfb;
 }
 
 .select-packages-container {
