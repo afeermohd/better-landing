@@ -246,6 +246,9 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
     return (
       <table>
         <tr>
+          <td>Material Make and Brand List</td>
+        </tr>
+        <tr>
           <td>Sl.No.</td>
           <td>Description of Item</td>
           <td>Brand</td>
