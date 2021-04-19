@@ -376,59 +376,92 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
     );
   };
 
-  // const DisplayProjects = () => {
-  //   return (
-  //     <div class="container">
-  //       <div class="horizontal-container">
-  //         {/* @if ($allProjects && $allProjects['status'])
-  //     @foreach ($allProjects['data'] as $project) */}
-  //         <div class="card">
-  //           <div class="card-image">
-  //             <div class="card-buttons">
-  //               <a href="" class="btn btn-success stretched-link">
-  //                 Open
-  //               </a>
-  //               <a
-  //                 href=""
-  //                 class="btn btn-success stretched-link"
-  //                 target="_blank"
-  //               >
-  //                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-  //               </a>
-  //             </div>
-  //           </div>
-  //           <div class="card-text">
-  //             <h2></h2>
-  //             <p class="card-description"></p>
-  //           </div>
-  //           <div class="card-stats">
-  //             <div class="stat">
-  //               <div class="value"></div>
-  //               <div class="type">Plot Size</div>
-  //             </div>
-  //             <div class="stat border">
-  //               <div class="value"></div>
-  //               <div class="type">Package</div>
-  //             </div>
-  //             <div class="stat">
-  //               <div class="value"></div>
-  //               <div class="type">Plot Elevation</div>
-  //             </div>
-  //           </div>
-  //         </div>
+  const DisplayProjects = () => {
+    return (
+      <div className="container">
+        <div className="horizontal-container">
+          <div className="card">
+            <div className="card-image">
+              <div className="card-buttons"></div>
+            </div>
+            <div className="card-text">
+              <h2>Jigani</h2>
+              <p className="card-description"></p>
+            </div>
+            <div className="card-stats">
+              <div className="stat">
+                <div className="value">1421 sqft</div>
+                <div className="type">Plot Size</div>
+              </div>
+              <div className="stat border">
+                <div className="value">Standard</div>
+                <div className="type">Package</div>
+              </div>
+              <div className="stat">
+                <div className="value">Ground Floor +1</div>
+                <div className="type">Plot Elevation</div>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-image">
+              <div className="card-buttons"></div>
+            </div>
+            <div className="card-text">
+              <h2>Jigani</h2>
+              <p className="card-description"></p>
+            </div>
+            <div className="card-stats">
+              <div className="stat">
+                <div className="value">1421 sqft</div>
+                <div className="type">Plot Size</div>
+              </div>
+              <div className="stat border">
+                <div className="value">Standard</div>
+                <div className="type">Package</div>
+              </div>
+              <div className="stat">
+                <div className="value">Ground Floor +1</div>
+                <div className="type">Plot Elevation</div>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-image">
+              <div className="card-buttons"></div>
+            </div>
+            <div className="card-text">
+              <h2>Jigani</h2>
+              <p className="card-description"></p>
+            </div>
+            <div className="card-stats">
+              <div className="stat">
+                <div className="value">1421 sqft</div>
+                <div className="type">Plot Size</div>
+              </div>
+              <div className="stat border">
+                <div className="value">Standard</div>
+                <div className="type">Package</div>
+              </div>
+              <div className="stat">
+                <div className="value">Ground Floor +1</div>
+                <div className="type">Plot Elevation</div>
+              </div>
+            </div>
+          </div>
 
-  //         {/* <!-- <div class="paddles">
-  // 	<button class="left-paddle paddle hidden">
-  // 		<
-  // 	</button>
-  // 	<button class="right-paddle paddle">
-  // 		>
-  // 	</button>
-  // </div> --> */}
-  //       </div>
-  //     </div>
-  //   );
-  // };
+          {/* <!-- <div class="paddles">
+  	<button class="left-paddle paddle hidden">
+  		<
+  	</button>
+  	<button class="right-paddle paddle">
+  		>
+  	</button>
+  </div> --> */}
+        </div>
+      </div>
+    );
+  };
   const DisplayListInfo = (list) => {
     switch (list) {
       case "packages":
@@ -475,7 +508,7 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
       case "projects":
         return (
           <div>
-            {/* <h1>Projects</h1> */} <div>{/* {DisplayProjects()} */}</div>
+            {/* <h1>Projects</h1> */} <div>{DisplayProjects()}</div>
           </div>
         );
       case "gallery":
