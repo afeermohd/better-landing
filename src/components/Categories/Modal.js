@@ -1,5 +1,5 @@
 import React from "react";
-import Chevron from "./DisplayConstruction/Chevron";
+import Chevron from "./DisplayConstruction/assets/Chevron";
 import "./style.css";
 // import "./DisplayConstruction/ListAccordian.css";
 

@@ -14,6 +14,7 @@
   justify-content: center; */
   display: grid;
   place-items: center;
+  cursor: pointer;
   /* border: 1rem; */
   /* width: 70%; */
   /* width: 1000px; */
@@ -34,13 +35,14 @@
   place-items: center;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
   background: linear-gradient(to left, #0aaafb, #03e1d2);
-  width: 100px;
+  width: 200px;
   color: #fff;
   height: 100px;
   border-radius: 20px;
   /* margin: 1rem; */
   /* width: 10%; */
-  flex: 0.5;
+  flex: 0.75;
+  cursor: pointer;
   /* margin-left: 2rem; */
   /* margin-right: auto; */
 }

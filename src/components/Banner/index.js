@@ -16,7 +16,7 @@ const Banner = () => {
         {/* <span className="sect1-introtext">Start your dream home journey with just Rs. 25,000/-</span> */}
       </div>
       <div className="sect1-payment">
-        <h3>Payment Portal</h3>
+        <h3>Budget Calculator</h3>
       </div>
     </div>
   );
