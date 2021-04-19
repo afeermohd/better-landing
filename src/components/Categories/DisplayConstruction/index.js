@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Modal } from "../Modal";
 import ListAccordian from "./ListAccordian";
+import Interior from "../../../assets/interior.jpeg";
 
 const DisplayConstruction = ({ showInfo, onClose }) => {
   const [list, setList] = useState("packages");
@@ -381,7 +382,14 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
       <div className="container">
         <div className="horizontal-container">
           <div className="card">
-            <div className="card-image">
+            <div
+              className="card-image"
+              style={{
+                backgroundImage: `url(${Interior})`,
+                // backgroundPosition: "center",
+                // backgroundSize: "cover",
+              }}
+            >
               <div className="card-buttons"></div>
             </div>
             <div className="card-text">
@@ -404,7 +412,14 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
             </div>
           </div>
           <div className="card">
-            <div className="card-image">
+            <div
+              className="card-image"
+              style={{
+                backgroundImage: `url(${Interior})`,
+                // backgroundPosition: "center",
+                // backgroundSize: "cover",
+              }}
+            >
               <div className="card-buttons"></div>
             </div>
             <div className="card-text">
@@ -427,7 +442,14 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
             </div>
           </div>
           <div className="card">
-            <div className="card-image">
+            <div
+              className="card-image"
+              style={{
+                backgroundImage: `url(${Interior})`,
+                // backgroundPosition: "center",
+                // backgroundSize: "cover",
+              }}
+            >
               <div className="card-buttons"></div>
             </div>
             <div className="card-text">
