@@ -30,14 +30,14 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
           >
             Material List
           </div>
-          <div
+          {/* <div
             onClick={() => setList("projects")}
             className={`modal-list-item ${
               list === "projects" ? "active-list" : ""
             }`}
           >
             Projects
-          </div>
+          </div> */}
           <div
             onClick={() => setList("gallery")}
             className={`modal-list-item ${
@@ -46,7 +46,7 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
           >
             Gallery
           </div>
-          <div
+          {/* <div
             onClick={() => setList("blog")}
             className={`modal-list-item ${
               list === "blog" ? "active-list" : ""
@@ -61,7 +61,7 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
             }`}
           >
             Review
-          </div>
+          </div> */}
         </div>
         <div className="modal-inside">
           {/* {DisplayListInfo(list)} */}
