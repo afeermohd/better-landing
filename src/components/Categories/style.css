@@ -494,3 +494,14 @@
 .btn {
   margin-left: 0.5rem;
 }
+
+/* Gallery? */
+
+.gallery-marq {
+  padding: 0.25rem;
+  overflow: hidden;
+}
+.gallery-marq img {
+  height: 200px;
+  padding: 0.1rem;
+}
