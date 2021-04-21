@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-import DoneOutlineIcon from "@material-ui/icons/DoneOutline";
+// import DoneOutlineIcon from "@material-ui/icons/DoneOutline";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCheck,
