@@ -1,15 +1,6 @@
 .section2 {
   display: flex;
-  /* flex-direction: row; */
-  /* padding: 3rem; */
-  /* margin: 1rem; */
-  /* color: white */
-  /* overflow-x: hidden; */
-  /* cursor: pointer; */
-  /* align-items: center; */
-  /* justify-content: center; */
   margin: 0rem 7rem 8rem 7rem;
-  /* padding: 3rem; */
   justify-content: center;
 }
 .section2::-webkit-scrollbar {
@@ -36,7 +27,6 @@
   align-items: center;
   justify-content: flex-end;
   min-width: 180px;
-  /* min-width: 250px; */
   padding: 1.5rem;
 
   border-radius: 20px;
@@ -46,26 +36,12 @@
   transition: 0.2s;
 
   margin: 10px;
-  /* scroll-snap-align: start; */
   clear: both;
   cursor: pointer;
   color: #333333;
-
-  /* filter: blur(2px);
-  -webkit-filter: blur(2px); */
-  /* backdrop-filter: blur(5px); */
-}
-.item:focus-within ~ .item,
-.item:hover ~ .item {
-  /* transform: translateX(130px); */
-  /* /* filter: blur(2px); */
-  /* -webkit-filter: blur(2px); */
-  /* display: none; */
 }
 
 .item img {
-  /* width: 240px; */
-  /* height: 300px; */
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -76,53 +52,21 @@
 }
 .title {
   min-width: 200px;
-
   display: grid;
   place-items: center;
   background: #39abfa;
-  /* background: linear-gradient(to left, #0aaafb, #03e1d2); */
   min-height: 60px;
   border-radius: 20px;
   margin-bottom: -2.5rem;
 }
 .item h2 {
   position: relative;
-  /* padding-bottom: 2rem; */
-  /* padding-top: 5rem; */
   transition: 0.2s;
   display: flex;
-  /* background-color: #333333; */
-  /* padding: 0.5rem; */
-  /* margin-bottom: -3rem; */
   border-radius: 20px;
-  /* place-items: center; */
-  /* justify-content: center; */
-  /* align-items: center; */
   color: white;
   font-size: 30px;
-  /* filter: blur(0px); */
-  /* -webkit-filter: blur(0px); */
 }
-
-/* .item:hover ~ .item {
-  transform: translateX(130px);
-} */
-
-/* .item:not(:first-child) {
-  margin-left: -80px;
-} */
-
-/* .item:hover h2 {
-  background: linear-gradient(to left, #0aaafb, #03e1d2);
-  text-shadow: none;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
-
-/* .empty-space {
-  height: 600px;
-} */
 
 /* MODAL  */
 
@@ -139,7 +83,7 @@
 .modal-card {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  /* align-items: baseline; */
   width: 1150px;
   min-width: 250px;
   min-height: 200px;

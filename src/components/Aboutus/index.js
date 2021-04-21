@@ -1,8 +1,22 @@
 import React from "react";
 import "./style.scss";
 import DoneOutlineIcon from "@material-ui/icons/DoneOutline";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCheck,
+  faCheckDouble,
+  faDesktop,
+  faHardHat,
+  faPaperPlane,
+  faPencilRuler,
+  faStopwatch,
+  faTasks,
+  faUserCheck,
+  faWallet,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Aboutus = () => {
+  const size = "3x";
   return (
     <div className="aboutus-container">
       <div className="aboutus">
@@ -28,47 +42,47 @@ const Aboutus = () => {
         <h2>WHY US</h2>
         <ul>
           <li>
-            <DoneOutlineIcon />
-            On-Time Delivery
+            <FontAwesomeIcon icon={faStopwatch} size={size} />
+            <span>On-Time Delivery</span>
           </li>
           <li>
-            <DoneOutlineIcon />
-            Quality Assurance
+            <FontAwesomeIcon icon={faCheckDouble} size={size} />
+            <span>Quality Assurance</span>
           </li>
           <li>
-            <DoneOutlineIcon />
-            In-House Architects
+            <FontAwesomeIcon icon={faPencilRuler} size={size} />
+            <span>In-House Architects</span>
           </li>
           <li>
-            <DoneOutlineIcon />
-            Quality Control
+            <FontAwesomeIcon icon={faCheck} size={size} />
+            <span>Quality Control</span>
           </li>
           <li>
-            <DoneOutlineIcon />
-            Tech-Enabled
+            <FontAwesomeIcon icon={faDesktop} size={size} />
+            <span>Tech-Enabled</span>
           </li>
         </ul>
 
         <ul>
           <li>
-            <DoneOutlineIcon />
-            In-House Site Engineers
+            <FontAwesomeIcon icon={faHardHat} size={size} />
+            <span>In-House Site Engineers</span>
           </li>
           <li>
-            <DoneOutlineIcon />
-            Dedicated Project Managers
+            <FontAwesomeIcon icon={faTasks} size={size} />
+            <span>Dedicated Project Managers</span>
           </li>
           <li>
-            <DoneOutlineIcon />
-            Dedicated Experience Team
+            <FontAwesomeIcon icon={faUserCheck} size={size} />
+            <span>Dedicated Experience Team</span>
           </li>
           <li>
-            <DoneOutlineIcon />
-            Seemless Execution
+            <FontAwesomeIcon icon={faPaperPlane} size={size} />
+            <span>Seemless Execution</span>
           </li>
           <li>
-            <DoneOutlineIcon />
-            Flexible Payment
+            <FontAwesomeIcon icon={faWallet} size={size} />
+            <span>Flexible Payment</span>
           </li>
         </ul>
       </div>
