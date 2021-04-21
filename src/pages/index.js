@@ -1,6 +1,6 @@
 import React from "react";
-// import Aboutus from "../components/Aboutus";
-import Footer from "../components/Footer";
+import Aboutus from "../components/Aboutus";
+// import Footer from "../components/Footer";
 import FooterNav from "../components/FooterNav";
 import Navbar from "../components/Navbar";
 import OfferSection from "../components/OfferSection";
@@ -15,11 +15,11 @@ const Home = () => {
       <Navbar />
       <Banner />
       <Categories />
-      {/* <Aboutus /> */}
+      <Aboutus />
       <Reviews />
       <OfferSection />
       <FooterNav />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

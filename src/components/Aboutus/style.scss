@@ -1,97 +1,53 @@
-.aboutus {
-  display: flex;
-  /* flex-direction: column; */
-  margin: 0 7rem 5rem 7rem;
-  /* padding: 1rem; */
-  justify-content: center;
-}
-
-.offer-header {
-  /* padding: 1.5rem; */
-  /* padding-left: 7rem; */
-  /* margin: 1.5rem; */
-  color: #333333;
-  font-size: 45px;
-}
-
-/* // .about-items { */
-/* display: flex; */
-/* justify-content: space-evenly; */
-/* } */
-
-.about-card {
-  width: 1000px;
-  min-width: 250px;
-  min-height: 500px;
-  background: linear-gradient(to left, #0aaafb, #03e1d2);
-  padding: 2rem;
-  /* margin: 5rem; */
-  border-radius: 16px;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
-  /* color: #fff; */
-  /* background: rgb(243, 241, 241); */
-  /* background: linear-gradient(to left, #ab68ca, #de67a3); */
-  /* box-shadow: -1rem 0 3rem #fff; */
-  // display: grid;
-  // place-items: center;
-  transition: 0.2s;
-
-  // scroll-snap-align: start;
-  clear: both;
-  cursor: pointer;
-  color: #333333;
-}
-
-.about-card p {
-  color: white;
-  line-height: 30px;
-  padding: 0 5rem;
-  font-size: 24px;
-  /* font-weight: ; */
-  text-align: justify;
-}
-.about-card h2 {
-  color: white;
-  letter-spacing: 5px;
-  padding: 2rem 0 2rem 0;
-  text-align: center;
-}
-
-// .offer-card:hover {
-//   transform: translateY(-1rem);
-// }
-/* .offer-card:hover h1 {
-  transform: translateY(-1rem);
-  background: linear-gradient(90deg, #00ffd5, #e52ed6);
-  text-shadow: none;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
-
-// .empty-space {
-//   height: 250px;
-// }
-
-.about-list-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  // flex-direction: row;
-  place-items: center;
-  align-items: center;
-  justify-content: center;
-  margin: 3rem;
-}
-
-.about-list {
+.aboutus-container {
   display: flex;
   flex-direction: column;
-  color: white;
-  font-size: 28px;
-  margin: 0 1rem;
-  // letter-spacing: 5px;
-  line-height: 60px;
-  list-style: none;
+  margin: 0 7rem 5rem 7rem;
+  justify-content: center;
+}
+.aboutus {
+  // background-color: #d8e4e6;
+  margin-bottom: 2rem;
 }
 
-/* CARD FLIP */
+.aboutus h2 {
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 3rem;
+  color: #383d5e;
+}
+.aboutus p {
+  text-align: justify;
+  font-size: 20px;
+  padding-bottom: 5rem;
+
+  color: #383d5e;
+}
+
+.whyus {
+}
+
+.whyus h2 {
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 5rem;
+  color: #383d5e;
+}
+
+.whyus ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: flex-start;
+  color: #383d5e;
+  font-size: 20px;
+  text-align: center;
+  // gap: 1rem;
+}
+
+.whyus li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+}

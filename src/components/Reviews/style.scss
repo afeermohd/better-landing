@@ -1,20 +1,16 @@
-.aboutus {
+.review-container {
   display: flex;
 
   margin: 0 7rem 5rem 7rem;
   justify-content: center;
 }
 
-.offer-header {
-  color: #333333;
-  font-size: 45px;
-}
-
-.about-card {
+.review-card {
   width: 1000px;
   min-width: 250px;
   min-height: 500px;
-  background: linear-gradient(to left, #0aaafb, #03e1d2);
+  // background: linear-gradient(to left, #0aaafb, #03e1d2);
+  background: #8b6bf2;
   padding: 2rem;
   border-radius: 16px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
@@ -24,36 +20,12 @@
   color: #333333;
 }
 
-.about-card p {
-  color: white;
-  line-height: 30px;
-  padding: 0 5rem;
-  font-size: 24px;
-  text-align: justify;
-}
-.about-card h2 {
+.review-card h2 {
   color: white;
   letter-spacing: 5px;
   padding: 2rem 0 2rem 0;
   text-align: center;
-}
-.about-list-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  place-items: center;
-  align-items: center;
-  justify-content: center;
-  margin: 3rem;
-}
-
-.about-list {
-  display: flex;
-  flex-direction: column;
-  color: white;
-  font-size: 28px;
-  margin: 0 1rem;
-  line-height: 60px;
-  list-style: none;
+  font-size: 50px;
 }
 
 // review
@@ -83,7 +55,7 @@
   /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
 }
 .review::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.075);
+  background: rgba(0, 0, 0, 0);
   border-radius: 1rem;
   /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
 }

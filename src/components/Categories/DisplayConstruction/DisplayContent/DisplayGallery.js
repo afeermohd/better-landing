@@ -1,10 +1,37 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import Construction from "../../../../assets/construction.jpeg";
-import Interior from "../../../../assets/interior.jpeg";
-import Projects from "../../../../assets/projects.jpeg";
-import Blog from "../../../../assets/blog.jpeg";
-import Testimonials from "../../../../assets/testimonials.jpeg";
+import Image1 from "../../../../assets/galleryImages/1.JPG";
+import Image2 from "../../../../assets/galleryImages/2.JPG";
+import Image3 from "../../../../assets/galleryImages/3.JPG";
+import Image4 from "../../../../assets/galleryImages/4.JPG";
+import Image5 from "../../../../assets/galleryImages/5.JPG";
+import Image6 from "../../../../assets/galleryImages/6.JPG";
+import Image7 from "../../../../assets/galleryImages/7.JPG";
+import Image8 from "../../../../assets/galleryImages/8.JPG";
+import Image9 from "../../../../assets/galleryImages/9.JPG";
+import Image10 from "../../../../assets/galleryImages/10.JPG";
+
+import Image11 from "../../../../assets/galleryImages/11.JPG";
+import Image12 from "../../../../assets/galleryImages/12.JPG";
+import Image13 from "../../../../assets/galleryImages/13.JPG";
+import Image14 from "../../../../assets/galleryImages/14.JPG";
+import Image15 from "../../../../assets/galleryImages/15.JPG";
+import Image16 from "../../../../assets/galleryImages/16.JPG";
+import Image17 from "../../../../assets/galleryImages/17.JPG";
+import Image18 from "../../../../assets/galleryImages/18.JPG";
+import Image19 from "../../../../assets/galleryImages/19.JPG";
+import Image20 from "../../../../assets/galleryImages/20.JPG";
+
+import Image21 from "../../../../assets/galleryImages/21.JPG";
+import Image22 from "../../../../assets/galleryImages/22.JPG";
+import Image23 from "../../../../assets/galleryImages/23.JPG";
+import Image24 from "../../../../assets/galleryImages/24.JPG";
+import Image25 from "../../../../assets/galleryImages/25.JPG";
+import Image26 from "../../../../assets/galleryImages/26.JPG";
+import Image27 from "../../../../assets/galleryImages/27.JPG";
+import Image28 from "../../../../assets/galleryImages/28.JPG";
+import Image29 from "../../../../assets/galleryImages/29.JPG";
+import Image30 from "../../../../assets/galleryImages/30.JPG";
 
 const DisplayGallery = () => {
   return (
@@ -12,42 +39,62 @@ const DisplayGallery = () => {
       <Marquee
         className="gallery-marq"
         // pauseOnHover="true"
-        speed="30"
-        gradientColor="[0, 0, 0]"
-        gradirent="true"
+        speed={20}
+        delay="10"
+        // gradientColor="[0, 0, 0]"
+        gradient={false}
+        direction="left"
       >
-        <img src={Construction} alt="construction" />
-        {/* <img src={Interior} alt="construction"/> */}
-        <img src={Testimonials} alt="construction" />
-        <img src={Blog} alt="construction" />
-        <img src={Projects} alt="construction" />
+        <img src={Image1} alt="construction" />
+        <img src={Image2} alt="construction" />
+        <img src={Image3} alt="construction" />
+        <img src={Image4} alt="construction" />
+        <img src={Image5} alt="construction" />
+        <img src={Image6} alt="construction" />
+        <img src={Image7} alt="construction" />
+        <img src={Image8} alt="construction" />
+        <img src={Image9} alt="construction" />
+        <img src={Image10} alt="construction" />
       </Marquee>
       <Marquee
         className="gallery-marq"
         // pauseOnHover="true"
-        speed="30"
-        gradientColor="[0, 0, 0]"
-        gradirent="true"
+        speed={20}
+        delay="10"
+        // gradientColor={[0, 0, 0]}
+        gradient={false}
         direction="right"
       >
-        {/* <img src={Construction} /> */}
-        <img src={Interior} alt="construction" />
-        <img src={Testimonials} alt="construction" />
-        <img src={Blog} alt="construction" />
-        <img src={Projects} alt="construction" />
+        <img src={Image11} alt="construction" />
+        <img src={Image12} alt="construction" />
+        <img src={Image13} alt="construction" />
+        <img src={Image14} alt="construction" />
+        <img src={Image15} alt="construction" />
+        <img src={Image16} alt="construction" />
+        <img src={Image17} alt="construction" />
+        <img src={Image18} alt="construction" />
+        <img src={Image19} alt="construction" />
+        <img src={Image20} alt="construction" />
       </Marquee>
       <Marquee
         className="gallery-marq"
         // pauseOnHover="true"
-        speed="30"
-        gradientColor="[0, 0, 0]"
-        gradirent="true"
+        speed={20}
+        delay="10"
+        // gradientColor="[0, 0, 0]"
+        gradient={false}
+        direction="left"
       >
-        <img src={Construction} alt="construction" />
-        <img src={Interior} alt="construction" />
-        {/* <img src={Testimonials} alt="construction" /> */}
-        <img src={Blog} alt="construction" />
-        <img src={Projects} alt="construction" />
+        <img src={Image21} alt="construction" />
+        <img src={Image22} alt="construction" />
+        <img src={Image23} alt="construction" />
+        <img src={Image24} alt="construction" />
+        <img src={Image25} alt="construction" />
+        <img src={Image26} alt="construction" />
+        <img src={Image27} alt="construction" />
+        <img src={Image28} alt="construction" />
+        <img src={Image29} alt="construction" />
+        <img src={Image30} alt="construction" />
       </Marquee>
     </div>
   );

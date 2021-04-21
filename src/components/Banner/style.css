@@ -34,7 +34,8 @@
   display: grid;
   place-items: center;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
-  background: linear-gradient(to left, #0aaafb, #03e1d2);
+  /* background: linear-gradient(to left, #0aaafb, #03e1d2); */
+  background-color: #faa639;
   width: 200px;
   color: #fff;
   height: 100px;
