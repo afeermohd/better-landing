@@ -318,7 +318,7 @@
   /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
 }
 .horizontal-container {
-  width: 75vw;
+  /* width: 75vw; */
   /* height: 73vh; */
   display: flex;
   align-items: center;
@@ -438,4 +438,11 @@
   height: 200px;
   padding: 1rem;
   border-radius: 25px;
+}
+
+/* VIDEO */
+
+.video-card {
+  padding: 1rem;
+  border-radius: 20px;
 }

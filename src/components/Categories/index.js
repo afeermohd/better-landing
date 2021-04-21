@@ -9,6 +9,7 @@ import { Modal } from "./Modal";
 // import { Spring } from "react-spring";
 import DisplayConstruction from "./DisplayConstruction";
 import DisplayProjects from "./DisplayProjects";
+import DisplayTestimonials from "./DisplayTestimonials";
 
 const Categories = () => {
   const [showInfo, setShowInfo] = useState("");
@@ -106,10 +107,10 @@ const Categories = () => {
             onClose={closeInfo}
           />
 
-          <Modal open={showInfo === "testimonials"} onClose={closeInfo}>
-            <h2>Testimonials</h2>
-            <p></p>
-          </Modal>
+          <DisplayTestimonials
+            showInfo={showInfo === "testimonials"}
+            onClose={closeInfo}
+          />
           <Modal open={showInfo === "blog"} onClose={closeInfo}>
             <h2>Blog</h2>
             <p></p>
