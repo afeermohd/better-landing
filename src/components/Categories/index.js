@@ -7,10 +7,12 @@ import Projects from "../../assets/projects.jpeg";
 import Blog from "../../assets/blog.jpeg";
 import Testimonials from "../../assets/testimonials.jpeg";
 
-import { Modal } from "./assets/Modal";
+// import { Modal } from "./assets/Modal";
 import DisplayConstruction from "./DisplayConstruction/DisplayConstruction";
 import DisplayProjects from "./DisplayProject/DisplayProjects";
 import DisplayTestimonials from "./DisplayTestimonials/DisplayTestimonials";
+import DisplayInterior from "./DisplayInterior/DisplayInterior";
+import DisplayBlog from "./DisplayBlog/DisplayBlog";
 
 const Categories = () => {
   const [showInfo, setShowInfo] = useState("");
@@ -98,10 +100,10 @@ const Categories = () => {
             showInfo={showInfo === "construction"}
             onClose={closeInfo}
           />
-          <Modal open={showInfo === "interior"} onClose={closeInfo}>
-            <h2>Interior</h2>
-            <p></p>
-          </Modal>
+          <DisplayInterior
+            showInfo={showInfo === "interior"}
+            onClose={closeInfo}
+          />
 
           <DisplayProjects
             showInfo={showInfo === "projects"}
@@ -112,10 +114,7 @@ const Categories = () => {
             showInfo={showInfo === "testimonials"}
             onClose={closeInfo}
           />
-          <Modal open={showInfo === "blog"} onClose={closeInfo}>
-            <h2>Blog</h2>
-            <p></p>
-          </Modal>
+          <DisplayBlog showInfo={showInfo === "blog"} onClose={closeInfo} />
         </div>
       )}
     </div>
