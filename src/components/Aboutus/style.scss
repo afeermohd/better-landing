@@ -1,35 +1,37 @@
 .aboutus-container {
   display: flex;
   flex-direction: column;
-  margin: 0 7rem 5rem 7rem;
+  margin: 0 7rem 8rem 7rem;
   justify-content: center;
 }
 .aboutus {
   // background-color: #d8e4e6;
-  margin-bottom: 2rem;
+  margin-bottom: 7rem;
 }
 
 .aboutus h2 {
   font-size: 45px;
   text-align: center;
-  padding-bottom: 3rem;
+  // padding-bottom: 3rem;
   color: #383d5e;
 }
 .aboutus p {
   text-align: justify;
   font-size: 22px;
-  padding-bottom: 5rem;
+  margin-top: 3rem;
+  // padding-bottom: 5rem;
   line-height: 2.5rem;
   color: #383d5e;
 }
 
 .whyus {
+  // margin: 0 0 7rem 0;
 }
 
 .whyus h2 {
   font-size: 45px;
   text-align: center;
-  padding-bottom: 7rem;
+  // padding-bottom: 7rem;
   color: #383d5e;
 }
 
@@ -41,6 +43,7 @@
   color: #383d5e;
   font-size: 20px;
   text-align: center;
+  padding-top: 1rem;
   // gap: 1rem;
 }
 
@@ -49,7 +52,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 
 .whyus li span {

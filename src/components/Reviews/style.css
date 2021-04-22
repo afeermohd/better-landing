@@ -1,7 +1,7 @@
 .review-container {
   display: flex;
 
-  margin: 0 7rem 5rem 7rem;
+  margin: 0 7rem 7rem 7rem;
   justify-content: center;
 }
 
@@ -9,14 +9,14 @@
   width: 1000px;
   min-width: 250px;
   min-height: 500px;
-  // background: linear-gradient(to left, #0aaafb, #03e1d2);
+  /* // background: linear-gradient(to left, #0aaafb, #03e1d2); */
   background: #8b6bf2;
   padding: 2rem;
   border-radius: 16px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
   transition: 0.2s;
   clear: both;
-  // cursor: pointer;
+  /* // cursor: pointer; */
   color: #333333;
 }
 
@@ -28,7 +28,13 @@
   font-size: 50px;
 }
 
-// review
+/* // review */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0 3rem; */
+}
 .review {
   width: 65vw;
   /* height: 73vh; */
@@ -64,7 +70,7 @@ figure.snip1192 {
   font-family: "Raleway", Arial, sans-serif;
   position: relative;
   float: left;
-  // overflow: hidden;
+  /* // overflow: hidden; */
   margin: 10px 1%;
   min-width: 220px;
   max-width: 310px;
@@ -135,7 +141,3 @@ figure.snip1192 .author h5 span {
   text-transform: none;
   display: block;
 }
-/* Demo purposes only */
-// body {
-//   background-color: #212121;
-// }

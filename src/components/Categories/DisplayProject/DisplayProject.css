@@ -49,7 +49,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  background: #0aaafb;
+  background: #faa639;
   padding-top: 0.5rem;
 }
 .card-stats .stat {

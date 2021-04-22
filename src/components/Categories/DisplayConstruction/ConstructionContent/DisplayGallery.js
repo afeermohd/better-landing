@@ -41,7 +41,7 @@ const DisplayGallery = () => {
           className="gallery-marq"
           // pauseOnHover="true"
           speed={20}
-          delay="5"
+          // delay="5"
           // gradientColor="[0, 0, 0]"
           gradient={false}
           direction="right"
@@ -83,7 +83,7 @@ const DisplayGallery = () => {
           className="gallery-marq"
           // pauseOnHover="true"
           speed={20}
-          delay="5"
+          // delay="5"
           // gradientColor={[0, 0, 0]}
           gradient={false}
           direction="left"
@@ -125,7 +125,7 @@ const DisplayGallery = () => {
           className="gallery-marq"
           // pauseOnHover="true"
           speed={20}
-          delay="5"
+          // delay="5"
           // gradientColor="[0, 0, 0]"
           gradient={false}
           direction="right"

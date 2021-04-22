@@ -88,7 +88,6 @@ const Categories = () => {
           >
             <div className="categories-title">
               <h2>Blog</h2>
-              <div></div>
             </div>
           </div>
         </div>
