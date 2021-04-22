@@ -1,13 +1,14 @@
 import React from "react";
-import Interior from "../../assets/interior.jpeg";
-import { Modal } from "./Modal";
+import Interior from "../../../assets/interior.jpeg";
+import { Modal } from "../assets/Modal";
+import "./DisplayProject.css";
 
 const DisplayProjects = ({ showInfo, onClose }) => {
   const card = (image, location, size, pack, elevation, phase) => {
     return (
-      <div className="card">
+      <div className="project-card">
         <div
-          className="card-image"
+          className="project-image"
           style={{
             backgroundImage: `url(${image})`,
             // backgroundPosition: "center",
@@ -47,7 +48,7 @@ const DisplayProjects = ({ showInfo, onClose }) => {
   };
   return (
     <Modal open={showInfo} onClose={onClose}>
-      <h2 className="modal-heading">PROJECTS</h2>
+      <h2 className="category-heading">PROJECTS</h2>
       <div className="container">
         <div className="horizontal-container">
           {card(

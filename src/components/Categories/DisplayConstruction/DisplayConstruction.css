@@ -1,0 +1,117 @@
+/* Construction  */
+.construction {
+  display: flex;
+  margin-left: -50px;
+}
+
+.construction-nav {
+  font-size: 18px;
+  /* margin: 2rem; */
+  /* margin-right: 2rem; */
+  padding-left: 3rem;
+  padding-right: 1rem;
+  text-align: right;
+}
+
+.construction-nav-item {
+  cursor: pointer;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+.construction-nav-item:hover,
+.active-list {
+  background: #0aaafb;
+}
+.construction-content {
+  /* margin-left: -25px; */
+  width: 950px;
+  min-width: 250px;
+  min-height: 200px;
+  background: #04795ca4;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  transition: 0.2s;
+  color: white;
+}
+
+/* PACKAGES */
+
+.select-packages {
+  margin: 0 100px 10px 100px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 4px;
+
+  padding: 1rem;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+.select-packages p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.select-packages:hover,
+.active-package {
+  background: #0aabfb;
+}
+
+.select-packages-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-box {
+  display: grid;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: auto;
+}
+
+/* TABLE */
+
+.material-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+
+.material-table thead tr {
+  background: #006d9854;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+.material-table th,
+.material-table td {
+  padding: 12px 15px;
+}
+
+.material-table tbody tr {
+  border-bottom: 1px solid #dddddd21;
+  cursor: default;
+}
+.material-table tbody tr:nth-of-type(even) {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.material-table tbody tr:last-of-type {
+  /* border-bottom: 2px solid #009879; */
+}
+.material-table tbody tr:hover {
+  /* font-weight: bold; */
+  /* color: #009879; */
+  /* background-color: rgba(0, 0, 0, 0.274); */
+}
+
+.material-table-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

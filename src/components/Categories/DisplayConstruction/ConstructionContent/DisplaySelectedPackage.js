@@ -1,5 +1,5 @@
 import React from "react";
-import ListAccordian from "../assets/ListAccordian";
+import ListAccordian from "../../assets/Accordian";
 
 const DisplaySelectedPackage = ({ arg }) => {
   if (arg === "standard") {

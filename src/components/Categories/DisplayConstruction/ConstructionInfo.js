@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import DisplayGallery from "./DisplayContent/DisplayGallery";
-import DisplayMaterials from "./DisplayContent/DisplayMaterials";
-import DisplaySelectedPackage from "./DisplayContent/DisplaySelectedPackage";
+import DisplayGallery from "./ConstructionContent/DisplayGallery";
+import DisplayMaterials from "./ConstructionContent/DisplayMaterials";
+import DisplaySelectedPackage from "./ConstructionContent/DisplaySelectedPackage";
 
-const DisplayListInfo = ({ list }) => {
+const ConstructionInfo = ({ list }) => {
   const [selectPackage, setSelectPackage] = useState("standard");
 
   if (list === "packages") {
@@ -49,4 +49,4 @@ const DisplayListInfo = ({ list }) => {
   }
 };
 
-export default DisplayListInfo;
+export default ConstructionInfo;

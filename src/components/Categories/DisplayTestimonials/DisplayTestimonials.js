@@ -1,10 +1,10 @@
 import React from "react";
-import { Modal } from "./Modal";
+import { Modal } from "../assets/Modal";
 
 const DisplayTestimonials = ({ showInfo, onClose }) => {
   return (
     <Modal open={showInfo} onClose={onClose}>
-      <h2 className="modal-heading">TESTIMONIALS</h2>
+      <h2 className="category-heading">TESTIMONIALS</h2>
       <div className="container">
         <div className="horizontal-container">
           <div className="video-card">

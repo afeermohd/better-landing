@@ -1,6 +1,6 @@
 import React from "react";
-import Chevron from "./DisplayConstruction/assets/Chevron";
-import "./style.css";
+import Chevron from "./Chevron";
+import "./Modal.css";
 // import "./DisplayConstruction/ListAccordian.css";
 
 export const Modal = ({ open, children, onClose }) => {

@@ -1,15 +1,16 @@
 import React, { useState } from "react";
 import "./style.css";
+
 import Construction from "../../assets/construction.jpeg";
 import Interior from "../../assets/interior.jpeg";
 import Projects from "../../assets/projects.jpeg";
 import Blog from "../../assets/blog.jpeg";
 import Testimonials from "../../assets/testimonials.jpeg";
-import { Modal } from "./Modal";
-// import { Spring } from "react-spring";
-import DisplayConstruction from "./DisplayConstruction";
-import DisplayProjects from "./DisplayProjects";
-import DisplayTestimonials from "./DisplayTestimonials";
+
+import { Modal } from "./assets/Modal";
+import DisplayConstruction from "./DisplayConstruction/DisplayConstruction";
+import DisplayProjects from "./DisplayProject/DisplayProjects";
+import DisplayTestimonials from "./DisplayTestimonials/DisplayTestimonials";
 
 const Categories = () => {
   const [showInfo, setShowInfo] = useState("");
@@ -19,78 +20,78 @@ const Categories = () => {
   };
 
   return (
-    <div className="">
+    <div className="categories-section">
       {showInfo === "" ? (
-        <div className="section2">
+        <div className="categories">
           <div
             onClick={() => setShowInfo("construction")}
-            className="item"
+            className="categories-item"
             style={{
               backgroundImage: `url(${Construction})`,
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
           >
-            <div className="title">
+            <div className="categories-title">
               <h2>Construction</h2>
             </div>
           </div>
           <div
             onClick={() => setShowInfo("interior")}
-            className="item"
+            className="categories-item"
             style={{
               backgroundImage: `url(${Interior})`,
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
           >
-            <div className="title">
+            <div className="categories-title">
               <h2>Interior</h2>
             </div>
           </div>
           <div
             onClick={() => setShowInfo("projects")}
-            className="item"
+            className="categories-item"
             style={{
               backgroundImage: `url(${Projects})`,
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
           >
-            <div className="title">
+            <div className="categories-title">
               <h2>Projects</h2>
             </div>
           </div>
           <div
             onClick={() => setShowInfo("testimonials")}
-            className="item"
+            className="categories-item"
             style={{
               backgroundImage: `url(${Testimonials})`,
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
           >
-            <div className="title">
+            <div className="categories-title">
               <h2>Testimonials</h2>
             </div>
           </div>
           <div
             onClick={() => setShowInfo("blog")}
-            className="item"
+            className="categories-item"
             style={{
               backgroundImage: `url(${Blog})`,
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
           >
-            <div className="title">
+            <div className="categories-title">
               <h2>Blog</h2>
               <div></div>
             </div>
           </div>
         </div>
       ) : (
-        <div className="modal-container">
+        <div className="category-container">
           {/* <button onClick={closeInfo}>Close</button> */}
 
           <DisplayConstruction

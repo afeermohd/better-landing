@@ -1,0 +1,90 @@
+.project-card {
+  display: grid;
+  object-fit: contain;
+  /* width: 100%; */
+  grid-template-columns: 300px;
+  grid-template-rows: 200px 50px 170px;
+  grid-template-areas: "image" "text" "stats";
+  border-radius: 18px;
+  background: rgb(225, 226, 226);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  /* font-family: roboto; */
+  text-align: center;
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin: 30px;
+  color: black;
+}
+
+.card-text {
+  grid-area: text;
+}
+
+.project-image {
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-text .date {
+  color: grey;
+  font-size: 13px;
+}
+.card-text p {
+  color: grey;
+  font-size: 15px;
+}
+.card-text h2 {
+  place-items: center;
+  display: grid;
+  padding-top: 0.5rem;
+}
+.card-stat-stack {
+  display: flex;
+  flex-direction: column;
+}
+.card-stats {
+  grid-area: stats;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  background: #0aaafb;
+  padding-top: 0.5rem;
+}
+.card-stats .stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding: 1rem 0 1rem 0;
+}
+.card-stats .type {
+  font-size: 9px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.card-stats .value {
+  font-size: 16px;
+  font-weight: 500;
+}
+.card-stats .value span {
+  font-size: 12px;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-buttons {
+  position: relative;
+  top: 160px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-right: 0.5rem;
+}
+.btn {
+  margin-left: 0.5rem;
+}

@@ -1,11 +1,11 @@
 import React, { useState, useRef } from "react";
-import "./ListAccordian.css";
+import "./Accordian.css";
 import Chevron from "./Chevron";
 
-const ListAccordian = ({ title, content }) => {
+const Accordian = ({ title, content }) => {
   const [active, setActive] = useState("");
   const [height, setHeight] = useState("0px");
-  const [rotate, setRotate] = useState("listaccordian-icon");
+  const [rotate, setRotate] = useState("accordian-icon");
 
   const contentRef = useRef(null);
 
@@ -14,24 +14,22 @@ const ListAccordian = ({ title, content }) => {
     setHeight(
       active === "active" ? "0px" : `${contentRef.current.scrollHeight}px`
     );
-    setRotate(
-      active === "active" ? "listaccordian-icon" : "listaccordian-icon rotate"
-    );
+    setRotate(active === "active" ? "accordian-icon" : "accordian-icon rotate");
   };
 
   return (
-    <div className="listaccodian-section">
-      <button className={`listaccordian ${active}`} onClick={toggleAccordian}>
+    <div className="accodian-section">
+      <button className={`accordian ${active}`} onClick={toggleAccordian}>
         <Chevron className={`${rotate}`} width={10} fill={"white"} />
-        <p className="listaccordian-title">{title}</p>
+        <p className="accordian-title">{title}</p>
       </button>
       <div
         ref={contentRef}
         style={{ maxHeight: `${height}` }}
-        className="listaccordian-content"
+        className="accordian-content"
       >
         <div
-          className="listaccordian-text"
+          className="accordian-text"
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </div>
@@ -39,4 +37,4 @@ const ListAccordian = ({ title, content }) => {
   );
 };
 
-export default ListAccordian;
+export default Accordian;
