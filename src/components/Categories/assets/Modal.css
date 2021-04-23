@@ -44,9 +44,12 @@
   padding: 0.1rem 1rem;
   border-radius: 10px;
   font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 .link:hover {
-  background-color: #383d5e21;
+  /* background-color: #383d5e21; */
+  background-color: var(--color-palette-1);
+  color: var(--light-color);
 }
 
 .selected-link {

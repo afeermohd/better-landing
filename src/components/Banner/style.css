@@ -1,6 +1,6 @@
 .section1 {
   display: flex;
-  margin: 0rem 7rem 8rem 7rem;
+  margin: 0rem 7rem 6rem 7rem;
   justify-content: space-between;
   flex-wrap: wrap;
 }
