@@ -9,7 +9,7 @@ const FooterNav = () => {
         <div className="footer-headline">
           <h3>FOR THE LOVE OF BETTER</h3>
         </div>
-        <div>
+        <div className="footer-list-container">
           <ul className="footer-list">
             <li to="construction">Construction</li>
             <li>Interior</li>
@@ -17,8 +17,6 @@ const FooterNav = () => {
             <li>Testimonials</li>
             <li>Blog</li>
           </ul>
-        </div>
-        <div>
           <ul className="footer-list">
             <li>About Us</li>
             <li>Privacy Policy</li>

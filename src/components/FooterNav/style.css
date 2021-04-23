@@ -1,14 +1,14 @@
 .footer-container {
   background-color: #383d5e;
-  /* margin: 10rem 0 0 0 0; */
+  /* margin: rem 0 0 0 0; */
 }
 
 .footer-nav {
   display: flex;
   background: #383d5e;
-  width: 100%;
-  margin: 5rem 0rem 4rem 0rem;
-  justify-content: space-around;
+  /* width: 100%; */
+  margin: 5rem 7rem 4rem 7rem;
+  justify-content: space-between;
   align-items: center;
   color: white;
 }
@@ -24,7 +24,13 @@
   -webkit-text-fill-color: transparent;
 }
 
+.footer-list-container {
+  display: flex;
+  /* flex-direction: row; */
+}
+
 .footer-list {
+  margin: 4rem;
   font-weight: 600;
   line-height: 30px;
   list-style: none;
