@@ -30,6 +30,15 @@
   list-style: none;
   letter-spacing: 2px;
 }
+.footer-list li {
+  cursor: pointer;
+  padding: 0 1rem;
+  border-radius: 20px;
+}
+.footer-list li:hover {
+  background-color: rgba(0, 0, 0, 0.301);
+  /* padding: 0 1rem; */
+}
 
 .footer-info {
   color: white;
