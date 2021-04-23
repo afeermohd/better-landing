@@ -20,7 +20,7 @@ const Accordian = ({ title, content }) => {
   return (
     <div className="accodian-section">
       <button className={`accordian ${active}`} onClick={toggleAccordian}>
-        <Chevron className={`${rotate}`} width={10} fill={"white"} />
+        <Chevron className={`${rotate}`} width={10} fill={"black"} />
         <p className="accordian-title">{title}</p>
       </button>
       <div

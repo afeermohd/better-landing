@@ -46,6 +46,8 @@ const ConstructionInfo = ({ list }) => {
     );
   } else if (list === "gallery") {
     return <DisplayGallery />;
+  } else if (list === "process") {
+    return <div></div>;
   }
 };
 

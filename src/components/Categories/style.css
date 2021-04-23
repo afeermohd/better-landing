@@ -2,6 +2,7 @@
   display: flex;
   margin: 0rem 7rem 8rem 7rem;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .categories::-webkit-scrollbar {
   width: 10px;
@@ -27,7 +28,7 @@
   align-items: center;
   justify-content: flex-end;
   min-width: 130px;
-  padding: 1.5rem;
+  padding: 1rem;
 
   border-radius: 20px;
   background: rgb(243, 241, 241);
@@ -71,7 +72,7 @@
 /*  CATEGORY  */
 
 .category-container {
-  display: flex;
+  /* display: flex; */
   margin: 0 7rem 5rem 7rem;
   justify-content: center;
 }

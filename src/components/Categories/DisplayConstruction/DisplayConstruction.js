@@ -10,7 +10,7 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
   // const [showInfo, setShowInfo] = useState("");
 
   return (
-    <Modal open={showInfo} onClose={onClose}>
+    <Modal open={showInfo} onClose={onClose} id="construction">
       <h2 className="category-heading">CONSTRUCTION</h2>
       <div className="construction">
         <div className="construction-nav">
@@ -37,6 +37,14 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
             }`}
           >
             Gallery
+          </div>
+          <div
+            onClick={() => setList("process")}
+            className={`construction-nav-item ${
+              list === "process" ? "active-list" : ""
+            }`}
+          >
+            Process
           </div>
         </div>
         <div className="construction-content">

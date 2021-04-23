@@ -11,7 +11,7 @@ const FooterNav = () => {
         </div>
         <div>
           <ul className="footer-list">
-            <li>Construction</li>
+            <li to="construction">Construction</li>
             <li>Interior</li>
             <li>Projects</li>
             <li>Testimonials</li>

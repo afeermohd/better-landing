@@ -6,7 +6,7 @@
 }
 .accordian {
   background-color: rgba(238, 238, 238, 0);
-  color: rgba(255, 255, 255, 0.877);
+  color: rgba(26, 22, 22, 0.877);
   cursor: pointer;
   padding: 1rem;
   display: flex;
@@ -21,7 +21,7 @@
 }
 .accordian:hover,
 .active {
-  color: rgb(255, 255, 255);
+  color: rgb(36, 28, 28);
   font-size: 20px;
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.055);
@@ -48,7 +48,7 @@
   /* background-color: white; */
   overflow: hidden;
   transition: max-height 0.3s ease;
-
+  color: black;
   /* max-height: 0; */
 }
 .accordian-text {

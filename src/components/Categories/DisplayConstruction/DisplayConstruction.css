@@ -8,8 +8,9 @@
   font-size: 18px;
   /* margin: 2rem; */
   /* margin-right: 2rem; */
-  padding-left: 3rem;
+  padding-left: 2rem;
   padding-right: 1rem;
+  width: 9rem;
   text-align: right;
 }
 
@@ -25,10 +26,12 @@
 }
 .construction-content {
   /* margin-left: -25px; */
-  width: 950px;
+  /* max-width: 2000px; */
+  width: 100%;
   min-width: 250px;
   min-height: 200px;
-  background: #04795ca4;
+  background: #f6feff;
+  /* background: #04795ca4; */
   padding: 2rem;
   border-radius: 16px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
@@ -84,7 +87,7 @@
 
 .material-table thead tr {
   background: #006d9854;
-  color: #ffffff;
+  color: #292121;
   text-align: left;
   font-weight: bold;
 }
@@ -96,6 +99,7 @@
 .material-table tbody tr {
   border-bottom: 1px solid #dddddd21;
   cursor: default;
+  color: black;
 }
 .material-table tbody tr:nth-of-type(even) {
   background-color: rgba(0, 0, 0, 0.075);
