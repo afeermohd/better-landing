@@ -8,8 +8,7 @@
   position: relative;
   transition: background-color 0.3s ease;
   color: var(--light-color);
-   margin: 0 7rem 7rem 7rem;
-
+  margin: 0 7rem 7rem 7rem;
 }
 
 .modal-close {
@@ -25,4 +24,31 @@
 }
 .modal-close:hover {
   background: rgba(0, 0, 0, 0.226);
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  top: -2rem;
+}
+
+.link {
+  margin: 0 2rem;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--dark-color);
+  font-size: 20px;
+  padding: 0.1rem 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.link:hover {
+  background-color: #383d5e21;
+}
+
+.selected-link {
+  display: none;
 }

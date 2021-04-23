@@ -2,51 +2,59 @@ import React from "react";
 import Chevron from "./Chevron";
 import "./Modal.css";
 // import "./DisplayConstruction/ListAccordian.css";
-import {Link} from "react-router-dom"
+import { Link, NavLink } from "react-router-dom";
 
-export const Modal = ({  children }) => {
+export const Modal = ({ children }) => {
   // if (!open) return null;
   return (
     <div>
       <div className="modal-card">
-      <Link to="/">
-       <div className="modal-close" 
-      //  onClick={onClose}
-       >
-          <Chevron
-            className={`listaccordian-icon rotate180`}
-            width={10}
-            fill={"white"}
-          />
+        <Link to="/">
+          <div
+            className="modal-close"
+            //  onClick={onClose}
+          >
+            <Chevron
+              className={`listaccordian-icon rotate180`}
+              width={10}
+              fill={"white"}
+            />
+          </div>
+        </Link>
+        <div className="links">
+          <NavLink
+            to="/construction"
+            activeClassName="selected-link"
+            className="link"
+          >
+            <div className="">Construction</div>
+          </NavLink>
+          <NavLink
+            to="/interior"
+            activeClassName="selected-link"
+            className="link"
+          >
+            <div className="">Interior</div>
+          </NavLink>
+          <NavLink
+            to="/projects"
+            activeClassName="selected-link"
+            className="link"
+          >
+            <div className="">Projects</div>
+          </NavLink>
+          <NavLink
+            to="/testimonials"
+            activeClassName="selected-link"
+            className="link"
+          >
+            <div className="">Testimonials</div>
+          </NavLink>
+          <NavLink to="/blog" activeClassName="selected-link" className="link">
+            <div className="">Blog</div>
+          </NavLink>
         </div>
-      </Link>
-        <Link to="/construction">
-       <div className="" >
-          Construction
-        </div>
-      </Link>
-      <Link to="/interior">
-       <div className="" >
-          Interior
-        </div>
-      </Link>
-      <Link to="/projects">
-       <div className="" >
-          Projects
-        </div>
-      </Link>
-       <Link to="/testimonials">
-       <div className="" >
-          Testimonials
-        </div>
-      </Link>
-       <Link to="/blog">
-       <div className="" >
-          Blog
-        </div>
-      </Link>
 
-       
         {children}
       </div>
     </div>

@@ -11,8 +11,7 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
   // const [showInfo, setShowInfo] = useState("");
 
   return (
-
-<Modal open={showInfo} onClose={onClose} id="construction">
+    <Modal open={showInfo} onClose={onClose} id="construction">
       <h2 className="category-heading">CONSTRUCTION</h2>
       <div className="construction">
         <div className="construction-nav">
@@ -55,8 +54,6 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
       </div>
       <div>{}</div>
     </Modal>
-    
-    
   );
 };
 
