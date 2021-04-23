@@ -43,9 +43,9 @@
 .footer-info-container {
   color: white;
   text-align: justify;
-  margin: 5rem 10rem 4rem 10rem;
+  margin: 5rem 7rem 4rem 7rem;
 }
 
 .footer-info {
-  list-style: decimal;
+  list-style: none;
 }
