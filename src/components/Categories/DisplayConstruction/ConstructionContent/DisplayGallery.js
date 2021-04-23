@@ -1,6 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-import Image1 from "../../../../assets/galleryImages/1.jpg";
+// import Image1 from "../../../../assets/galleryImages/1.jpg";
 import Image2 from "../../../../assets/galleryImages/2.jpg";
 import Image3 from "../../../../assets/galleryImages/3.jpg";
 import Image4 from "../../../../assets/galleryImages/4.jpg";
@@ -47,7 +47,7 @@ const DisplayGallery = () => {
           direction="right"
         >
           <div>
-            <img src={Image1} alt="construction21" />
+            <img src={Image2} alt="construction21" />
           </div>
           <div>
             <img src={Image2} alt="construction22" />
