@@ -30,3 +30,9 @@
   list-style: none;
   letter-spacing: 2px;
 }
+
+.footer-info {
+  color: white;
+  text-align: justify;
+  margin: 5rem 10rem 4rem 10rem;
+}
