@@ -4,17 +4,27 @@
 }
 
 body {
+  
   // background: #e2e1e1;
   // background: linear-gradient(
   //     rgba(255, 255, 255, 0.2),
   //     rgba(255, 255, 255, 0.2)
   //   ),
   //   url("assets/background.jpg");
-  background-color: #f6feff;
+  background-color: var(--light-color);
+  // background-color: #f6feff;
   // backgroundImage: `url(${Construction})`,
   background-repeat: repeat;
   // background-position: center;
   background-size: contain;
+  //  margin: 4rem 0 0 0;
+
+}
+
+.home-1{
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 0 0 0;
 }
 
 // .particle {

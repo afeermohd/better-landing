@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 import Footer from "../Footer";
+import {Link as LinkS} from 'react-scroll'
+import {Link as LinkR} from 'react-router-dom'
 
 const FooterNav = () => {
   return (
@@ -11,11 +13,32 @@ const FooterNav = () => {
         </div>
         <div className="footer-list-container">
           <ul className="footer-list">
-            <li to="construction">Construction</li>
+         <LinkS to="dummy" smooth={true} duration={1000} className="footer-link" >
+          <LinkR to="construction" className="footer-link">
+            <li >Construction</li>
+          </LinkR>
+          </LinkS>
+          <LinkS to="dummy" smooth={true} duration={1000} className="footer-link" >
+          <LinkR to="interior" className="footer-link">
             <li>Interior</li>
+          </LinkR>
+          </LinkS>
+          <LinkS to="dummy" smooth={true} duration={1000} className="footer-link" >
+          <LinkR to="projects" className="footer-link">
             <li>Projects</li>
+          </LinkR>
+          </LinkS>
+          <LinkS to="dummy" smooth={true} duration={1000} className="footer-link" >
+          <LinkR to="testimonials" className="footer-link">
             <li>Testimonials</li>
+          </LinkR>
+          </LinkS>
+          <LinkS to="dummy" smooth={true} duration={1000} className="footer-link" >
+          <LinkR to="blog" className="footer-link">
             <li>Blog</li>
+          </LinkR>
+          </LinkS>
+       
           </ul>
           <ul className="footer-list">
             <li>About Us</li>

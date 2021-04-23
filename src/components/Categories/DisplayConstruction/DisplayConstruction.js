@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./DisplayConstruction.css";
 // import DisplayProjects from "../DisplayProjects";
 import { Modal } from "../assets/Modal";
@@ -10,7 +11,8 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
   // const [showInfo, setShowInfo] = useState("");
 
   return (
-    <Modal open={showInfo} onClose={onClose} id="construction">
+
+<Modal open={showInfo} onClose={onClose} id="construction">
       <h2 className="category-heading">CONSTRUCTION</h2>
       <div className="construction">
         <div className="construction-nav">
@@ -53,6 +55,8 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
       </div>
       <div>{}</div>
     </Modal>
+    
+    
   );
 };
 

@@ -1,3 +1,16 @@
+:root {
+  --light-color: #f6feff;
+  --dark-color: #383d5e;
+  --color-palette-1: #3596B5;
+  --color-palette-2: #faa639;
+
+  /* light - #f6feff */
+  /* dark - #383d5e */
+  /* 1 - #39abfa */
+  /* 2 - #faa639 */
+
+}
+
 body {
   margin: 0;
   padding: 0;

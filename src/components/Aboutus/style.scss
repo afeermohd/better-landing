@@ -13,7 +13,7 @@
   font-size: 45px;
   text-align: center;
   // padding-bottom: 3rem;
-  color: #383d5e;
+  color: var(--dark-color);
 }
 .aboutus p {
   text-align: justify;
@@ -21,7 +21,7 @@
   margin-top: 3rem;
   // padding-bottom: 5rem;
   line-height: 2.5rem;
-  color: #383d5e;
+  color: var(--dark-color);
 }
 
 .whyus {
@@ -32,7 +32,7 @@
   font-size: 45px;
   text-align: center;
   // padding-bottom: 7rem;
-  color: #383d5e;
+  color: var(--dark-color);
 }
 
 .whyus ul {
@@ -40,7 +40,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: flex-start;
-  color: #383d5e;
+  color: var(--dark-color);
   font-size: 20px;
   text-align: center;
   padding-top: 1rem;

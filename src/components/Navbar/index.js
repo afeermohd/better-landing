@@ -20,7 +20,7 @@ const Navbar = () => {
         ></input>
       </div>
       <div className="navbar-nav">
-        <button class="skewBtn blue">Login</button>
+        <button className="skewBtn blue">Login</button>
       </div>
     </div>
   );

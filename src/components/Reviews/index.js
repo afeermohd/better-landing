@@ -8,13 +8,13 @@ const Reviews = () => {
         <h2>REVIEWS</h2>
         <div className="container">
           <div className="review">
-            <figure class="snip1192">
+            <figure className="snip1192">
               <blockquote>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
                 non ligula non nunc faucibus faucibus. Nunc rhoncus blandit
                 posuere. Sed rutrum pulvinar felis.
               </blockquote>
-              <div class="author">
+              <div className="author">
                 <img
                   src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                   alt="sq-sample29"
@@ -24,13 +24,13 @@ const Reviews = () => {
                 </h5>
               </div>
             </figure>
-            <figure class="snip1192">
+            <figure className="snip1192">
               <blockquote>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
                 non ligula non nunc faucibus faucibus. Nunc rhoncus blandit
                 posuere. Sed rutrum pulvinar felis.
               </blockquote>
-              <div class="author">
+              <div className="author">
                 <img
                   src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                   alt="sq-sample1"
@@ -41,13 +41,13 @@ const Reviews = () => {
               </div>
             </figure>
 
-            <figure class="snip1192">
+            <figure className="snip1192">
               <blockquote>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
                 non ligula non nunc faucibus faucibus. Nunc rhoncus blandit
                 posuere. Sed rutrum pulvinar felis.
               </blockquote>
-              <div class="author">
+              <div className="author">
                 <img
                   src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                   alt="sq-sample29"
@@ -57,13 +57,13 @@ const Reviews = () => {
                 </h5>
               </div>
             </figure>
-            <figure class="snip1192">
+            <figure className="snip1192">
               <blockquote>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
                 non ligula non nunc faucibus faucibus. Nunc rhoncus blandit
                 posuere. Sed rutrum pulvinar felis.
               </blockquote>
-              <div class="author">
+              <div className="author">
                 <img
                   src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                   alt="sq-sample29"
@@ -73,13 +73,13 @@ const Reviews = () => {
                 </h5>
               </div>
             </figure>
-            <figure class="snip1192">
+            <figure className="snip1192">
               <blockquote>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
                 non ligula non nunc faucibus faucibus. Nunc rhoncus blandit
                 posuere. Sed rutrum pulvinar felis.
               </blockquote>
-              <div class="author">
+              <div className="author">
                 <img
                   src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                   alt="sq-sample29"

@@ -30,13 +30,13 @@
   width: 100%;
   min-width: 250px;
   min-height: 200px;
-  background: #f6feff;
+  background: var(--light-color);
   /* background: #04795ca4; */
   padding: 2rem;
   border-radius: 16px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
   transition: 0.2s;
-  color: white;
+  color: var(--dark-color);
 }
 
 /* PACKAGES */
@@ -60,7 +60,8 @@
 
 .select-packages:hover,
 .active-package {
-  background: #0aabfb;
+  background-color: var(--color-palette-1);
+  color: var(--light-color)
 }
 
 .select-packages-container {

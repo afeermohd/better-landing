@@ -1,5 +1,6 @@
 import React from "react";
 import { Modal } from "../assets/Modal";
+import "./DisplayTestimonials.css"
 
 const DisplayTestimonials = ({ showInfo, onClose }) => {
   return (

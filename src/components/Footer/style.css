@@ -1,6 +1,6 @@
 .footer {
   margin: 0 0 3rem 0;
-  background-color: #383d5e;
+  /* background-color: #383d5e; */
   /* height:  */
   /* background: linear-gradient(
     rgba(255, 255, 255, 0.6),
@@ -15,5 +15,5 @@
   justify-content: center;
   align-items: center;
   letter-spacing: 3px;
-  color: white;
+  color: var(--light-color);
 }
