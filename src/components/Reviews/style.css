@@ -4,11 +4,13 @@
   /* margin: 0 10rem 7rem 10rem; */
   justify-content: center;
   background-color: #0188ccdc;
+  width: 100%;
 }
 
 .review-card {
-  width: 90%;
+  width: 100%;
   box-sizing: border-box;
+  max-width: 1200px;
   /* min-width: 250px; */
   min-height: 500px;
   /* // background: linear-gradient(to left, #0aaafb, #03e1d2); */

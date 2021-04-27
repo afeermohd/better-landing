@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
@@ -19,7 +19,7 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div className="navbar-nav">
+        {/* <div className="navbar-nav">
           <NavLink
             to="construction"
             activeClassName="selected-nav"
@@ -41,7 +41,7 @@ const Navbar = () => {
           >
             About Us
           </NavLink>
-        </div>
+        </div> */}
         <div className="navbar-nav">
           {/* <input
           className="search-input"

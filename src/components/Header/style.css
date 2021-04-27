@@ -5,11 +5,15 @@
   position: fixed;
   top: 0;
   z-index: 1000;
+  display: flex;
+  justify-content: center;
 }
 .header {
   display: flex;
   margin: 0 10rem;
   justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .header-info {

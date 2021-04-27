@@ -20,14 +20,15 @@ import DisplayBlog from "./components/Categories/DisplayBlog/DisplayBlog";
 import "./App.scss";
 import Header from "./components/Header";
 import FrontBanner from "./components/FrontBanner";
+import { SliderData } from "./data/SliderData";
 
 function App() {
   return (
-    <div>
-      <Router>
-        <Header />
-        <Navbar />
-      </Router>
+    <div className="master-home">
+      {/* <Router> */}
+      <Header />
+      <Navbar />
+      {/* </Router> */}
 
       <div className="home-1">
         <Router>
@@ -35,7 +36,7 @@ function App() {
             <Route path="/" exact>
               {/* <Home /> */}
               {/* <Banner /> */}
-              <FrontBanner />
+              <FrontBanner slides={SliderData} />
               <Categories />
               <Aboutus />
               <Reviews />
@@ -45,7 +46,7 @@ function App() {
 
             <Route path="/construction">
               {/* <Navbar /> */}
-              <FrontBanner />
+              <FrontBanner slides={SliderData} />
               {/* <Banner /> */}
               <DisplayConstruction />
               <Aboutus />
@@ -56,7 +57,7 @@ function App() {
 
             <Route path="/interior">
               {/* <Navbar /> */}
-              <FrontBanner />
+              <FrontBanner slides={SliderData} />
               {/* <Banner /> */}
               <DisplayInterior />
               <Aboutus />
@@ -68,7 +69,7 @@ function App() {
             <Route path="/projects">
               {/* <Navbar /> */}
               {/* <Banner /> */}
-              <FrontBanner />
+              <FrontBanner slides={SliderData} />
               <DisplayProjects />
               <Aboutus />
               <Reviews />
@@ -79,7 +80,7 @@ function App() {
             <Route path="/testimonials">
               {/* <Navbar /> */}
               {/* <Banner /> */}
-              <FrontBanner />
+              <FrontBanner slides={SliderData} />
               <DisplayTestimonials />
               <Aboutus />
               <Reviews />
@@ -90,7 +91,7 @@ function App() {
             <Route path="/blog">
               {/* <Navbar /> */}
               {/* <Banner /> */}
-              <FrontBanner />
+              <FrontBanner slides={SliderData} />
               <DisplayBlog />
               <Aboutus />
               <Reviews />
