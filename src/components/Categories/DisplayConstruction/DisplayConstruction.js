@@ -12,7 +12,7 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
 
   return (
     <Modal open={showInfo} onClose={onClose} id="construction">
-      <h2 className="category-heading">CONSTRUCTION</h2>
+      <span className="category-heading">CONSTRUCTION</span>
       <div className="construction">
         <div className="construction-nav">
           <div
@@ -31,14 +31,14 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
           >
             Material List
           </div>
-          <div
+          {/* <div
             onClick={() => setList("gallery")}
             className={`construction-nav-item ${
               list === "gallery" ? "active-list" : ""
             }`}
           >
             Gallery
-          </div>
+          </div> */}
           <div
             onClick={() => setList("process")}
             className={`construction-nav-item ${

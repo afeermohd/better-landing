@@ -33,13 +33,13 @@ const Banner = () => {
        
       </div> */}
         <div onClick={dark} className="sect1-payment">
-          <h3>Concept Housing</h3>
+          <span>Concept Housing</span>
         </div>
         <div className="sect1-payment between">
-          <h3>Get Consultation</h3>
+          <span>Get Consultation</span>
         </div>
         <div onClick={light} className="sect1-payment">
-          <h3>Budget Calculator</h3>
+          <span>Budget Calculator</span>
         </div>
       </div>
       <div id="dummy"></div>

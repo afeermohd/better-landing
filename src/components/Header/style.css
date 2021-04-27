@@ -1,0 +1,24 @@
+.header-container {
+  width: 100%;
+  background-color: #0188cc;
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.header {
+  display: flex;
+  margin: 0 10rem;
+  justify-content: space-between;
+}
+
+.header-info {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-social {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

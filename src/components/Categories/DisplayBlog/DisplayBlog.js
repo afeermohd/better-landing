@@ -1,10 +1,11 @@
 import React from "react";
 import { Modal } from "../assets/Modal";
+// import { motion } from "framer-motion";
 
 const DisplayBlog = ({ showInfo, onClose }) => {
   return (
     <Modal open={showInfo} onClose={onClose}>
-      <h2 className="category-heading">BLOG</h2>
+      <span className="category-heading">BLOG</span>
     </Modal>
   );
 };

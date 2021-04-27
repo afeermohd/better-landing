@@ -4,7 +4,7 @@
 
 .footer-nav {
   display: flex;
-  margin: 5rem 7rem 4rem 7rem;
+  margin: 5rem 10rem 4rem 10rem;
   justify-content: space-between;
   align-items: center;
   color: var(--light-color);
@@ -24,7 +24,7 @@
 .footer-list-container {
   display: flex;
   /* flex-direction: row; */
-    /* text-decoration: none; */
+  /* text-decoration: none; */
 }
 
 .footer-list {
@@ -38,23 +38,24 @@
 .footer-list li {
   cursor: pointer;
   padding: 0 1rem;
-  border-radius: 20px;
+  border-radius: 16px;
   width: 100%;
-  color: var(--light-color)
-    /* text-decoration: none; */
+  color: var(--light-color);
+  /* text-decoration: none; */
+  transition: background-color 0.3s ease;
 }
 .footer-list li:hover {
   background-color: rgba(0, 0, 0, 0.301);
   /* padding: 0 1rem; */
 }
 .footer-link {
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .footer-info-container {
   color: var(--light-color);
   text-align: justify;
-  margin: 5rem 7rem 4rem 7rem;
+  margin: 5rem 10rem 4rem 10rem;
 }
 
 .footer-info {

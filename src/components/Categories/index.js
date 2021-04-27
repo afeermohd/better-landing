@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import {  Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import Construction from "../../assets/construction.jpeg";
 import Interior from "../../assets/interior.jpeg";
@@ -26,9 +26,9 @@ const Categories = () => {
   return (
     <div className="categories-section" id="categories">
       {/* {showInfo === "" ? ( */}
-        <div className="categories">
+      <div className="categories">
         <Link to="/construction" className="catergories-link">
-        <div
+          <div
             // onClick={() => setShowInfo("construction")}
             className="categories-item"
             style={{
@@ -38,11 +38,11 @@ const Categories = () => {
             }}
           >
             <div className="categories-title">
-              <h2>Construction</h2>
+              <p>Construction</p>
             </div>
           </div>
         </Link>
-          <Link to="/interior" className="catergories-link">
+        <Link to="/interior" className="catergories-link">
           <div
             // onClick={() => setShowInfo("interior")}
             className="categories-item"
@@ -53,11 +53,11 @@ const Categories = () => {
             }}
           >
             <div className="categories-title">
-              <h2>Interior</h2>
+              <p>Interior</p>
             </div>
           </div>
-          </Link>
-          <Link to="/projects" className="catergories-link">
+        </Link>
+        <Link to="/projects" className="catergories-link">
           <div
             // onClick={() => setShowInfo("projects")}
             className="categories-item"
@@ -68,11 +68,11 @@ const Categories = () => {
             }}
           >
             <div className="categories-title">
-              <h2>Projects</h2>
+              <p>Projects</p>
             </div>
           </div>
-          </Link>
-          <Link to="/testimonials" className="catergories-link">
+        </Link>
+        <Link to="/testimonials" className="catergories-link">
           <div
             // onClick={() => setShowInfo("testimonials")}
             className="categories-item"
@@ -83,11 +83,11 @@ const Categories = () => {
             }}
           >
             <div className="categories-title">
-              <h2>Testimonials</h2>
+              <p>Testimonials</p>
             </div>
           </div>
-          </Link>
-          <Link to="/Blog" className="catergories-link">
+        </Link>
+        <Link to="/Blog" className="catergories-link">
           <div
             // onClick={() => setShowInfo("blog")}
             className="categories-item"
@@ -98,11 +98,11 @@ const Categories = () => {
             }}
           >
             <div className="categories-title">
-              <h2>Blog</h2>
+              <p>Blog</p>
             </div>
           </div>
         </Link>
-        </div>
+      </div>
       {/* ) : (
         <div className="category-container">
           <button onClick={closeInfo}>Close</button>

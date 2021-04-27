@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import DisplayGallery from "./ConstructionContent/DisplayGallery";
+// import DisplayGallery from "./ConstructionContent/DisplayGallery";
 import DisplayMaterials from "./ConstructionContent/DisplayMaterials";
 import DisplaySelectedPackage from "./ConstructionContent/DisplaySelectedPackage";
 
@@ -44,8 +44,8 @@ const ConstructionInfo = ({ list }) => {
         </div>
       </div>
     );
-  } else if (list === "gallery") {
-    return <DisplayGallery />;
+    // } else if (list === "gallery") {
+    //   return <DisplayGallery />;
   } else if (list === "process") {
     return <div></div>;
   }

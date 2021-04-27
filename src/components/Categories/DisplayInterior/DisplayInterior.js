@@ -4,7 +4,7 @@ import { Modal } from "../assets/Modal";
 const DisplayInterior = ({ showInfo, onClose }) => {
   return (
     <Modal open={showInfo} onClose={onClose}>
-      <h2 className="category-heading">INTERIOR</h2>
+      <span className="category-heading">INTERIOR</span>
     </Modal>
   );
 };

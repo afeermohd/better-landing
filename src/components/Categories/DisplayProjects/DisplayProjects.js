@@ -48,7 +48,7 @@ const DisplayProjects = ({ showInfo, onClose }) => {
   };
   return (
     <Modal open={showInfo} onClose={onClose}>
-      <h2 className="category-heading">PROJECTS</h2>
+      <span className="category-heading">PROJECTS</span>
       <div className="container">
         <div className="horizontal-container">
           {card(
