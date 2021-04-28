@@ -9,7 +9,7 @@
 .categories {
   display: flex;
   width: 100%;
-  margin: -5rem 10rem 8rem 10rem;
+  /* margin: -5rem 10rem 8rem 10rem; */
   justify-content: space-between;
   /* width: 800px; */
   max-width: 1200px;
@@ -81,6 +81,7 @@
   margin-bottom: -2.5rem;
   text-transform: uppercase;
   padding: 0 0.5rem;
+  text-align: center;
   /* border: 2px solid #0188cc; */
 }
 
@@ -109,6 +110,7 @@
   padding: 1rem 0 2rem 1.5rem;
   letter-spacing: 5px;
   font-size: 35px;
+  /* text-align: center; */
 }
 
 /* PROJECT CARDS */
@@ -160,3 +162,11 @@
     display: none;
   }
 } */
+
+@media screen and (max-width: 768px) {
+  .categories {
+    /* overflow: scroll; */
+    /* display: none; */
+    flex-wrap: wrap;
+  }
+}

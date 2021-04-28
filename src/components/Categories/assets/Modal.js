@@ -8,9 +8,9 @@ import { motion } from "framer-motion";
 export const Modal = ({ children }) => {
   // if (!open) return null;
   return (
-    <div className="modal-container">
+    <div className="modal-section">
       <motion.div animate={{ opacity: 1 }} initial={{ opacity: 0 }}>
-        <div className="modal-card">
+        <div className="modal-wrapper">
           <Link to="/">
             <div
               className="modal-close"

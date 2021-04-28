@@ -1,28 +1,40 @@
-.aboutus-container {
+.aboutus-section {
   display: flex;
-  flex-direction: column;
-  margin: 0 10rem 8rem 10rem;
   justify-content: center;
+  width: 100vw;
+  // position: relative;
+  // overflow: hidden;
+}
+
+.aboutus-wrapper {
+  width: 100%;
   max-width: 1200px;
+  padding: 2rem;
+  // margin: 7rem;
+  // display: flex;
+  // flex-direction: column;
+  // margin: 0 10rem 8rem 10rem;
+  // align-items: center;
+  // justify-content: center;
 }
 .aboutus {
-  // background-color: #d8e4e6;
   margin-bottom: 7rem;
+  // background-color: #d8e4e6;
 }
 
 .aboutus h2 {
+  color: var(--dark-color);
   font-size: 45px;
   text-align: center;
   // padding-bottom: 3rem;
-  color: var(--dark-color);
 }
 .aboutus p {
   text-align: justify;
-  font-size: 22px;
+  font-size: 20px;
   margin-top: 3rem;
-  // padding-bottom: 5rem;
-  line-height: 2.5rem;
   color: var(--dark-color);
+  line-height: 2.5rem;
+  // padding-bottom: 5rem;
 }
 
 .whyus {
@@ -32,19 +44,20 @@
 .whyus h2 {
   font-size: 45px;
   text-align: center;
-  // padding-bottom: 7rem;
   color: var(--dark-color);
+  // padding-bottom: 7rem;
 }
 
 .whyus ul {
   list-style-type: none;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  align-items: flex-start;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1rem;
   color: var(--dark-color);
   font-size: 20px;
   text-align: center;
   padding-top: 1rem;
+  // align-items: flex-start;
   // gap: 1rem;
 }
 

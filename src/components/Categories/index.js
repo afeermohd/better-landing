@@ -53,7 +53,7 @@ const Categories = () => {
             }}
           >
             <div className="categories-title">
-              <p>Interior</p>
+              <p>Concept Housing</p>
             </div>
           </div>
         </Link>
@@ -98,7 +98,7 @@ const Categories = () => {
             }}
           >
             <div className="categories-title">
-              <p>Blog</p>
+              <p>Budget Calculator</p>
             </div>
           </div>
         </Link>

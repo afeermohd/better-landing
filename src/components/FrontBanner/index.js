@@ -9,7 +9,7 @@ import { IoArrowForward, IoArrowBack } from "react-icons/io5";
 const HeroSection = styled.section`
   height: 80vh;
   max-height: 1100px;
-  postion: relative;
+  // position: relative;
   overflow: hidden;
 `;
 
@@ -19,16 +19,20 @@ const HeroWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  //   overflow: hidden;
-  //   position: relative;
+  // overflow: hidden;
+  // position: relative;
 `;
 
 const SliderButtons = styled.div`
   position: absolute;
   bottom: 300px;
-  right: 50px;
+  // right: 50px;
+  left: 100px;
   display: flex;
   z-index: 10;
+  // gap: 30rem;
+  justify-content: space-between;
+  align-items: space-between;
 `;
 
 const HeroSlide = styled.div`
@@ -136,7 +140,7 @@ const FrontBanner = ({ slides }) => {
       setCurrent((current) => (current === length - 1 ? 0 : current + 1));
     };
 
-    timeout.current = setTimeout(nextSlide, 3000);
+    timeout.current = setTimeout(nextSlide, 6000);
 
     return function () {
       if (timeout.current) {

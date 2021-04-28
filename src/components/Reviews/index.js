@@ -3,9 +3,9 @@ import "./style.css";
 
 const Reviews = () => {
   return (
-    <div className="review-container">
+    <div className="review-section">
       {/* <h2>REVIEWS</h2> */}
-      <div className="review-card">
+      <div className="review-wrapper">
         <h2>REVIEWS</h2>
         <div className="container">
           <div className="review">
