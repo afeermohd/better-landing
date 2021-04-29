@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
@@ -9,12 +9,10 @@ const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
 
-  const handleScroll = () => {
-    return () => {
-      setPrevScrollPos(document.body.getBoundingClientRect().top);
-      setVisible(document.body.getBoundingClientRect().top > prevScrollPos);
-    };
-  };
+  const handleScroll = useCallback(() => {
+    setPrevScrollPos(document.body.getBoundingClientRect().top);
+    setVisible(document.body.getBoundingClientRect().top > prevScrollPos);
+  }, [prevScrollPos]);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
