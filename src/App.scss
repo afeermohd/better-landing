@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-.master-home {
-  display: flex;
-}
+// .master-home {
+//   display: flex;
+// }
 body {
   // background: #e2e1e1;
   // background: linear-gradient(
@@ -17,7 +17,7 @@ body {
   background-color: var(--light-color);
   // background-color: #f6feff;
   // backgroundImage: `url(${Construction})`,
-  background-repeat: repeat;
+  // background-repeat: repeat;
   // background-position: center;
   background-size: contain;
   //  margin: 4rem 0 0 0;
@@ -27,38 +27,8 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0rem 0 0 0;
+  // width: 100vw;
   gap: 100px;
+
   // align-items: center;
 }
-
-// .particle {
-//   position: absolute;
-//   border-radius: 50%;
-// }
-
-// @for $i from 1 through 30 {
-//   @keyframes particle-animation-#{$i} {
-//     100% {
-//       transform: translate3d(
-//         (random(90) * 1vw),
-//         (random(90) * 1vh),
-//         (random(100) * 1px)
-//       );
-//     }
-//   }
-
-//   .particle:nth-child(#{$i}) {
-//     animation: particle-animation-#{$i} 60s infinite;
-//     $size: random(5) + 5 + px;
-//     opacity: random(100) / 100;
-//     height: $size;
-//     width: $size;
-//     animation-delay: -$i * 0.2s;
-//     transform: translate3d(
-//       (random(90) * 1vw),
-//       (random(90) * 1vh),
-//       (random(100) * 1px)
-//     );
-//     background: hsl(random(360), 70%, 50%);
-//   }
-// }

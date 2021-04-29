@@ -3,7 +3,7 @@
   --dark-color: #181a27;
   --color-palette-1: #26273b;
   --color-palette-2: #faa639;
-
+  overflow-x: hidden;
   /* light - #f6feff */
   /* dark - #383d5e */
   /* 1 - #39abfa */

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./DisplayConstruction.css";
-// import DisplayProjects from "../DisplayProjects";
 import { Modal } from "../assets/Modal";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import DisplayProjects from "../DisplayProjects";
 
 import ConstructionInfo from "./ConstructionInfo";
 
@@ -31,14 +31,6 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
           >
             Material List
           </div>
-          {/* <div
-            onClick={() => setList("gallery")}
-            className={`construction-nav-item ${
-              list === "gallery" ? "active-list" : ""
-            }`}
-          >
-            Gallery
-          </div> */}
           <div
             onClick={() => setList("process")}
             className={`construction-nav-item ${
