@@ -1,17 +1,20 @@
 /* Construction  */
 .construction {
   display: flex;
-  margin-left: -50px;
+  justify-content: center;
+  width: 80vw;
+  max-width: 900px;
+  /* margin-left: -50px; */
 }
 
 .construction-nav {
   font-size: 18px;
   /* margin: 2rem; */
   /* margin-right: 2rem; */
-  padding-left: 2rem;
-  padding-right: 1rem;
-  width: 9rem;
-  text-align: right;
+  /* padding-left: 2rem; */
+  /* padding-right: 1rem; */
+  /* width: 9rem; */
+  /* text-align: right; */
 }
 
 .construction-nav-item {
@@ -28,14 +31,14 @@
   color: var(--dark-color);
 }
 .construction-content {
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   /* max-width: 2000px; */
-  width: 100%;
-  min-width: 250px;
-  min-height: 200px;
+  /* width: 100%; */
+  /* min-width: 250px; */
+  /* min-height: 200px; */
   background: var(--light-color);
   /* background: #04795ca4; */
-  padding: 2rem;
+  /* padding: 2rem; */
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
   transition: 0.2s;
@@ -45,13 +48,13 @@
 /* PACKAGES */
 
 .select-packages {
-  margin: 0 100px 10px 100px;
+  /* margin: 0 100px 10px 100px; */
   cursor: pointer;
   font-size: 20px;
-  font-weight: 700;
+  /* font-weight: 700; */
   letter-spacing: 4px;
 
-  padding: 1rem;
+  /* padding: 1rem; */
   border-radius: 10px;
   transition: background-color 0.3s ease;
   text-align: center;
@@ -68,16 +71,16 @@
 }
 
 .select-packages-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 
 .list-box {
-  display: grid;
-  margin-top: 20px;
-  margin-left: 100px;
-  margin-right: auto;
+  /* display: grid; */
+  /* margin-top: 20px; */
+  /* margin-left: 100px; */
+  /* margin-right: auto; */
 }
 
 /* TABLE */
@@ -85,8 +88,8 @@
 .material-table {
   border-collapse: collapse;
   margin: 25px 0;
-  font-size: 0.9em;
-  min-width: 400px;
+  /* font-size: 0.9em; */
+  /* min-width: 400px; */
 }
 
 .material-table thead tr {
@@ -119,14 +122,14 @@
 }
 
 .material-table-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 
 /* Gallery */
 
-.gallery-marq {
+/* .gallery-marq {
   padding: 0.3rem;
   overflow: hidden;
 }
@@ -134,4 +137,4 @@
   height: 200px;
   padding: 1rem;
   border-radius: 25px;
-}
+} */

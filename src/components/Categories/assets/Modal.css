@@ -3,13 +3,17 @@
   display: flex;
   justify-content: center;
   width: 100vw;
+  margin-top: -3rem;
+  z-index: 99;
+
+  /* margin: 10rem */
 }
 
 .modal-wrapper {
   /* display: flex; */
   /* flex-direction: column; */
   width: 100%;
-  width: 1200px;
+  max-width: 1200px;
   /* background-color: #f1f1f1; */
   background-color: var(--color-palette-1);
   padding: 2rem;
@@ -42,19 +46,20 @@
   justify-content: flex-end;
   position: absolute;
   right: 0;
-  top: -2.2rem;
+  top: -1.7rem;
 }
 
 .link {
   margin: 0 2rem;
+  /* width: 200%; */
   text-decoration: none;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--dark-color);
-  font-size: 20px;
+  font-size: 14px;
   padding: 0.1rem 1rem;
   border-radius: 10px;
-  font-weight: 600;
+  /* font-weight: 600; */
   transition: background-color 0.3s ease;
 }
 .link:hover {
@@ -65,4 +70,10 @@
 
 .selected-link {
   display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-section {
+    margin-top: 3rem;
+  }
 }

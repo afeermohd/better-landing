@@ -12,8 +12,8 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
 
   return (
     <Modal open={showInfo} onClose={onClose} id="construction">
-      <span className="category-heading">CONSTRUCTION</span>
       <div className="construction">
+        {/* <span className="category-heading">CONSTRUCTION</span> */}
         <div className="construction-nav">
           <div
             onClick={() => setList("packages")}

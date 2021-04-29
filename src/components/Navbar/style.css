@@ -1,6 +1,6 @@
 .navbar-container {
   width: 100%;
-  /* background-color: #f1f1f1; */
+  /* background-color: #00000028; */
   background-color: var(--color-palette-1);
   display: flex;
   /* display: grid; */
@@ -9,7 +9,17 @@
   position: fixed;
   z-index: 100;
   padding: 0 1rem;
+  transition: top 0.2s;
   /* top: 0; */
+}
+.active-nav {
+  visibility: visible;
+  transition: all 0.5s;
+}
+.hidden-nav {
+  visibility: hidden;
+  transition: all 0.5s;
+  transform: translateY(-100%);
 }
 
 .nav {

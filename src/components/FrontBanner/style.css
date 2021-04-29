@@ -115,3 +115,15 @@
   color: var(--light-color);
   transform: scale(1.05);
 }
+
+#dummy {
+  position: absolute;
+  bottom: 15vw;
+}
+
+@media screen and (max-width: 768px) {
+  #dummy {
+    position: absolute;
+    bottom: 40vw;
+  }
+}

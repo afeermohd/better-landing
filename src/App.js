@@ -20,7 +20,7 @@ import DisplayBlog from "./components/Categories/DisplayBlog/DisplayBlog";
 import "./App.scss";
 import Header from "./components/Header";
 import FrontBanner from "./components/FrontBanner";
-import { SliderData } from "./data/SliderData";
+// import { SliderData } from "./data/SliderData";
 
 function App() {
   return (
@@ -34,9 +34,7 @@ function App() {
         <Router>
           <Switch>
             <Route path="/" exact>
-              {/* <Home /> */}
-              {/* <Banner /> */}
-              <FrontBanner slides={SliderData} />
+              <FrontBanner />
               <Categories />
               <Aboutus />
               <Reviews />
@@ -45,9 +43,7 @@ function App() {
             </Route>
 
             <Route path="/construction">
-              {/* <Navbar /> */}
-              <FrontBanner slides={SliderData} />
-              {/* <Banner /> */}
+              <FrontBanner />
               <DisplayConstruction />
               <Aboutus />
               <Reviews />
@@ -55,10 +51,8 @@ function App() {
               <FooterNav />
             </Route>
 
-            <Route path="/interior">
-              {/* <Navbar /> */}
-              <FrontBanner slides={SliderData} />
-              {/* <Banner /> */}
+            <Route path="/concept-housing">
+              <FrontBanner />
               <DisplayInterior />
               <Aboutus />
               <Reviews />
@@ -67,9 +61,7 @@ function App() {
             </Route>
 
             <Route path="/projects">
-              {/* <Navbar /> */}
-              {/* <Banner /> */}
-              <FrontBanner slides={SliderData} />
+              <FrontBanner />
               <DisplayProjects />
               <Aboutus />
               <Reviews />
@@ -78,9 +70,7 @@ function App() {
             </Route>
 
             <Route path="/testimonials">
-              {/* <Navbar /> */}
-              {/* <Banner /> */}
-              <FrontBanner slides={SliderData} />
+              <FrontBanner />
               <DisplayTestimonials />
               <Aboutus />
               <Reviews />
@@ -88,10 +78,8 @@ function App() {
               <FooterNav />
             </Route>
 
-            <Route path="/blog">
-              {/* <Navbar /> */}
-              {/* <Banner /> */}
-              <FrontBanner slides={SliderData} />
+            <Route path="/budget-calculator">
+              <FrontBanner />
               <DisplayBlog />
               <Aboutus />
               <Reviews />

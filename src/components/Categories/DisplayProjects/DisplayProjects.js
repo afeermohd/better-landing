@@ -49,224 +49,226 @@ const DisplayProjects = ({ showInfo, onClose }) => {
   return (
     <Modal open={showInfo} onClose={onClose}>
       <span className="category-heading">PROJECTS</span>
-      <div className="container">
-        <div className="horizontal-container">
-          {card(
-            Interior,
-            "Jigani",
-            "1421 sqft",
-            "Standard",
-            "Ground Floor +1",
-            "Close to Handover"
-          )}
-          {card(
-            Interior,
-            "Mandur",
-            "1500 sqft",
-            "Standard",
-            "Ground Floor",
-            "Close to Handover"
-          )}
-          {card(
-            Interior,
-            "Kengeri",
-            "1200 sqft",
-            "Standard",
-            "Ground Floor +2",
-            "Execution Stage"
-          )}
-          {card(
-            Interior,
-            "Hulimavu",
-            "700 sqft",
-            "Standard",
-            "Ground Floor +2",
-            "Execution Stage"
-          )}
-          {card(
-            Interior,
-            "Medihalli",
-            "500 sqft",
-            "Standard",
-            "Ground Floor",
-            "Close to Handover"
-          )}
-          {card(
-            Interior,
-            "Kothanur",
-            "2332 sqft",
-            "Standard",
-            "Ground Floor +2",
-            "Execution Stage"
-          )}
-          {card(
-            Interior,
-            "Seegehalli",
-            "1200 sqft",
-            "Premium",
-            "Ground Floor +1",
-            "Execution Stage"
-          )}
-          {card(
-            Interior,
-            "Uttarahalli",
-            "1800 sqft",
-            "Standard",
-            "Ground Floor +1",
-            "Execution Stage"
-          )}
-          {card(
-            Interior,
-            "Kyalasanahalli",
-            "1200 sqft",
-            "Standard",
-            "Ground Floor +1",
-            "Execution Stage"
-          )}
-          {card(
-            Interior,
-            "Kattugollahalli",
-            "1200 sqft",
-            "Standard",
-            "Ground Floor +1",
-            "Execution Stage"
-          )}
-          {card(
-            Interior,
-            "HAL",
-            "1000 sqft",
-            "Standard",
-            "Ground Floor +2",
-            "Execution Stage"
-          )}
-          {card(
-            Interior,
-            "Byagadadenahalli",
-            "1200 sqft",
-            "Standard",
-            "Ground Floor",
-            "Design Stage"
-          )}
-          {card(
-            Interior,
-            "Mandur",
-            "1500 sqft",
-            "Standard",
-            "Ground Floor",
-            "Design Stage"
-          )}
-          {card(
-            Interior,
-            "Kasaba Hobli",
-            "600 sqft",
-            "Standard",
-            "Ground Floor",
-            "Execution Stage"
-          )}
-          {card(
-            Interior,
-            "Devakachikkanahalli",
-            "2300 sqft",
-            "Standard",
-            "Ground Floor +4",
-            "Design Stage"
-          )}
-          {card(
-            Interior,
-            "Mandur",
-            "1000 sqft",
-            "Standard",
-            "Ground Floor",
-            "Design Stage"
-          )}
-          {card(
-            Interior,
-            "Jigani",
-            "3000 sqft",
-            "Standard",
-            "Ground Floor +1",
-            "Execution Stage"
-          )}
-          {card(
-            Interior,
-            "Anchepalya",
-            "2000 sqft",
-            "Standard",
-            "Ground Floor +1",
-            "Execution Stage"
-          )}
-          {card(
-            Interior,
-            "Devanahalli",
-            "2400 sqft",
-            "Standard",
-            "Ground Floor +1",
-            "Execution Stage"
-          )}
-          {card(
-            Interior,
-            "Gatihalli",
-            "1200 sqft",
-            "Standard",
-            "Ground Floor +1",
-            "Design Stage"
-          )}
-          {card(
-            Interior,
-            "Seshadhari Road",
-            "600 sqft",
-            "Standard",
-            "Ground Floor +1",
-            "Design Stage"
-          )}
-          {card(
-            Interior,
-            "Basapura",
-            "1125 sqft",
-            "Standard",
-            "Ground Floor +2",
-            "Design Stage"
-          )}
-          {card(
-            Interior,
-            "Jogupalya",
-            "840 sqft",
-            "Standard",
-            "Ground Floor +3",
-            "Design Stage"
-          )}
-          {card(
-            Interior,
-            "Malur",
-            "1200 sqft",
-            "Standard",
-            "Ground Floor +1",
-            "Execution Stage"
-          )}
-          {card(
-            Interior,
-            "Amruth Nagar",
-            "1200 sqft",
-            "Standard",
-            "Ground Floor +1",
-            "Design Stage"
-          )}
-          {card(
-            Interior,
-            "Mandur",
-            "1200 sqft",
-            "Standard",
-            "Ground Floor +2",
-            "Design Stage"
-          )}
-          {card(
-            Interior,
-            "Makali",
-            "1200 sqft",
-            "Standard",
-            "Ground Floor +1",
-            "Design Stage"
-          )}
+      <div className="project-wrapper">
+        <div className="container">
+          <div className="horizontal-container">
+            {card(
+              Interior,
+              "Jigani",
+              "1421 sqft",
+              "Standard",
+              "Ground Floor +1",
+              "Close to Handover"
+            )}
+            {card(
+              Interior,
+              "Mandur",
+              "1500 sqft",
+              "Standard",
+              "Ground Floor",
+              "Close to Handover"
+            )}
+            {card(
+              Interior,
+              "Kengeri",
+              "1200 sqft",
+              "Standard",
+              "Ground Floor +2",
+              "Execution Stage"
+            )}
+            {card(
+              Interior,
+              "Hulimavu",
+              "700 sqft",
+              "Standard",
+              "Ground Floor +2",
+              "Execution Stage"
+            )}
+            {card(
+              Interior,
+              "Medihalli",
+              "500 sqft",
+              "Standard",
+              "Ground Floor",
+              "Close to Handover"
+            )}
+            {card(
+              Interior,
+              "Kothanur",
+              "2332 sqft",
+              "Standard",
+              "Ground Floor +2",
+              "Execution Stage"
+            )}
+            {card(
+              Interior,
+              "Seegehalli",
+              "1200 sqft",
+              "Premium",
+              "Ground Floor +1",
+              "Execution Stage"
+            )}
+            {card(
+              Interior,
+              "Uttarahalli",
+              "1800 sqft",
+              "Standard",
+              "Ground Floor +1",
+              "Execution Stage"
+            )}
+            {card(
+              Interior,
+              "Kyalasanahalli",
+              "1200 sqft",
+              "Standard",
+              "Ground Floor +1",
+              "Execution Stage"
+            )}
+            {card(
+              Interior,
+              "Kattugollahalli",
+              "1200 sqft",
+              "Standard",
+              "Ground Floor +1",
+              "Execution Stage"
+            )}
+            {card(
+              Interior,
+              "HAL",
+              "1000 sqft",
+              "Standard",
+              "Ground Floor +2",
+              "Execution Stage"
+            )}
+            {card(
+              Interior,
+              "Byagadadenahalli",
+              "1200 sqft",
+              "Standard",
+              "Ground Floor",
+              "Design Stage"
+            )}
+            {card(
+              Interior,
+              "Mandur",
+              "1500 sqft",
+              "Standard",
+              "Ground Floor",
+              "Design Stage"
+            )}
+            {card(
+              Interior,
+              "Kasaba Hobli",
+              "600 sqft",
+              "Standard",
+              "Ground Floor",
+              "Execution Stage"
+            )}
+            {card(
+              Interior,
+              "Devakachikkanahalli",
+              "2300 sqft",
+              "Standard",
+              "Ground Floor +4",
+              "Design Stage"
+            )}
+            {card(
+              Interior,
+              "Mandur",
+              "1000 sqft",
+              "Standard",
+              "Ground Floor",
+              "Design Stage"
+            )}
+            {card(
+              Interior,
+              "Jigani",
+              "3000 sqft",
+              "Standard",
+              "Ground Floor +1",
+              "Execution Stage"
+            )}
+            {card(
+              Interior,
+              "Anchepalya",
+              "2000 sqft",
+              "Standard",
+              "Ground Floor +1",
+              "Execution Stage"
+            )}
+            {card(
+              Interior,
+              "Devanahalli",
+              "2400 sqft",
+              "Standard",
+              "Ground Floor +1",
+              "Execution Stage"
+            )}
+            {card(
+              Interior,
+              "Gatihalli",
+              "1200 sqft",
+              "Standard",
+              "Ground Floor +1",
+              "Design Stage"
+            )}
+            {card(
+              Interior,
+              "Seshadhari Road",
+              "600 sqft",
+              "Standard",
+              "Ground Floor +1",
+              "Design Stage"
+            )}
+            {card(
+              Interior,
+              "Basapura",
+              "1125 sqft",
+              "Standard",
+              "Ground Floor +2",
+              "Design Stage"
+            )}
+            {card(
+              Interior,
+              "Jogupalya",
+              "840 sqft",
+              "Standard",
+              "Ground Floor +3",
+              "Design Stage"
+            )}
+            {card(
+              Interior,
+              "Malur",
+              "1200 sqft",
+              "Standard",
+              "Ground Floor +1",
+              "Execution Stage"
+            )}
+            {card(
+              Interior,
+              "Amruth Nagar",
+              "1200 sqft",
+              "Standard",
+              "Ground Floor +1",
+              "Design Stage"
+            )}
+            {card(
+              Interior,
+              "Mandur",
+              "1200 sqft",
+              "Standard",
+              "Ground Floor +2",
+              "Design Stage"
+            )}
+            {card(
+              Interior,
+              "Makali",
+              "1200 sqft",
+              "Standard",
+              "Ground Floor +1",
+              "Design Stage"
+            )}
+          </div>
         </div>
       </div>
     </Modal>

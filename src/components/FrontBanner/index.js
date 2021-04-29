@@ -3,9 +3,31 @@ import "./style.css";
 
 import { IoArrowForward, IoArrowBack } from "react-icons/io5";
 
-const FrontBanner = ({ slides }) => {
+import ImageOne from "../../assets/construction-1.png";
+import ImageTwo from "../../assets/front.jpg";
+
+const sliderData = [
+  {
+    title: "Luxury Villa in Bali, Indonesia",
+    price: "$4,280,000",
+    path: "/homes",
+    label: "View Home",
+    image: ImageOne,
+    alt: "House",
+  },
+  {
+    title: "Luxury Villa in Bali, Indonesia",
+    price: "$4,280,000",
+    path: "/homes",
+    label: "View Home",
+    image: ImageTwo,
+    alt: "House",
+  },
+];
+
+const FrontBanner = () => {
   const [current, setCurrent] = useState(0);
-  const length = slides.length;
+  const length = sliderData.length;
   const timeout = useRef(null);
 
   useEffect(() => {
@@ -30,14 +52,14 @@ const FrontBanner = ({ slides }) => {
     setCurrent(current === 0 ? length - 1 : current - 1);
   };
 
-  if (!Array.isArray(slides) || slides.length <= 0) {
+  if (!Array.isArray(sliderData) || sliderData.length <= 0) {
     return null;
   }
 
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="dummy1">
       <div className="hero-wrapper">
-        {slides.map((slide, index) => {
+        {sliderData.map((slide, index) => {
           return (
             <div className="hero-slide" key={index}>
               {index === current && (
@@ -58,6 +80,7 @@ const FrontBanner = ({ slides }) => {
           <IoArrowForward className="next-arrow" onClick={nextSlide} />
         </div>
       </div>
+      <div id="dummy"></div>
     </section>
   );
 };

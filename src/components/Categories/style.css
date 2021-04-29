@@ -121,6 +121,7 @@
   padding: 1rem 0 2rem 1.5rem;
   letter-spacing: 5px;
   font-size: 35px;
+  color: var(--light-color);
   /* text-align: center; */
 }
 
