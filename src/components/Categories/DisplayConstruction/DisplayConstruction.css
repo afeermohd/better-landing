@@ -20,10 +20,12 @@
   border-radius: 10px;
   transition: background-color 0.3s ease;
   width: 100%;
+  color: var(--light-color);
 }
 .construction-nav-item:hover,
 .active-list {
-  background: #0aaafb;
+  background: var(--light-color);
+  color: var(--dark-color);
 }
 .construction-content {
   margin-left: 1rem;

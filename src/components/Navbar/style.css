@@ -1,6 +1,7 @@
 .navbar-container {
   width: 100%;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
+  background-color: var(--color-palette-1);
   display: flex;
   /* display: grid; */
   align-items: center;
@@ -47,11 +48,11 @@
 }
 
 .search-input {
-  color: var(--dark-color);
+  color: var(--light-color);
   height: 25px;
 }
 .search-input::placeholder {
-  color: color(var(--dark-color) a(0.8));
+  color: color(var(--light-color) a(0.8));
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
@@ -128,11 +129,11 @@
 
 .blue {
   /* border: 2px solid #0188cc; */
-  color: #0188cc;
+  color: var(--dark-color);
 }
 /* linear-gradient(to left, #0aaafb, #03e1d2); */
 .blue:hover {
-  background: #0188cc;
+  background: var(--dark-color);
   /* text-shadow: none;
   background-clip: text;
   -webkit-background-clip: text;

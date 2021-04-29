@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.scss";
+import "./style.css";
 // import DoneOutlineIcon from "@material-ui/icons/DoneOutline";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -14,6 +14,49 @@ import {
   faUserCheck,
   faWallet,
 } from "@fortawesome/free-solid-svg-icons";
+
+const whyusList = [
+  {
+    title: "On-Time Delivery",
+    icon: faStopwatch,
+  },
+  {
+    title: "Quality Assurance",
+    icon: faCheckDouble,
+  },
+  {
+    title: "In-House Architects",
+    icon: faPencilRuler,
+  },
+  {
+    title: "Quality Control",
+    icon: faCheck,
+  },
+  {
+    title: "Tech-Enabled",
+    icon: faDesktop,
+  },
+  {
+    title: "In-House Site Engineers",
+    icon: faHardHat,
+  },
+  {
+    title: "Dedicated Project Managers",
+    icon: faTasks,
+  },
+  {
+    title: "Dedicated Experience Team",
+    icon: faUserCheck,
+  },
+  {
+    title: "Seemless Execution",
+    icon: faPaperPlane,
+  },
+  {
+    title: "Flexible Payment",
+    icon: faWallet,
+  },
+];
 
 const Aboutus = () => {
   const size = "3x";
@@ -42,49 +85,12 @@ const Aboutus = () => {
         <div className="whyus">
           <h2>WHY US</h2>
           <ul>
-            <li>
-              <FontAwesomeIcon icon={faStopwatch} size={size} />
-              <span>On-Time Delivery</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faCheckDouble} size={size} />
-              <span>Quality Assurance</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faPencilRuler} size={size} />
-              <span>In-House Architects</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faCheck} size={size} />
-              <span>Quality Control</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faDesktop} size={size} />
-              <span>Tech-Enabled</span>
-            </li>
-          </ul>
-
-          <ul>
-            <li>
-              <FontAwesomeIcon icon={faHardHat} size={size} />
-              <span>In-House Site Engineers</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faTasks} size={size} />
-              <span>Dedicated Project Managers</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faUserCheck} size={size} />
-              <span>Dedicated Experience Team</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faPaperPlane} size={size} />
-              <span>Seemless Execution</span>
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faWallet} size={size} />
-              <span>Flexible Payment</span>
-            </li>
+            {whyusList.map((item, index) => (
+              <li key={index}>
+                <FontAwesomeIcon icon={item.icon} size={size} />
+                <span>{item.title}</span>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

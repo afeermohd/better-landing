@@ -32,11 +32,11 @@
   margin: 0 3rem;
   border-radius: 16px;
   transition: 0.2s;
+  cursor: pointer;
   /* max-width: 500px; */
   /* max-height: 300px; */
   /* scroll-snap-align: start; */
   /* clear: both;  */
-  cursor: pointer;
   /* color: #fff; */
 }
 

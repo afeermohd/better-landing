@@ -3,11 +3,17 @@
   /* flex-direction: column; */
   /* align-items: center; */
   justify-content: center;
-  width: 100%;
+  width: 100vw;
   z-index: 99;
+  margin-top: -15rem;
+  overflow: auto;
+  padding: 5rem 2rem 3rem 2rem;
 }
 .categories {
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  /* grid-template-columns: repeat(5, (min-)); */
+  grid-template-columns: repeat(5, minmax(130px, 1fr));
   width: 100%;
   /* margin: -5rem 10rem 8rem 10rem; */
   justify-content: space-between;
@@ -16,7 +22,7 @@
   /* overflow-x: scroll; */
   /* overflow-y: hidden; */
   /* overflow: hidden; */
-  gap: 50px;
+  gap: 100px;
   /* align-items: center; */
   /* flex-wrap: wrap; */
 }
