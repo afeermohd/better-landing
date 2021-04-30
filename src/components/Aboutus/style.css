@@ -75,7 +75,17 @@
 }
 
 @media screen and (max-width: 768px) {
+  .aboutus p {
+    line-height: 1.5rem;
+  }
   .whyus ul {
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  }
+  .whyus li span {
+    margin-top: 2rem;
+  }
+  .whyus li {
+    padding-top: 3rem;
+    transform: scale(0.9);
   }
 }

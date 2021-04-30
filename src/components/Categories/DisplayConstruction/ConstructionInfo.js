@@ -3,6 +3,19 @@ import React, { useState } from "react";
 import DisplayMaterials from "./ConstructionContent/DisplayMaterials";
 import DisplaySelectedPackage from "./ConstructionContent/DisplaySelectedPackage";
 
+const selectPackageData = [
+  {
+    title: "STANDARD",
+    state: "standard",
+    price: "Rs.1625/sqft + Rs.50/sqft + GST",
+  },
+  {
+    title: "PREMIUM",
+    state: "premium",
+    price: "Rs.2200/sqft + Rs.75/sqft + GST",
+  },
+];
+
 const ConstructionInfo = ({ list }) => {
   const [selectPackage, setSelectPackage] = useState("standard");
 
@@ -10,28 +23,20 @@ const ConstructionInfo = ({ list }) => {
     return (
       <div>
         <div className="select-packages-container">
-          <div
-            onClick={() => {
-              setSelectPackage("standard");
-            }}
-            className={`select-packages ${
-              selectPackage === "standard" ? "active-package" : ""
-            }`}
-          >
-            STANDARD
-            <p>Rs.1625/sqft + Rs.50/sqft + GST</p>
-          </div>
-          <div
-            onClick={() => {
-              setSelectPackage("premium");
-            }}
-            className={`select-packages ${
-              selectPackage === "premium" ? "active-package" : ""
-            }`}
-          >
-            PREMIUM
-            <p>Rs.2200/sqft + Rs.75/sqft + GST</p>
-          </div>
+          {selectPackageData.map((item, index) => (
+            <div
+              key={index}
+              onClick={() => {
+                setSelectPackage(`${item.state}`);
+              }}
+              className={`select-packages ${
+                selectPackage === `${item.state}` ? "active-package" : ""
+              }`}
+            >
+              <span>{item.title}</span>
+              <p>{item.price}</p>
+            </div>
+          ))}
         </div>
         <DisplaySelectedPackage arg={selectPackage} />
       </div>
@@ -44,8 +49,6 @@ const ConstructionInfo = ({ list }) => {
         </div>
       </div>
     );
-    // } else if (list === "gallery") {
-    //   return <DisplayGallery />;
   } else if (list === "process") {
     return <div></div>;
   }

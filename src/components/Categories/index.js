@@ -51,7 +51,6 @@ const Categories = () => {
           >
             <LinkR to={item.to} className="catergories-link">
               <div
-                // onClick={() => setShowInfo("construction")}
                 className="categories-item"
                 style={{
                   backgroundImage: `url(${item.image})`,

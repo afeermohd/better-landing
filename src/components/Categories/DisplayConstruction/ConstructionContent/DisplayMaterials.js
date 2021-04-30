@@ -1,6 +1,122 @@
 import React from "react";
 
-const DisplayMaterials = (arg) => {
+const materialData = [
+  {
+    sl: 1,
+    item: "Cement opc/ppc 43 and 53",
+    brand: "ACC, RAMCO, ZUARI",
+    remarks: "",
+  },
+  {
+    sl: 2,
+    item: "Reinforcement Steel",
+    brand: "INDUS 555 (Fe 550), Meenakshi, Prime Gold, Kamdhenu",
+    remarks: "",
+  },
+  {
+    sl: 3,
+    item: "M Sand",
+    brand: "Zone - 3 and Zone - 3 Material",
+    remarks: "As per IS 383-1970",
+  },
+  {
+    sl: 4,
+    item: "20mm Coarse aggregates",
+    brand: "Single graded",
+    remarks: "As per IS 383-1970",
+  },
+  {
+    sl: 5,
+    item: "40mm Coarse aggregates",
+    brand: "Graded",
+    remarks: "As per IS 383-1970",
+  },
+  {
+    sl: 6,
+    item: `Blocks 8", 6", 4"`,
+    brand: "Best available nearby market",
+    remarks: "As per IS 2185",
+  },
+  {
+    sl: 7,
+    item: "Bricks Table moulded",
+    brand: "Best available nearby market",
+    remarks: "As per IS 1077(1992)",
+  },
+  {
+    sl: 8,
+    item: "Vitrified Tiles",
+    brand: "Somany, Kajaria, Cera, Bell",
+    remarks: "",
+  },
+  {
+    sl: 9,
+    item: "Ceramic Tiles",
+    brand: "Somany, Kajaria, Bell",
+    remarks: "",
+  },
+  {
+    sl: 10,
+    item: "Anti Skid",
+    brand: "Somany, Kajaria, Bell",
+    remarks: "",
+  },
+  {
+    sl: 11,
+    item: "Plumbing Materials",
+    brand: "Parryware, Jaquar, Cera, RAK",
+    remarks: "",
+  },
+  {
+    sl: 12,
+    item: "Paint",
+    brand: "Asian Paints",
+    remarks: "",
+  },
+  {
+    sl: 13,
+    item: "Plywood 12mm, 18mm, 24mm",
+    brand: "Century or Kitply",
+    remarks: "",
+  },
+  {
+    sl: 14,
+    item: "Laminate",
+    brand: "Greenlam, Green ply, Merino",
+    remarks: "",
+  },
+  {
+    sl: 15,
+    item: "Electrical Items",
+    brand: "Finolex, Anchor, Legrand, GM Modular",
+    remarks: "",
+  },
+  {
+    sl: 16,
+    item: "Waterproofing Chemical",
+    brand: "Dr.Fixit, Fosroc",
+    remarks: "",
+  },
+  {
+    sl: 17,
+    item: "Door window shutter and frames",
+    brand: "Teak wood, Sal wood, Neem wood",
+    remarks: "",
+  },
+  {
+    sl: 18,
+    item: "Door fixtures/Fitting",
+    brand: "Godrej",
+    remarks: "",
+  },
+  {
+    sl: 19,
+    item: "UPVC",
+    brand: "ZEN, VEKA, EAGLE BOSS",
+    remarks: "",
+  },
+];
+const DisplayMaterials = () => {
   return (
     <table className="material-table">
       <thead>
@@ -11,124 +127,15 @@ const DisplayMaterials = (arg) => {
           <th>Remarks</th>
         </tr>
       </thead>
-      {/* <tr>
-          <td>Material Make and Brand List</td>
-        </tr> */}
       <tbody>
-        <tr className="">
-          <td>1</td>
-          <td>Cement opc/ppc 43 and 53</td>
-          <td>ACC, RAMCO, ZUARI</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Reinforcement Steel</td>
-          <td>INDUS 555 (Fe 550), Meenakshi, Prime Gold, Kamdhenu</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>M Sand</td>
-          <td>Zone - 3 and Zone - 3 Material</td>
-          <td>As per IS 383-1970</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>20mm Coarse aggregates</td>
-          <td>Single graded</td>
-          <td>As per IS 383-1970</td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>40mm Coarse aggregates</td>
-          <td>Graded</td>
-          <td>As per IS 383-1970</td>
-        </tr>
-        <tr>
-          <td>6</td>
-          <td>Blocks 8", 6", 4"</td>
-          <td>Best available nearby market</td>
-          <td>As per IS 2185</td>
-        </tr>
-        <tr>
-          <td>7</td>
-          <td>Bricks Table moulded</td>
-          <td>Best available nearby market</td>
-          <td>As per IS 1077(1992)</td>
-        </tr>
-        <tr>
-          <td>8</td>
-          <td>Vitrified Tiles</td>
-          <td>Somany, Kajaria, Cera, Bell</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>9</td>
-          <td>Ceramic Tiles</td>
-          <td>Somany, Kajaria, Bell</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>10</td>
-          <td>Anti Skid</td>
-          <td>Somany, Kajaria, Bell</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>11</td>
-          <td>Plumbing Materials</td>
-          <td>Parryware, Jaquar, Cera, RAK</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>12</td>
-          <td>Paint</td>
-          <td>Asian Paints</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>13</td>
-          <td>Plywood 12mm, 18mm, 24mm</td>
-          <td>Century or Kitply</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>14</td>
-          <td>Laminate</td>
-          <td>Greenlam, Green ply, Merino</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>15</td>
-          <td>Electrical Items</td>
-          <td>Finolex, Anchor, Legrand, GM Modular</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>16</td>
-          <td>Waterproofing Chemical</td>
-          <td>Dr.Fixit, Fosroc</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>17</td>
-          <td>Door window shutter and frames</td>
-          <td>Teak wood, Sal wood, Neem wood</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>18</td>
-          <td>Door fixtures/Fitting</td>
-          <td>Godrej</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>19</td>
-          <td>UPVC</td>
-          <td>ZEN, VEKA, EAGLE BOSS</td>
-          <td></td>
-        </tr>
+        {materialData.map((item, index) => (
+          <tr>
+            <td>{index + 1}</td>
+            <td>{item.item}</td>
+            <td>{item.brand}</td>
+            <td>{item.remarks}</td>
+          </tr>
+        ))}
       </tbody>
     </table>
   );

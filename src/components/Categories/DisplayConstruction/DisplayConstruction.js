@@ -6,6 +6,21 @@ import { Modal } from "../assets/Modal";
 
 import ConstructionInfo from "./ConstructionInfo";
 
+const constructionNav = [
+  {
+    title: "Packages",
+    state: "packages",
+  },
+  {
+    title: "Material List",
+    state: "material",
+  },
+  {
+    title: "Process",
+    state: "process",
+  },
+];
+
 const DisplayConstruction = ({ showInfo, onClose }) => {
   const [list, setList] = useState("packages");
   // const [showInfo, setShowInfo] = useState("");
@@ -15,30 +30,17 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
       <div className="construction">
         {/* <span className="category-heading">CONSTRUCTION</span> */}
         <div className="construction-nav">
-          <div
-            onClick={() => setList("packages")}
-            className={`construction-nav-item ${
-              list === "packages" ? "active-list" : ""
-            }`}
-          >
-            Packages
-          </div>
-          <div
-            onClick={() => setList("material")}
-            className={`construction-nav-item ${
-              list === "material" ? "active-list" : ""
-            }`}
-          >
-            Material List
-          </div>
-          <div
-            onClick={() => setList("process")}
-            className={`construction-nav-item ${
-              list === "process" ? "active-list" : ""
-            }`}
-          >
-            Process
-          </div>
+          {constructionNav.map((item, index) => (
+            <div
+              key={index}
+              onClick={() => setList(`${item.state}`)}
+              className={`construction-nav-item ${
+                list === `${item.state}` ? "active-list" : ""
+              }`}
+            >
+              {item.title}
+            </div>
+          ))}
         </div>
         <div className="construction-content">
           <ConstructionInfo list={list} />
