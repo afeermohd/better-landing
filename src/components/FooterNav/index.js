@@ -64,11 +64,11 @@ const footerLinks = [
   { title: "Projects", link: "projects" },
   { title: "Testimonials", link: "testimonials" },
   { title: "Budget Calculator", link: "budget-calculator" },
-  // { title: "About Us", link: "construction" },
-  // { title: "Privacy Policy", link: "construction" },
-  // { title: "Terms and Conditions", link: "construction" },
-  // { title: "Careers", link: "construction" },
-  // { title: "Social Media", link: "construction" },
+  { title: "About Us", link: "construction" },
+  { title: "Privacy Policy", link: "construction" },
+  { title: "Terms and Conditions", link: "construction" },
+  { title: "Careers", link: "construction" },
+  { title: "Social Media", link: "construction" },
 ];
 
 const FooterNav = () => {
@@ -96,13 +96,13 @@ const FooterNav = () => {
                   </LinkS>
                 ))}
               </ul>
-              <ul className="footer-list">
+              {/* <ul className="footer-list">
                 <li>About Us</li>
                 <li>Privacy Policy</li>
                 <li>Terms and Conditions</li>
                 <li>Careers</li>
                 <li>Social Media</li>
-              </ul>
+              </ul> */}
             </div>
           </div>
           <div className="footer-info-container">

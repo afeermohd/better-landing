@@ -4,31 +4,31 @@
   box-sizing: border-box;
 }
 
-// .master-home {
+/* // .master-home {
 //   display: flex;
-// }
+// } */
 body {
-  // background: #e2e1e1;
+  /* // background: #e2e1e1;
   // background: linear-gradient(
   //     #fffffff2,
   //     #fffffffc
   //   ),
-  //   url("assets/bg1.png");
+  //   url("assets/bg1.png"); */
   background-color: var(--light-color);
-  // background-color: #f6feff;
+  /* // background-color: #f6feff;
   // backgroundImage: `url(${Construction})`,
   // background-repeat: repeat;
   // background-position: center;
   background-size: contain;
-  //  margin: 4rem 0 0 0;
+  //  margin: 4rem 0 0 0; */
 }
 
 .home-1 {
   display: flex;
   flex-direction: column;
   margin: 0rem 0 0 0;
-  // width: 100vw;
+  /* // width: 100vw; */
   gap: 100px;
 
-  // align-items: center;
+  /* // align-items: center; */
 }

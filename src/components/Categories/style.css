@@ -8,6 +8,8 @@
   margin-top: -15rem;
   overflow: auto;
   padding: 5rem 2rem 3rem 2rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .categories {
   display: grid;
@@ -18,6 +20,8 @@
   padding: 0 1rem;
   margin: 0 3rem;
   place-items: center;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 
   gap: 100px;
   /* display: flex; */
@@ -31,21 +35,39 @@
   /* flex-wrap: wrap; */
 }
 .categories::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  /* width: 10px;
+  height: 10px; */
+  display: none;
 }
 
+.categories-section::-webkit-scrollbar {
+  /* width: 10px;
+  height: 10px; */
+  display: none;
+}
 .categories::-webkit-scrollbar-thumb {
   background: #201c2900;
   border-radius: 10px;
-  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
-    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .categories::-webkit-scrollbar-track {
-  background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
+  background: rgba(0, 0, 0, 0);
+  display: none;
+  /* border-radius: 1rem; */
 }
-
+.review::-webkit-scrollbar {
+  height: 0.75rem;
+}
+.review::-webkit-scrollbar-track {
+  /* background: #fff; */
+  border-radius: 1rem;
+  /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+}
+.review::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0);
+  border-radius: 1rem;
+  /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+}
 .categories-item {
   display: flex;
   position: relative;
@@ -131,22 +153,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* overflow: hidden; */
   /* padding: 0 3rem; */
 }
 .horizontal-container::-webkit-scrollbar {
-  height: 0.75rem;
+  display: none;
+  height: 0rem;
 }
 .horizontal-container::-webkit-scrollbar-track {
-  /* background: #fff; */
+  background: rgba(255, 255, 255, 0);
   border-radius: 1rem;
   /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
 }
 .horizontal-container::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.075);
+  background: rgba(0, 0, 0, 0);
   border-radius: 1rem;
   /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
 }
 .horizontal-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   /* width: 75vw; */
   /* height: 73vh; */
   display: flex;

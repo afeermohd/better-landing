@@ -19,7 +19,7 @@ const Header = () => {
           <span>TECH BETTER SERVICES PVT LTD</span>
         </div>
 
-        <div className="header-social">
+        <div className="header-tel">
           <span>
             <a href="tel:+919898989898" className="header-link">
               <FontAwesomeIcon icon={faPhoneAlt} size="sm" /> +91-9898989898
@@ -28,6 +28,8 @@ const Header = () => {
           <LinkR to="/blog" className="header-link">
             Blog
           </LinkR>
+        </div>
+        <div className="header-social">
           <a
             href="https://www.facebook.com/"
             className="header-link"
@@ -61,6 +63,7 @@ const Header = () => {
             <FontAwesomeIcon icon={faYoutube} size="sm" />
           </a>
         </div>
+        {/* </div> */}
         {/* </div> */}
       </div>
     </div>

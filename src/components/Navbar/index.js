@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from "react";
 import "./style.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+// import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -38,9 +38,9 @@ const Navbar = () => {
 
         <div className="navbar-nav"></div>
         <div className="navbar-nav">
-          <FontAwesomeIcon icon={faSearch} size="2x" className="search-input" />
+          {/* <FontAwesomeIcon icon={faSearch} size="2x" className="search-input" /> */}
           <button className="btn blue">Get a Qoute</button>
-          <button className="btn blue">Login</button>
+          <button className="btn login">Login</button>
         </div>
       </div>
     </div>

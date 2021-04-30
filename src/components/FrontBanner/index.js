@@ -1,25 +1,13 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./style.css";
 
-import { IoArrowForward, IoArrowBack } from "react-icons/io5";
+// import { IoArrowForward, IoArrowBack } from "react-icons/io5";
 
-import ImageOne from "../../assets/construction-1.png";
+// import ImageOne from "../../assets/construction-1.png";
 import ImageTwo from "../../assets/front.jpg";
 
 const sliderData = [
   {
-    title: "Luxury Villa in Bali, Indonesia",
-    price: "$4,280,000",
-    path: "/homes",
-    label: "View Home",
-    image: ImageOne,
-    alt: "House",
-  },
-  {
-    title: "Luxury Villa in Bali, Indonesia",
-    price: "$4,280,000",
-    path: "/homes",
-    label: "View Home",
     image: ImageTwo,
     alt: "House",
   },
@@ -44,13 +32,13 @@ const FrontBanner = () => {
     };
   }, [current, length]);
 
-  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
+  // const nextSlide = () => {
+  //   setCurrent(current === length - 1 ? 0 : current + 1);
+  // };
 
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
+  // const prevSlide = () => {
+  //   setCurrent(current === 0 ? length - 1 : current - 1);
+  // };
 
   if (!Array.isArray(sliderData) || sliderData.length <= 0) {
     return null;
@@ -75,10 +63,10 @@ const FrontBanner = () => {
             </div>
           );
         })}
-        <div className="slider-buttons">
+        {/* <div className="slider-buttons">
           <IoArrowBack className="prev-arrow" onClick={prevSlide} />
           <IoArrowForward className="next-arrow" onClick={nextSlide} />
-        </div>
+        </div> */}
       </div>
       <div id="dummy"></div>
     </section>
