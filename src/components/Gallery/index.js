@@ -1,38 +1,38 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 
-import Image1 from "../../assets/galleryImages/1.jpg";
-import Image2 from "../../assets/galleryImages/2.jpg";
-import Image3 from "../../assets/galleryImages/3.jpg";
-import Image4 from "../../assets/galleryImages/4.jpg";
-import Image5 from "../../assets/galleryImages/5.jpg";
-import Image6 from "../../assets/galleryImages/6.jpg";
-import Image7 from "../../assets/galleryImages/7.jpg";
-import Image8 from "../../assets/galleryImages/8.jpg";
-import Image9 from "../../assets/galleryImages/9.jpg";
-import Image10 from "../../assets/galleryImages/10.jpg";
+import Image1 from "../../assets/galleryImages/1.JPG";
+import Image2 from "../../assets/galleryImages/2.JPG";
+import Image3 from "../../assets/galleryImages/3.JPG";
+import Image4 from "../../assets/galleryImages/4.JPG";
+import Image5 from "../../assets/galleryImages/5.jpeg";
+import Image6 from "../../assets/galleryImages/6.JPG";
+import Image7 from "../../assets/galleryImages/7.JPG";
+import Image8 from "../../assets/galleryImages/8.JPG";
+import Image9 from "../../assets/galleryImages/9.JPG";
+import Image10 from "../../assets/galleryImages/10.JPG";
 
-import Image11 from "../../assets/galleryImages/11.jpg";
-import Image12 from "../../assets/galleryImages/12.jpg";
-import Image13 from "../../assets/galleryImages/13.jpg";
-import Image14 from "../../assets/galleryImages/14.jpg";
-import Image15 from "../../assets/galleryImages/15.jpg";
-import Image16 from "../../assets/galleryImages/16.jpg";
-import Image17 from "../../assets/galleryImages/17.jpg";
-import Image18 from "../../assets/galleryImages/18.jpg";
-import Image19 from "../../assets/galleryImages/19.jpg";
-import Image20 from "../../assets/galleryImages/20.jpg";
+import Image11 from "../../assets/galleryImages/11.JPG";
+import Image12 from "../../assets/galleryImages/12.JPG";
+import Image13 from "../../assets/galleryImages/13.jpeg";
+import Image14 from "../../assets/galleryImages/14.JPG";
+import Image15 from "../../assets/galleryImages/15.jpeg";
+import Image16 from "../../assets/galleryImages/16.jpeg";
+import Image17 from "../../assets/galleryImages/17.JPG";
+import Image18 from "../../assets/galleryImages/18.jpeg";
+import Image19 from "../../assets/galleryImages/19.jpeg";
+import Image20 from "../../assets/galleryImages/20.JPG";
 
-import Image21 from "../../assets/galleryImages/21.jpg";
-import Image22 from "../../assets/galleryImages/22.jpg";
-import Image23 from "../../assets/galleryImages/23.jpg";
-import Image24 from "../../assets/galleryImages/24.jpg";
-import Image25 from "../../assets/galleryImages/25.jpg";
-import Image26 from "../../assets/galleryImages/26.jpeg";
-import Image27 from "../../assets/galleryImages/27.jpeg";
-import Image28 from "../../assets/galleryImages/28.jpeg";
-import Image29 from "../../assets/galleryImages/29.jpg";
-import Image30 from "../../assets/galleryImages/30.jpeg";
+// import Image21 from "../../assets/galleryImages/21.jpg";
+// import Image22 from "../../assets/galleryImages/22.jpg";
+// import Image23 from "../../assets/galleryImages/23.jpg";
+// import Image24 from "../../assets/galleryImages/24.jpg";
+// import Image25 from "../../assets/galleryImages/25.jpg";
+// import Image26 from "../../assets/galleryImages/26.jpeg";
+// import Image27 from "../../assets/galleryImages/27.jpeg";
+// import Image28 from "../../assets/galleryImages/28.jpeg";
+// import Image29 from "../../assets/galleryImages/29.jpg";
+// import Image30 from "../../assets/galleryImages/30.jpeg";
 
 import "./style.css";
 
@@ -123,7 +123,7 @@ const Gallery = () => {
           </div>
         </Marquee>
       </div>
-      <div>
+      {/* <div>
         <Marquee
           className="gallery-marq"
           // pauseOnHover="true"
@@ -164,7 +164,7 @@ const Gallery = () => {
             <img src={Image30} alt="construction20" />
           </div>
         </Marquee>
-      </div>
+      </div> */}
     </div>
   );
 };

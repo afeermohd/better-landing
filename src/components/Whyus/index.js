@@ -14,10 +14,10 @@ import "./style.css";
 //   faUserCheck,
 //   faWallet,
 // } from "@fortawesome/free-solid-svg-icons";
-import whyus1 from "../../assets/whyusImages/whyus1.jpeg";
-import whyus2 from "../../assets/whyusImages/whyus2.jpeg";
-import whyus3 from "../../assets/whyusImages/whyus3.jpeg";
-import whyus4 from "../../assets/whyusImages/whyus4.jpeg";
+import whyus1 from "../../assets/whyusImages/whyus1.png";
+import whyus2 from "../../assets/whyusImages/whyus2.png";
+import whyus3 from "../../assets/whyusImages/whyus3.png";
+import whyus4 from "../../assets/whyusImages/whyus4.png";
 
 const whyusList = [
   {
