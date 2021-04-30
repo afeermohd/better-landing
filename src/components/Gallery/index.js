@@ -23,16 +23,16 @@ import Image18 from "../../assets/galleryImages/18.jpeg";
 import Image19 from "../../assets/galleryImages/19.jpeg";
 import Image20 from "../../assets/galleryImages/20.JPG";
 
-// import Image21 from "../../assets/galleryImages/21.jpg";
-// import Image22 from "../../assets/galleryImages/22.jpg";
-// import Image23 from "../../assets/galleryImages/23.jpg";
-// import Image24 from "../../assets/galleryImages/24.jpg";
-// import Image25 from "../../assets/galleryImages/25.jpg";
-// import Image26 from "../../assets/galleryImages/26.jpeg";
-// import Image27 from "../../assets/galleryImages/27.jpeg";
-// import Image28 from "../../assets/galleryImages/28.jpeg";
-// import Image29 from "../../assets/galleryImages/29.jpg";
-// import Image30 from "../../assets/galleryImages/30.jpeg";
+import Image21 from "../../assets/galleryImages/21.jpg";
+import Image22 from "../../assets/galleryImages/22.jpg";
+import Image23 from "../../assets/galleryImages/23.jpg";
+import Image24 from "../../assets/galleryImages/24.jpg";
+import Image25 from "../../assets/galleryImages/25.jpg";
+import Image26 from "../../assets/galleryImages/26.jpg";
+import Image27 from "../../assets/galleryImages/27.jpg";
+import Image28 from "../../assets/galleryImages/28.jpg";
+import Image29 from "../../assets/galleryImages/29.jpg";
+import Image30 from "../../assets/galleryImages/30.jpg";
 
 import "./style.css";
 
@@ -123,7 +123,7 @@ const Gallery = () => {
           </div>
         </Marquee>
       </div>
-      {/* <div>
+      <div>
         <Marquee
           className="gallery-marq"
           // pauseOnHover="true"
@@ -164,7 +164,7 @@ const Gallery = () => {
             <img src={Image30} alt="construction20" />
           </div>
         </Marquee>
-      </div> */}
+      </div>
     </div>
   );
 };
