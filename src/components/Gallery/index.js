@@ -1,5 +1,6 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+
 import Image1 from "../../assets/galleryImages/1.jpg";
 import Image2 from "../../assets/galleryImages/2.jpg";
 import Image3 from "../../assets/galleryImages/3.jpg";
@@ -27,11 +28,11 @@ import Image22 from "../../assets/galleryImages/22.jpg";
 import Image23 from "../../assets/galleryImages/23.jpg";
 import Image24 from "../../assets/galleryImages/24.jpg";
 import Image25 from "../../assets/galleryImages/25.jpg";
-import Image26 from "../../assets/galleryImages/26.jpg";
-import Image27 from "../../assets/galleryImages/27.jpg";
-import Image28 from "../../assets/galleryImages/28.jpg";
+import Image26 from "../../assets/galleryImages/26.jpeg";
+import Image27 from "../../assets/galleryImages/27.jpeg";
+import Image28 from "../../assets/galleryImages/28.jpeg";
 import Image29 from "../../assets/galleryImages/29.jpg";
-import Image30 from "../../assets/galleryImages/30.jpg";
+import Image30 from "../../assets/galleryImages/30.jpeg";
 
 import "./style.css";
 
