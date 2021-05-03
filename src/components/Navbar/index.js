@@ -44,7 +44,12 @@ const Navbar = () => {
         <div className="navbar-nav">
           {/* <FontAwesomeIcon icon={faSearch} size="2x" className="search-input" /> */}
           <button className="btn blue">Get a Qoute</button>
-          <button className="btn login">Login</button>
+          <button
+            className="btn login"
+            onClick={() => window.open("http://18.191.123.37/#/", "_blank")}
+          >
+            Login
+          </button>
         </div>
       </div>
     </div>

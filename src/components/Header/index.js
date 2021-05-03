@@ -31,7 +31,7 @@ const Header = () => {
         </div>
         <div className="header-social">
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/thebetterco.online/"
             className="header-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -39,7 +39,7 @@ const Header = () => {
             <FontAwesomeIcon icon={faFacebook} size="sm" />
           </a>
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/thebetterco.online/"
             className="header-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -47,7 +47,7 @@ const Header = () => {
             <FontAwesomeIcon icon={faInstagram} size="sm" />
           </a>
           <a
-            href="https://www.linkedin.com/"
+            href="https://in.linkedin.com/company/the-better-co"
             className="header-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -55,7 +55,7 @@ const Header = () => {
             <FontAwesomeIcon icon={faLinkedin} size="sm" />
           </a>
           <a
-            href="https://www.youtube.com/"
+            href="https://www.youtube.com/channel/UCAQySyjwX6fLVIn3lO6XHLw"
             className="header-link"
             target="_blank"
             rel="noopener noreferrer"
