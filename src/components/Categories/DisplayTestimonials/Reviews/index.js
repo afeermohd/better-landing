@@ -63,28 +63,28 @@ const reviewItem = [
 
 const Reviews = () => {
   return (
-    <div className="review-section">
-      {/* <h2>REVIEWS</h2> */}
-      <div className="review-wrapper">
-        <h2>REVIEWS</h2>
-        <div className="container">
-          <div className="review">
-            {reviewItem.map((item, index) => (
-              <figure className="snip1192" key={index}>
-                <blockquote>{item.qoute}</blockquote>
-                <div className="author">
-                  <img src={item.dp} alt={item.author} />
-                  <h5>
-                    {item.author}
-                    <span>{item.location}</span>
-                  </h5>
-                </div>
-              </figure>
-            ))}
-          </div>
+    <div className="review-wrapper">
+      <div className="category-heading">
+        <span>REVIEWS</span>
+      </div>
+      <div className="container">
+        <div className="review">
+          {reviewItem.map((item, index) => (
+            <figure className="snip1192" key={index}>
+              <blockquote>{item.qoute}</blockquote>
+              <div className="author">
+                <img src={item.dp} alt={item.author} />
+                <h5>
+                  {item.author}
+                  <span>{item.location}</span>
+                </h5>
+              </div>
+            </figure>
+          ))}
         </div>
       </div>
     </div>
+    // </div>
   );
 };
 export default Reviews;

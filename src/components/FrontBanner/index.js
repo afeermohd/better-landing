@@ -68,7 +68,7 @@ const FrontBanner = () => {
           <IoArrowForward className="next-arrow" onClick={nextSlide} />
         </div> */}
       </div>
-      <div id="dummy"></div>
+      <div></div>
     </section>
   );
 };

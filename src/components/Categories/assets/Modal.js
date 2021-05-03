@@ -13,11 +13,23 @@ const navLinks = [
   { title: "Budget Calculator", to: "/budget-calculator" },
 ];
 
-export const Modal = ({ children }) => {
+export const Modal = ({ children, title }) => {
   return (
-    <div className="modal-section">
+    <div className="modal-section" id="dummy">
       <motion.div animate={{ opacity: 1 }} initial={{ opacity: 0 }}>
         <div className="modal-wrapper">
+          <div className="modal-links">
+            {navLinks.map((item, index) => (
+              <NavLink
+                to={item.to}
+                activeClassName="selected-modal-link"
+                className="modal-link"
+                key={index}
+              >
+                <span className="">{item.title}</span>
+              </NavLink>
+            ))}
+          </div>
           <LinkS
             to="dummy1"
             smooth={true}
@@ -35,18 +47,10 @@ export const Modal = ({ children }) => {
               </div>
             </LinkR>
           </LinkS>
-          <div className="links">
-            {navLinks.map((item, index) => (
-              <NavLink
-                to={item.to}
-                activeClassName="selected-link"
-                className="link"
-                key={index}
-              >
-                <span className="">{item.title}</span>
-              </NavLink>
-            ))}
+          <div className="category-heading">
+            <span>{title}</span>
           </div>
+
           {children}
         </div>
       </motion.div>

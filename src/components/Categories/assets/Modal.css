@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   width: 100vw;
-  margin-top: -3rem;
+  margin-top: 3rem;
+  /* margin: 0.5rem; */
   z-index: 99;
 
   /* margin: 10rem */
@@ -12,10 +13,11 @@
 .modal-wrapper {
   /* display: flex; */
   /* flex-direction: column; */
-  width: 100%;
+  width: 100vw;
   max-width: 1200px;
   /* background-color: #f1f1f1; */
   background-color: var(--color-palette-1);
+  /* margin: 1rem; */
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
@@ -41,39 +43,70 @@
   background: rgba(0, 0, 0, 0.226);
 }
 
-.links {
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  right: 0;
-  top: -1.7rem;
+.category-heading {
+  padding: 1rem 0 2rem 1.5rem;
+  letter-spacing: 5px;
+  font-size: 35px;
+  color: var(--light-color);
+  /* text-align: center; */
 }
 
-.link {
-  margin: 0 2rem;
+.modal-links {
+  display: flex;
+  justify-content: flex-end;
+  /* width: 100%; */
+  align-items: flex-start;
+  /* position: absolute; */
+  /* overflow: scroll; */
+  /* color: blanchedalmond; */
+  right: 0;
+  gap: 2rem;
+  top: 0rem;
+}
+
+.modal-link {
+  /* margin: 0 2rem; */
   /* width: 200%; */
   text-decoration: none;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--dark-color);
+  color: var(--light-color);
+  background-color: var(--dark-color);
+
   font-size: 14px;
   padding: 0.1rem 1rem;
   border-radius: 10px;
   /* font-weight: 600; */
   transition: background-color 0.3s ease;
 }
-.link:hover {
+.modal-link:hover {
   /* background-color: #383d5e21; */
-  background-color: var(--color-palette-1);
-  color: var(--light-color);
+  background-color: var(--light-color);
+  color: var(--dark-color);
 }
 
-.selected-link {
+.selected-modal-link {
   display: none;
 }
 
 @media screen and (max-width: 768px) {
   .modal-section {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
+  }
+  .modal-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: none;
+    /* gap: 10rem; */
+
+    /* position: absolute; */
+    /* overflow: scroll; */
+    /* right: 0; */
+    /* top: 0rem; */
+  }
+  .modal-wrapper {
+    border-radius: 0;
   }
 }

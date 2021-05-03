@@ -38,15 +38,26 @@ const ConstructionInfo = ({ list }) => {
             </div>
           ))}
         </div>
-        <DisplaySelectedPackage arg={selectPackage} />
+        <div
+          className={`accordian-packages ${
+            selectPackage === `standard` ? "standard-active" : "premium-active"
+          }`}
+        >
+          <DisplaySelectedPackage
+            arg={selectPackage}
+            className="each-package"
+          />
+          {/* <DisplaySelectedPackage
+            arg="{selectPackage}"
+            className="each-package"
+          /> */}
+        </div>
       </div>
     );
   } else if (list === "material") {
     return (
       <div className="material-table-container">
-        <div>
-          <DisplayMaterials />
-        </div>
+        <DisplayMaterials />
       </div>
     );
   } else if (list === "process") {

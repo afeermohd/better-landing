@@ -5,7 +5,7 @@
   justify-content: center;
   width: 100vw;
   z-index: 99;
-  margin-top: -15rem;
+  margin-top: -12rem;
   overflow: auto;
   padding: 5rem 2rem 3rem 2rem;
   -ms-overflow-style: none;
@@ -136,8 +136,8 @@
 
 .category-container {
   /* display: flex; */
-  margin: 0 7rem 5rem 7rem;
-  justify-content: center;
+  /* margin: 0 7rem 5rem 7rem; */
+  /* justify-content: center; */
 }
 .category-heading {
   padding: 1rem 0 2rem 1.5rem;

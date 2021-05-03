@@ -1,9 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import "./style.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
-
-// import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { Link as LinkR } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 
 const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -26,14 +24,20 @@ const Navbar = () => {
     >
       <div className="navbar">
         <div className="navbar-nav">
-          <Link to="/">
-            <img
-              src="https://i.ibb.co/HHn3V8j/logo.png"
-              className="navbar-logo"
-              alt="Better"
-              href="#"
-            />
-          </Link>
+          <LinkS
+            to="dummy1"
+            smooth={true}
+            duration={500}
+            className="footer-link"
+          >
+            <LinkR to="/">
+              <img
+                src="https://i.ibb.co/HHn3V8j/logo.png"
+                className="navbar-logo"
+                alt="Better"
+              />
+            </LinkR>
+          </LinkS>
         </div>
 
         <div className="navbar-nav"></div>

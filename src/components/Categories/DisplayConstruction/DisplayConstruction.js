@@ -26,7 +26,12 @@ const DisplayConstruction = ({ showInfo, onClose }) => {
   // const [showInfo, setShowInfo] = useState("");
 
   return (
-    <Modal open={showInfo} onClose={onClose} id="construction">
+    <Modal
+      open={showInfo}
+      onClose={onClose}
+      title="CONSTRUCTION"
+      id="construction"
+    >
       <div className="construction">
         {/* <span className="category-heading">CONSTRUCTION</span> */}
         <div className="construction-nav">
